@@ -47,7 +47,7 @@ class Sentence(object):
         result = ""
         for word in self.text:
             result += str(word) + " "
-        result = result[:-1] + ". "
+        result += " "
         return result
 
     def __eq__(self, other):

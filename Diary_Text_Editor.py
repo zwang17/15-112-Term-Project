@@ -5,14 +5,21 @@ import pygame.draw
 from pygame.locals import *
 from Diary import *
 from threading import Thread
-
+import Database as db
 
 class TextEditor(object):
     def __init__(self):
         self.status = False
-        self.Diary = Diary([2017,11,21])
         self.skip_line = ""
         self.mute = False
+        self.mode = "display"
+
+    def getDiary(self,date):
+        self.Diary = db.retrieve_diary(date)
+
+    def createNewDiary(self):
+        today_date = db.todayDate()
+        self.Diary = Diary(today_date)
 
     def updateDiary(self,VoiceAssistant):
         if VoiceAssistant.new_line == self.skip_line:
@@ -37,12 +44,13 @@ class TextEditor(object):
             else:
                 pass
 
-    def Draw(self, screen, font, UI):
+    def DrawDisplayDiary(self, screen, font, UI):
         message = str(self.Diary)
-        canvas_x_left = UI.MainBarButtonWidth+15
-        canvas_y_up = 15
-        canvas_width = UI.width - UI.MainBarButtonWidth - 20
-        canvas_height = UI.height - 20
+        margin = 40
+        canvas_x_left = UI.MainBarButtonWidth+margin
+        canvas_y_up = margin
+        canvas_width = UI.width - UI.MainBarButtonWidth - 2*margin
+        canvas_height = UI.height - 2*margin
         pygame.draw.rect(screen, UI.whiteSmoke,
                          (canvas_x_left,
                           canvas_y_up,
@@ -50,4 +58,3 @@ class TextEditor(object):
         if len(message) != 0:
             screen.blit(font.render(message, 1, (0,0,0)),
                         (canvas_x_left, canvas_y_up))
-        pygame.display.flip()

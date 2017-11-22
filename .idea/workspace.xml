@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Button.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Diary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Diary_Calendar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Highlight_Timeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Language_Analysis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mood_Tracker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Speech_Recognition.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User_Interface.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice_Assistant.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/try.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary.py" afterPath="$PROJECT_DIR$/Diary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Calendar.py" afterPath="$PROJECT_DIR$/Diary_Calendar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Text_Editor.py" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +22,8 @@
       <file leaf-file-name="Speech_Recognition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="2302">
+              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -40,11 +31,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="try.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/try.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="91" column="36" lean-forward="true" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -55,8 +56,8 @@
       <file leaf-file-name="Diary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -74,11 +75,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Diary_Calendar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/User_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="263" column="74" lean-forward="true" selection-start-line="263" selection-start-column="74" selection-end-line="263" selection-end-column="74" />
+            <state relative-caret-position="284">
+              <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -86,13 +97,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="-232">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,36 +132,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>self.bg</find>
-      <find>dfg</find>
-      <find>general</find>
+      <find>newdi</find>
       <find>self.new</find>
-      <find>exit_status</find>
-      <find>bli</find>
-      <find>icon</find>
-      <find>blit</find>
-      <find>b</find>
-      <find>loadicon</find>
-      <find>self.activated</find>
-      <find>self.activate</find>
-      <find>refre</find>
-      <find>updateDi</find>
-      <find>redraw</find>
-      <find>Text_E</find>
+      <find>mousemotion</find>
+      <find>self.modeL</find>
+      <find>&quot;Diary&quot;</find>
+      <find>Database</find>
+      <find>self.modeli</find>
+      <find>mouserelease</find>
+      <find>releasedmain</find>
       <find>redrawdi</find>
-      <find>updateDiar</find>
-      <find>releasedm</find>
-      <find>full_text_list</find>
-      <find>getT</find>
-      <find>getTex</find>
+      <find>drawdi</find>
+      <find>MainBarButtonDict</find>
+      <find>Database.retrieve_diary</find>
+      <find>initnew</find>
+      <find>self.Text_Editor.mo</find>
+      <find>redraw</find>
+      <find>save</find>
+      <find>fps</find>
+      <find>redrawed</find>
+      <find>DrawD</find>
+      <find>redrawd</find>
+      <find>initSaveDiaryButton</find>
+      <find>initDiaryEditButton</find>
+      <find>saveDiaryButton</find>
+      <find>redrawedi</find>
+      <find>mousemotione</find>
+      <find>black</find>
+      <find>mousereleased</find>
       <find>print</find>
-      <find>activation_com</find>
-      <find>update</find>
-      <find>exit_</find>
-      <find>has_new</find>
-      <find>has_</find>
-      <find>has</find>
-      <find>runVoice</find>
+      <find>releaseded</find>
     </findStrings>
     <replaceStrings>
       <replace>listen_loop</replace>
@@ -148,7 +171,12 @@
       <replace>background_text_list</replace>
       <replace>va_exit_status</replace>
       <replace>self.va_activated</replace>
+      <replace>'Calendar'</replace>
       <replace>new_line_list</replace>
+      <replace>db</replace>
+      <replace>initDiarySaveButton</replace>
+      <replace>initEditDiaryButton</replace>
+      <replace>diarySaveButton</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,14 +204,15 @@
         <option value="$PROJECT_DIR$/tags/FoodDetection.py" />
         <option value="$PROJECT_DIR$/tags/ImageRecognition.py" />
         <option value="$PROJECT_DIR$/tags/Tags_Handling.py" />
-        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/try.py" />
-        <option value="$PROJECT_DIR$/Diary.py" />
-        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
         <option value="$PROJECT_DIR$/Speech_Recognition.py" />
+        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
+        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
+        <option value="$PROJECT_DIR$/Diary.py" />
+        <option value="$PROJECT_DIR$/try.py" />
         <option value="$PROJECT_DIR$/User_Interface.py" />
+        <option value="$PROJECT_DIR$/Database.py" />
       </list>
     </option>
   </component>
@@ -263,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.try">
     <configuration name="Tags_Handling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,8 +387,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.try" />
+        <item index="0" class="java.lang.String" itemvalue="Python.try" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
         <item index="2" class="java.lang.String" itemvalue="Python.User_Interface" />
         <item index="3" class="java.lang.String" itemvalue="Python.Tags_Handling" />
         <item index="4" class="java.lang.String" itemvalue="Python.Voice_Assistant" />
@@ -640,22 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -672,30 +685,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Academic/CMU/2017/2017 1st/15-112 Foundamentals of Programming and Computer Science/week9/hw9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Academic/CMU/2017/2017 1st/15-112 Foundamentals of Programming and Computer Science/week9/lab9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1840">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#274#303#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Academic/CMU/2017/2017 1st/15-112 Foundamentals of Programming and Computer Science/week10/hw10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Academic/CMU/2017/2017 1st/15-112 Foundamentals of Programming and Computer Science/week10/lab10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#141#171#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="2302">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="91" column="36" lean-forward="true" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User_Interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Diary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -710,22 +795,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="263" column="74" lean-forward="true" selection-start-line="263" selection-start-column="74" selection-end-line="263" selection-end-column="74" />
+        <state relative-caret-position="366">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
