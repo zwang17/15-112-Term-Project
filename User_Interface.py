@@ -7,7 +7,7 @@ import Database
 class UserInterface(object):
 
 ### Init functions ###
-    def __init__(self, Voice_Assistant, Text_Editor, Calendar, width=900, height=600, fps=80,title=""):
+    def __init__(self, Voice_Assistant, Text_Editor, Calendar, width=900, height=600, fps=50,title=""):
         self.timer = 0
         self.VA_refresh_time = 1500
 
@@ -19,9 +19,7 @@ class UserInterface(object):
         self.Voice_Assistant = Voice_Assistant
         self.Text_Editor = Text_Editor
         self.Calendar = Calendar
-
-### offline
-#        Thread(target=self.initVoiceAssistant).start()
+        Thread(target=self.initVoiceAssistant).start()
 
     def initVoiceAssistant(self):
         self.Voice_Assistant.runVoiceAssistant(self.Text_Editor)
@@ -342,7 +340,7 @@ class UserInterface(object):
 
     def UpdateAll(self):
         self.VoiceAssistantUpdate()
-        if self.mode == "Diary":
+        if self.mode == "Edit":
             if self.Text_Editor.status == True and self.Text_Editor.mode == "edit":
                 self.TextEditorUpdate()
 

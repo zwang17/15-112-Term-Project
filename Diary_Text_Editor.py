@@ -33,6 +33,7 @@ class TextEditor(object):
             VoiceAssistant.has_new_input = False
             self.skip_line = None
 
+
     def deleteLast(self):
         self.Diary.text.pop()
 

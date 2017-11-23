@@ -106,7 +106,7 @@ def listen_loop(VoiceAssistant,responses):
             num_chars_printed = len(transcript)
 
         else:
-            VoiceAssistant.new_line = transcript
+            VoiceAssistant.new_line = transcript+"."
             VoiceAssistant.has_new_input = True
             if VoiceAssistant.exit_status:
                 break

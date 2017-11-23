@@ -1,3 +1,7 @@
-import Database
+import os
+import pickle
 
-print(Database.retrieve_diary(Database.todayDate()))
+with open(os.path.join('tags','tag.pickle'),'rb') as f:
+    result = pickle.load(f)
+
+
