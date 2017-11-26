@@ -3,11 +3,12 @@ import pygame
 from Button import *
 from threading import Thread
 import Database
+from PIL import ImageFont
 
 class UserInterface(object):
 
 ### Init functions ###
-    def __init__(self, Voice_Assistant, Text_Editor, Calendar, width=900, height=600, fps=50,title=""):
+    def __init__(self, Voice_Assistant, Text_Editor, Calendar, width=1000, height=600, fps=50,title=""):
         self.timer = 0
         self.VA_refresh_time = 1500
 
@@ -19,6 +20,8 @@ class UserInterface(object):
         self.Voice_Assistant = Voice_Assistant
         self.Text_Editor = Text_Editor
         self.Calendar = Calendar
+
+        # offline mode
         Thread(target=self.initVoiceAssistant).start()
 
     def initVoiceAssistant(self):
@@ -53,6 +56,12 @@ class UserInterface(object):
         self.myFont12 = pygame.font.Font(os.path.join("font", font), 12)
         self.myFont14 = pygame.font.Font(os.path.join("font", font), 14)
         self.myFont15 = pygame.font.Font(os.path.join("font", font), 15)
+        self.measureFont15 = ImageFont.truetype(os.path.join("font", font), 15) # this function call originally comes from Pillow documentation
+        self.myFont15Bold = pygame.font.Font(os.path.join("font", font), 15)
+        self.myFont15Bold.set_bold(True)
+        self.myFont18 = pygame.font.Font(os.path.join("font", font), 18)
+        self.myFont18Bold = pygame.font.Font(os.path.join("font", font), 18)
+        self.myFont18Bold.set_bold(True)
         self.myFont25 = pygame.font.Font(os.path.join("font", font), 25)
         self.myFont20 = pygame.font.Font(os.path.join("font", font), 20)
 
@@ -82,6 +91,19 @@ class UserInterface(object):
         self.voiceAssistantButton.AddExtraIcon("Voice Assistant_speaking.png",50,50)
         self.Voice_Assistant.button = self.voiceAssistantButton
 
+    def initMainBarButtons(self):
+        mode = self.modeList
+        for index in range(len(mode)-1):
+            x_left = 0
+            x_right = self.MainBarButtonWidth
+            y_up = self.MainBarFirstButtonHeight + index * self.MainBarButtonHeight
+            y_down = y_up + self.MainBarButtonHeight
+            self.MainBarButtonDict[mode[index]] = RectButton(mode[index],self.grey,x_left,x_right,y_up,y_down,0,mode[index],self.myFont14,self.white)
+            self.MainBarButtonDict[mode[index]].AddIcon(mode[index]+".png",35,35,1/6.5,1/2,alter_icon_path=mode[index]+"_white.png")
+
+        self.initNewDiaryButton()
+        self.initEditDiaryButton()
+        self.initVoiceAssistantButton()
 
     def initDiarySaveButton(self):
         buttonWidth = self.MainBarButtonWidth * 3 / 5
@@ -103,20 +125,14 @@ class UserInterface(object):
 
     def initEditButton(self):
         self.initDiarySaveButton()
+        self.initDiaryEditButton()
 
-    def initMainBarButtons(self):
-        mode = self.modeList
-        for index in range(len(mode)-1):
-            x_left = 0
-            x_right = self.MainBarButtonWidth
-            y_up = self.MainBarFirstButtonHeight + index * self.MainBarButtonHeight
-            y_down = y_up + self.MainBarButtonHeight
-            self.MainBarButtonDict[mode[index]] = RectButton(mode[index],self.grey,x_left,x_right,y_up,y_down,0,mode[index],self.myFont14,self.white)
-            self.MainBarButtonDict[mode[index]].AddIcon(mode[index]+".png",35,35,1/6.5,1/2,alter_icon_path=mode[index]+"_white.png")
-
-        self.initNewDiaryButton()
-        self.initEditDiaryButton()
-        self.initVoiceAssistantButton()
+    def initCalendarButton(self):
+        self.Calendar.createDateButtons(self)
+        self.Calendar.createWeekdayButtons(self)
+        self.Calendar.createTitleButton(self)
+        self.Calendar.createSideYearButtons(self)
+        self.Calendar.createSideMonthButtons(self)
 
     def init(self):
         self.initColor()
@@ -124,11 +140,12 @@ class UserInterface(object):
         self.MainBarButtonWidth = self.height/4
         self.MainBarButtonHeight = self.height/11
         self.MainBarFirstButtonHeight = self.height/3.5
-        self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Trash','Edit']
+        self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Edit']
         self.mode = 'Dashboard'
         self.MainBarButtonDict = {}
         self.initMainBarButtons()
         self.initEditButton()
+        self.initCalendarButton()
 
 ### Helper functions ###
     def click_within(self,x_left,x_right,y_up,y_down,x,y):
@@ -201,11 +218,34 @@ class UserInterface(object):
             button = self.diarySaveButton
             if button.WithinRange(x, y):
                 Database.save_diary(self.Text_Editor.Diary)
+                # for testing purposes
+                self.Text_Editor.loadTags(self)
+
+    def mouseReleasedDiary(self,x,y):
+        dateButtonList = self.Calendar.date_button_list
+        for index in range(len(dateButtonList)):
+            if dateButtonList[index].WithinRange(x, y):
+                self.Calendar.current_day_num = index + 1
+                self.Calendar.day_highlighted[0] = self.Calendar.current_year_num
+                self.Calendar.day_highlighted[1] = self.Calendar.current_month_num
+                self.mouseMotionDiary(x,y)
+        if self.Calendar.left_month_button.WithinRange(x, y):
+            self.Calendar.incrementMonth(-1)
+        if self.Calendar.right_month_button.WithinRange(x, y):
+            self.Calendar.incrementMonth(1)
+        if self.Calendar.left_year_button.WithinRange(x, y):
+            self.Calendar.current_year_num -= 1
+        if self.Calendar.right_year_button.WithinRange(x, y):
+            self.Calendar.current_year_num += 1
+        self.initCalendarButton()
+        self.mouseMotionDiary(x,y)
 
     def mouseReleased(self,x,y):
         self.mouseReleasedMainBar(x,y)
         if self.mode == 'Edit':
             self.mouseReleasedEdit(x,y)
+        if self.mode == "Diary":
+            self.mouseReleasedDiary(x,y)
 
 ### mouseMotion ###
 
@@ -275,11 +315,25 @@ class UserInterface(object):
                 button.textColor = self.brightGrey
                 button.displayed_icon = button.icon
 
+    def mouseMotionDiary(self,x,y):
+        dateButtonList = self.Calendar.date_button_list
+        for index in range(len(dateButtonList)):
+            if ((self.Calendar.current_year_num,self.Calendar.current_month_num) == (self.Calendar.day_highlighted[0],self.Calendar.day_highlighted[1]) and index + 1 == self.Calendar.current_day_num):
+                dateButtonList[index].color = self.orange
+                dateButtonList[index].textColor = self.white
+            elif dateButtonList[index].WithinRange(x,y):
+                dateButtonList[index].color = self.orange
+                dateButtonList[index].textColor = self.white
+            else:
+                dateButtonList[index].color = self.white
+                dateButtonList[index].textColor = self.brightGrey
 
     def mouseMotion(self,x,y):
         self.mouseMotionMainBar(x,y)
         if self.mode == "Edit":
             self.mouseMotionEdit(x,y)
+        if self.mode == "Diary":
+            self.mouseMotionDiary(x,y)
 
     ### timerFired ###
     def timerFired(self,time):
@@ -309,17 +363,21 @@ class UserInterface(object):
         self.drawMainBar(screen)
         self.drawMainBarButtons(screen)
 
-
     def redrawEdit(self,screen):
         if self.Text_Editor.status == True:
-            self.Text_Editor.DrawDisplayDiary(screen,self.myFont15,self)
+            self.Text_Editor.DrawDisplayDiary(screen,self.myFont15,self.measureFont15,self)
         if self.Text_Editor.mode == "edit":
             self.diarySaveButton.Draw(screen)
+
         if self.Text_Editor.mode == "display":
             self.diaryEditButton.Draw(screen)
 
+    def drawRightBar(self,screen):
+        pygame.draw.rect(screen, self.grey, (self.width-self.MainBarButtonWidth, 0, self.width-self.MainBarButtonWidth, self.height), 0)
+
     def redrawDiary(self,screen):
-        pass
+        self.Calendar.Draw(screen)
+        self.drawRightBar(screen)
 
     def redrawAll(self,screen):
         self.redrawMainBar(screen)

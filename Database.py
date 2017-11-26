@@ -1,6 +1,7 @@
 import os
 from Diary import *
 import datetime
+import pickle
 
 def todayDate():
     now = datetime.datetime.now()
@@ -11,20 +12,16 @@ def retrieve_diary(date):
     :param date: should be a list of integers in the form [year,month,day]
     :return: an Diary object
     """
-    date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".txt"
+    date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".pickle"
     exist = False
     for filename in os.listdir("diary"):
         if filename == date_str:
             exist = True
     if not exist:
         return None
-    with open("diary\\"+date_str,'r') as f:
-        text = f.read().strip()
-    text = text.split("  ")
-    result = Diary(date)
-    for line in text:
-        result.addSentence(Sentence(line))
-    return result
+    with open("diary\\"+date_str,'rb') as f:
+        diary = pickle.load(f)
+    return diary
 
 def word_match_tag(word,tag_name_list):
     """
@@ -43,6 +40,10 @@ def word_match_tag(word,tag_name_list):
                 winner = tagName
     return winner
 
+def getSentiment(Analyst,text):
+    result = Analyst.sentiment_analyze(text)
+    return result
+
 def getSimilarity(word,tag_name):
     """
     Helper function for word_match_tag
@@ -58,8 +59,10 @@ def getSimilarity(word,tag_name):
 
 def save_diary(diary):
     date = diary.date
-    filename = str(date[0])+"."+str(date[1])+"."+str(date[2])+".txt"
-    with open("diary\\"+filename,"w") as f:
-        f.write(str(diary).strip())
-    print("diary saved")
+    # offline mode
+    diary.updateSentimentAnalysis()
 
+    diary.updateTags()
+    filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
+    with open("diary\\"+filename,"wb") as f:
+        pickle.dump(diary,f,pickle.HIGHEST_PROTOCOL)

@@ -2,13 +2,929 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.22.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bikini , Emojipedia , Swimsuit , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/ImageRecognition.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/Tags_Handling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/, Silicone , Skin , Breast prostheses , Bra .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/, Telephone , Emojipedia ,  , Landline .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/2017 JordanCon , 2018 JordanCon , Costume , The Wheel of Time , Fan convention , Award .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Accra , Flag of Ghana , Flag , National flag , Flags of the World .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Adobe Illustrator , Adobe Photoshop , Flat design , Shadow , Typeface , Software .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Aesthetics , Image , Antenna , Symbol , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Airplane , Aircraft , Light aircraft , Aviation , Jet aircraft .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Airplane , Emojipedia , WhatsApp , Image , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Airplane , Emojipedia , Zero-width joiner , Sign , Aircraft pilot .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Airplane , Flight , Emojipedia , Slow flight , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Akita , Siberian Husky , Poodle , Puppy , Dog breed .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Albania , Emoji , Flag of Albania , Emojipedia , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ambulance , Emojipedia ,  , Emergency vehicle , Emergency service .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/American Samoa , Samoa , United States of America , Emoji , Flag of American Samoa .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Amphora , Emojipedia , Unicode , Unicode Consortium , Trophy .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ancon Hill , Flag of Panama , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Andorra , Flag of Andorra , Flag , Emoji , Flags of the World .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Android , Typography , Unicode , Face with Tears of Joy emoji , Android version history .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Angkor , Flag of Cambodia , Flag , Khmer Empire , Khmer language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Angola , Emoji , Flag of Angola , Flag , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ant , Qing'er , Emojipedia , Apache Ant , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Antigua , Barbuda , Emoji , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Apple , Apple Color Emoji , Unicode , Apple ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Apple , Granny Smith , Emojipedia , Apple Color Emoji , Fruit .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Argentina , Inca Empire , Sun of May , Solar deity , Flag of Argentina .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Aruba , Flag of Aruba , Flag , Flag of American Samoa .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Astronaut , The Emoji Movie , Emojipedia , Zero-width joiner , Hero image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Australia , Flag of Australia , Emojipedia , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Australia , Flag of Australia , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Australia , Flag of Australia , Regional Indicator Symbol , Flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Australia , Harpurhey , Cal State Bakersfield Roadrunners women's basketball , Women Supporting Women , Orange , Gorgeous .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Australia , Koala , Emojipedia , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Australia , United Kingdom , Australia Day , Flag of Australia , Culture of Australia , Niftylift Ltd .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Backpack , Unicode , Emojipedia , Satchel , Portable Network Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Badminton , Emojipedia , Shuttlecock , Racket , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bahamas , Flag of the Bahamas , Flag , National flag , Flag of Argentina .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bahrain , Flag of Bahrain , Flag , Emojipedia , Flag of Bangladesh .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bald eagle , Eagle , Emojipedia , Unicode , Message .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ball , Football , Football , Ball , Clip art , Kick .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Banana , Food , Fruit , Emoticon , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bank , Emojipedia , Sign , Sticker , Seven Bank .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bar chart , Chart , Unicode , Emojipedia , Area chart .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Barbados , Meaning , Flag of Barbados , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Baseball , Emojipedia , Information , Meaning , Book .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Basse-Terre , Flag of Guadeloupe , Flag , Overseas region , Flag of Aruba , Flag of France .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bat , Front and back ends , npm , GitHub , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Battery , Portable Network Graphics , Emojipedia , Unicode , Battery indicator .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bear , Emojipedia , Teddy bear , Image , Shi .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Beer , Beer glassware , Mug , Coffee cup , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Belarus , Flag , Flag of Belarus , Emojipedia , Flag of Barbados .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Belgium , Flag , Flag of Belgium , Emojipedia , Gallery of sovereign state flags .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bell , Emojipedia , Meaning , Image , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bellhop , Emojipedia , Bell , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Benin , Flag of Benin , Flag , National flag , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bhutan , Flag , Flag of Bhutan , Flag of Bermuda , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bird , Emojipedia , SMS , Icon , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Birthday cake , Birthday , Torte , Cake , Chocolate cake .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Blu-ray disc , Optical disc , Emojipedia , Compact disc , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bolivia , Emojipedia , Flag of Bolivia , Regional Indicator Symbol , Web page .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bomb , Emojipedia , Meaning , Image , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bonaire , Flag of Bonaire , Flag , Flag of Cambodia , Flags of the World , Flag of Guatemala .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Book , Meaning , Emojipedia , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Book , Portable Network Graphics , Emojipedia , Image , Reading .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Book , Reading , Poetry , Taro ball , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bosnia and Herzegovina , Flag of Bosnia and Herzegovina , Flag , Flags of the World , Flag of Andorra .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Botafogo de Futebol e Regatas , Flag , Emojipedia , Idea , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Botswana , Flag , Flag of Botswana , Sticker , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bouvet Island , Iceland , Flag , Flag of Iceland , Clipperton Island .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bow and arrow , Arrow , Archery , Emojipedia , bow .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bowling , Emojipedia , Game , Ball , Ten-pin bowling .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Box , Ballot box , Emojipedia , Cardfile , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Boxing glove , Boxing , Floyd Mayweather Jr. vs. Conor McGregor , Emojipedia , Glove .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Brazil , Emoji , United States of America , Flag of Brazil , Flag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Breakfast , Food ,  , Unicode , Eating .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Breakfast , Fried egg , Cooking , Egg as food , Frying .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/British Virgin Islands , Anguilla , Turks and Caicos Islands , Tristan da Cunha , Montserrat , Flag of the British Virgin Islands .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Broccoli , Emojipedia , Meaning , Produce , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Brunei , Flag of Brunei , Flag , Emojipedia , World map .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bulawayo , Flag of Zimbabwe , Flag , Emojipedia , AfroBasket 2015 .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bulgaria , Flag , Meaning , Flag of Bulgaria , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Burkina Faso , Air force , United States Air Force , Military of Burkina Faso , Republic of Upper Volta , Roundel .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Burrito , Emojipedia , Mexican cuisine , Food , Shawarma .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Burundi , Flag of Burundi , 2017 Africa Cup of Nations qualification Group K , Flag , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bus , Bus stop , Emojipedia , Trolleybus , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Bus , London Buses route 177 ,  , Emojipedia , Car .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Butterfly , Monarch butterfly , Emojipedia , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cactus , Emojipedia , Sticker , Sign , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Calavera , Image , Text messaging , Face , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Calendar , Emojipedia , Meaning , Word , English language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Calendar , Emojipedia , Time , PicsArt Photo Studio , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cambridge , School , Education , State school , Student , Classroom .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Camera , Portable Network Graphics , Image , Unicode , Photograph .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Campeonato Brasileiro Série A , Train , The First Station , Clube Atlético Mineiro ,  , CR Vasco da Gama .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Camping , Emojipedia , Unicode , Armenia , Fishing .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Canada , Emojipedia , Maple leaf , Text messaging , Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Canada , Flag of Canada , Flag , Maple leaf , Flags of the World , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Canary Islands , Flag , Flag of the Canary Islands , Flag of Bosnia and Herzegovina , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Candle , Message , BTS , Webdings , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Candy , Emojipedia , Candy cane , Caramel , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cape Verde , Flag , Flag of Cape Verde , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Car , Auto racing , Emojipedia , Racing , Formula One .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Car , Emojipedia , Car door , Portable Network Graphics , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Car , Emojipedia , Police car , Unicode , Webdings .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Car , Motor vehicle , Minibus , Bus , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Car , Truck , Emojipedia , Delivery , Motor vehicle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Carp , Windsock , Children's Day , Koinobori , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Carrot , Fried egg , Icon , Food , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cat , Smile , Emojipedia , Face , Smirk .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cat , Whiskers , Red fox , Emojipedia , Dog .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Caterpillar Inc. , Emojipedia , Insect , Samsung Galaxy S4 , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cattle , Dairy cattle , Ox , Water buffalo , Animals .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cattle , Emojipedia , Unicode , SMS , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cayman Islands , Flag , Sign , Flag of the Cayman Islands , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cerebrum , Emojipedia , Unicode , Sign , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ceremony , Tsukimi , Emojipedia , Moon , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Chair , Seat , Emojipedia , Unicode , Android Oreo .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Champagne , Prosecco , Sparkling wine , Wine , Bottle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cherry , Emojipedia , Sign , Cherry Bomb , Fruit .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cherry blossom , Emojipedia , Blossom , Meaning , Cherry .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Chicken ,  , Emojipedia , Cuteness , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/China , Flag of China , Flag , Flag of Austria , Flag of Singapore .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Chipmunk , Squirrel , Emojipedia , Tree squirrel , Cat .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Chocolate bar , Hershey bar , Chocolate , Chocolate cake , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Chopsticks , Emojipedia , Sign , Unicode , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Christmas Day , Christmas tree , Image , Hanukkah , Kwanzaa .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Christmas Island , Cocos (Keeling) Islands , Clipperton Island , Flag , Flag of the Cocos (Keeling) Islands .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Christmas Island , Norfolk Island , Cocos (Keeling) Islands , Flag of Christmas Island , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Church , Emojipedia , SMS , Image , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cinqueterre , Drawing pin , Emojipedia , Meaning , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Circle , Symbol , Shopify , BigCommerce , Icon , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Circus , Image , Tent , Emojipedia , Art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Clamp , Unicode , Emojipedia , Sign , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Clapperboard , Emojipedia , Film , Image , Object .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Clementine , Tangerine , Satsuma Mandarin , Orange , Fruit .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Clip art , Button , Icon , Openclipart , Image , ShareThis .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Clock , Timer , Emojipedia , Mantel clock , Clock face .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cloud , Japanese curry , Sticker , SMS , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cloud , Rain , Sunlight , Solar eclipse , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cloud , Rain , Text messaging , Image , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cloud , SMS , Sticker , Email , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cloud , Sticker , Image , SMS , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cloud , Thunder , Rain , Lightning , Cumulonimbus .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cocktail , Cocktail garnish , Mai Tai , Harvey Wallbanger , Orange juice , Juice .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cocktail , Martini , Cocktail garnish , Daiquiri , Beer , Smoothie .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Coconut , Emojipedia , Sign , Meaning , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Coffee , Doppio , Irish coffee , Caffè Americano , Latte , Ristretto .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Colombia , Flag of Colombia , Flag , Icon , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Common sunflower , Emojipedia , Sunflower , Unicode , GIF .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Comoros , Flag of the Comoros , Emojipedia , Flag , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Computer keyboard , Product design , Product , Yellow , Design .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Computer keyboard , Typography , Keycap , Information , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Confetti , Ball , Emojipedia , Paper , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Congo , Democratic Republic of the Congo , Flag of the Democratic Republic of the Congo , Portable Network Graphics , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Congo , Flag , Flag of the Republic of the Congo , Democratic Republic of the Congo , Flag of the Democratic Republic of the Congo .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Construction , Sign , Emojipedia , Text , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Construction worker , Hard hat , Human skin color , Light skin , Nose .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Controlled-access highway , Emojipedia , Traffic sign , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cookie , Emojipedia , Biscuit , Chocolate chip cookie , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Corn on the cob , Maize , Emojipedia , Autumn , Ear .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Costa Rica , Flag of Costa Rica , Flag , Flag of Belgium , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Crab , Emoticon , Icon , Emojipedia , Pile of Poo emoji .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Crayon , Emojipedia , Image , Unicode , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Credit card , Emojipedia , Visa Debit , Discover Card , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cricket , Emojipedia , Unicode , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Crocodile , Alligator , Emojipedia , Samsung Galaxy S4 , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Croissant , Baguette , Bread , Sandwich , Illustration , Anpan .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Croissant , Coffee , Breakfast , Emojipedia , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cross , Smiley , Emoticon , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Crystal ball , Emojipedia , Meaning , Information , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Crème caramel , Custard , Flan , Caramel , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cuba , Flag of Cuba , Flag , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cucumber , Emojipedia , Cucumber Salad , Unicode , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Curaçao , Flag of Curaçao , Emojipedia , Papiamento , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Cyprus , Flag of Cyprus , Flag , National flag , Flag of the United States .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dance , Human skin color , Emojipedia , PicsArt Photo Studio , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Deer , Icon , Emojipedia , Emoticon , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Denmark , Finland , Flag of Denmark , Flag , Danish language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Desert , Emojipedia , Unicode , Meaning , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dice , Image ,  , Unicode , Typography .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Diplodocus , Brachiosaurus , Brontosaurus , Sauropoda , Dinosaur .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dog , Paw , Emojipedia , Sticker , Cat .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dollar sign , United States Dollar , Currency , Money , Dollar .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dolphin , Whale , Emojipedia , Baleen whale , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dolphin , Whale , Humpback whale , Sperm whale , Cetacean stranding .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Domestic pig , Cat , Emojipedia , Dog , Pig .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Domestic rabbit , Easter Bunny , Hare , European rabbit , Rabbit .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Domestic rabbit , Hare , Rabbit , Emojipedia , Face .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dominica , Flag of Dominica , Flag of the Dominican Republic , Flag , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dominican Republic , Flag of the Dominican Republic , Flag , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Don Bradman Cricket 17 , Baseball cap , Baseball , Android Oreo , June .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Don Bradman Cricket 17 , Cricket , Emojipedia , Sign , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Donburi , California roll , Cooked rice , Rice , Asian cuisine .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Doughnut , Emojipedia , Sign , Meaning , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dragon , Emojipedia , Legendary creature , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dragon , Face , Emojipedia , Sticker , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Drawing , Whiskers , PicsArt Photo Studio , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dromedary , Bactrian camel , Emojipedia , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Drum , Emojipedia , Image , Meaning , Mastodon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Dubai , Flag of the United Arab Emirates , Emoji , Flag , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Duck , Emojipedia , Unicode , Chicken , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Duck , Mallard , Goose , Emojipedia , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ear , Human skin color , Skin , BTS ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ecuador , Flag of Ecuador , Flag ,  , Portable Network Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Eggplant , Emojipedia , Image , English language , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Egypt , Flag of Egypt , Flag , National flag , Coat of arms of Egypt .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Eight-ball , Cue sports , Ball , Billiard ball , Pool .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/El Salvador , Flag of El Salvador , Flag , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/El Salvador , Flag of El Salvador , Flag , Flag of the Dominican Republic , Flag of Ecuador .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Election , Ballot box , Ballot , Voting , Elections to the European Parliament .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Elephant , African elephant , Emojipedia , Indian elephant , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emoji , Fabrik Cycles , Flag of Afghanistan , Afghanistan , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emoji , Flag , Sticker , Flag of Armenia , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emoji , Meaning , Emojipedia , Playing card , Information ,.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia ,  , Car , PicsArt Photo Studio , Taxicab .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Alembic , Sign , Meaning , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Avocado , PicsArt Photo Studio , Unicode , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Beach , Umbrella , Unicode , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Beating Heart , Sign , GIF , Android Oreo .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Blossom , Meaning , Image , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Bread , ASP.NET Core ,  , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Briefcase , Unicode ,  , Suitcase .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Building , Image , PicsArt Photo Studio , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Car , Sign , Web page , Travel .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Chain , Unicode , Metal , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Chicken , Eating , Food , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Coffin , Unicode , Witch's ladder , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Convenience store , PicsArt Photo Studio , Convenience , Egstow .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Crown , Sign , Telegram , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Ferris wheel , Image , PicsArt Photo Studio , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Flower , Pile of Poo emoji , Meaning , Thanksgiving .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Friendship , Smiley , Ring , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , GitHub , Unicode , Dolphin , Pixi.js .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Hibiscus , Unicode , Information , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , House , Building , Unicode , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , House , Unicode , Sign , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Human , Dance , Human skin color , Dark skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Human skin color , Man , Light skin , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Human skin color , Swimming , Light skin , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Idea , Sign , Sticker , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Image , BTS , Chicken , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Image , Footprint , Meaning , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Image , Ghost , Smiley , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Image , Sticker , Monster , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Image , Text messaging , Unicode , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Image , Unicode , Webdings , Smartphone .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Index card , Unicode , Information , Page .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Information , Meaning , Unicode , Message .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Island , Desert island , Sign , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Light skin , Zero-width joiner , Human skin color , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Meaning , Message , Hinglish , English language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Meaning , Unicode , Sign , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Microscope , Object , Image , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Milky Way , Image , Unicode , Sky .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Mountain , Unicode , Meaning ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Médaille militaire , Medal , Unicode , Military Medal .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Object , Information , Meaning , Torch .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Ogre , Oni , PicsArt Photo Studio , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Padlock , Pen , Meaning , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , PicsArt Photo Studio ,  , Unicode , Requests .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Potato , Unicode , Food , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Rainbow , Unicode , Dark skin , LGBT .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Red Flavor , Balloon , Unicode , Red Velvet .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Regional Indicator Symbol , Sign , Symbol , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Sign , Image , Information , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Sign , Unicode , Parcel , Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Smiley , Meaning , Unicode , Gesture .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Smiley , Sign , Meaning , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Sticker , SMS , Meaning , Object .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Sunset , Image , Unicode , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Text messaging , Construction , Webdings , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Text messaging , Symbol , Emoticon , Profanity .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Tractor , CNH Global , CNH Industrial , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Traffic light ,  , Image , Intersection .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Truck , Car , Motor vehicle , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Face , Smiley , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Image , Clip art , Character encodings in HTML .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , PicsArt Photo Studio , Sign , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Satellite , Webdings , Wingdings .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Sign , Love , Slack .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Smartphone , Webdings , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Smiley , Text messaging , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Unicode , Trillian , Information , Factory .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Wave , Image , Unicode , Summer .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Wind , Unicode , Sign , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Zero-width joiner , Light skin , Human skin color , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Zero-width joiner , Meaning , Sign , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Emojipedia , Zero-width joiner , Sign , Guardsman , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/England , Flag of England , Flag , Union Jack , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Eritrea , Flag of Eritrea , Flag , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Estonia , Flag of Estonia , Flag , Septor Oy , Flag of the United States .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ethiopia , Flag of Ethiopia , Flag , National flag , Flag of Kenya .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Face , Moon , Lunar phase , Earth , Smiley .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Face , Mouth , Emojipedia , Smile , Smiley .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Falafel , Kebab , Doner kebab , Gyro , Pita .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Family , Emojipedia , Man , Father , Boy .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Faroe Islands , Flag , Flag of the Faroe Islands , Faroese language , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fax , Emojipedia , Unicode , Image , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fencing , Emojipedia , Unicode , Universiade , 1979 Summer Universiade .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ferry , Emojipedia , Boat , Unicode , Ship .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ferry , Passenger ship , Ship , Passenger , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fiji , Flag of Fiji , Flag , Emojipedia , Union Jack .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Filing cabinet , Cabinetry , Emojipedia , Office , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Film , Movie theater , Image , Movie camera , Movie projector .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Film frame , Film , Photograph , Image , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Finland , Flag of Finland , Flag , Nordic Cross flag , Finnish language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fire engine , fire , Emojipedia , Car , Firefighting .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Firefighter , Emojipedia , The Emoji Movie , Zero-width joiner , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fireworks , Emojipedia , Image , Meaning , Independence Day .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fish , Emojipedia , Fish as food , Fried fish , Steemit .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fishing , Fishing rod , Emojipedia , Fly fishing , Spin fishing .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Emoji , National flag , Flag of Austria , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Emojipedia , Flag of Afghanistan , Meaning , Triangle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Emojipedia , Meaning , Flag of El Salvador , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Emojipedia , Regional Indicator Symbol , Flag of Belgium , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Emojipedia , Sticker , Flag of the Central African Republic , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Flag of France ,  , National flag , Flag of Equatorial Guinea .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Flag of South Sudan , Flag of Tristan da Cunha , Flag of Ascension Island , Flag of South Africa .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Flag of Vanuatu , Symbol , Emoticon , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , Flag of the Czech Republic , Czech Language , BrainFAQ - úniková hra , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag , International maritime signal flags , Meaning , Emojipedia , Letter .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag of Belize , Flag , Emojipedia , Gallery of sovereign state flags , Flag of Wallis and Futuna .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag of Croatia , Sticker , Zazzle , Sticker , Zagreb School of Economics and Management .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag of Singapore , Flag , Gallery of sovereign state flags , Singapore Kung Fu , Badge , Flags of the World .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flag of Swaziland , Flag , Flag of Angola , Flag of Ghana , Flag of Tunisia , Flag of Egypt .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Floppy disk , Disk storage , Unicode , Emojipedia , Computer file .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flower , Sticker ,  , Emojipedia , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flower bouquet , Flower , Emojipedia , Image , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flush toilet , Closet , Emojipedia , Public toilet , Toilet .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Flying saucer , Emojipedia , Unidentified flying object , Saucer ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Food , Emojipedia ,  , Unicode , Dish .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Food , Peanut , Unicode , Human skin color , Dark skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fork , Knife , Emojipedia , Spoon , Plate .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fork , Knife , Plate , Spoon , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fortune cookie , Emojipedia , Luck , Text messaging , Cookie .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fountain , Emojipedia , Symbol , Image , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Four-leaf clover , Clover , Leaf , Emojipedia , Luck .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/France , Flag of France , Flag , Flags of the World , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/France , Flag of France , Flag , Icon , Flags of the World .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/French Guiana , Flag of French Guiana , Flag , Emojipedia , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/French Southern and Antarctic Lands , Flag of France , Flag , Flag of French Guiana , Flag of French Polynesia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/French fries , Emojipedia , Food , English language , Potato .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fried prawn , Tempura , Shrimp , Frying , Prawn cocktail .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Frog , Emojipedia , Sign , Meaning , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fruit , Kiwifruit , Emojipedia , Unicode , Font .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Fuel pump , Gasoline , Emojipedia , Pump , Fuel .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Funafuti , Vaitupu , Flag of Tuvalu , Flag , Vector graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Futuna , Wallis , Flag of Wallis and Futuna , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/GIF , Android , Name , Image , NPAPI , Keyword Tool .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Gabon , Emojipedia , Flag , Regional Indicator Symbol , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Game controller , Video game , PlayStation 4 , Emojipedia , Video game console .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Garden roses , Emojipedia , Unicode , Rose , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Gear , Machine , Emojipedia , Technology , Application software .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Genesys , Detroit Institute of Arts , Light , Gel doc , Chemiluminescence , Fluorescence .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Geneva , European Union , European Union of Medical Specialists , Logo , World Esperanto Congress , Meeting .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Georgia , Icon , Flag of Georgia , Flag , Flag of Georgia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Giant panda , Bear , Emojipedia , Image , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Gibraltar , Flag of Gibraltar , Flag , Icon , Vector graphics , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Gift , Emojipedia , Gift wrapping , Telegram , Idea .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ginza Shotai-en , Sushi Mizutani , Flag , Sushi Mizutani , Flag of Austria .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Glass , Product design , Product , Mug , Cup , Cup .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Globe , World , Earth , World map , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Glove , Emojipedia , Clothing , Boxing glove , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Goat , Sheep , Emojipedia , Meaning , Cattle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Goblin , Emojipedia , Tengu , Duende , Smiley .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Golf , Emojipedia , Zero-width joiner , Sign , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Google+ , Icon , Portable Network Graphics , Download , Facebook , Google Images .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Gorilla , Emojipedia , Ape , Sticker , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Grape , Wine Grapes , Emojipedia , Sign , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Gray wolf , Emojipedia , Image , Meaning , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Greece , Flag of Greece , Flag , Emojipedia , Flag of the United States .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Greenland , Flag , Flag of Greenland , Emojipedia , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Grenada , Flag of Grenada , Flag , Flag of Guadeloupe , Area code 473 .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guam , Emojipedia , Flag of Guam , Sign , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guatemala , Flag of Guatemala , Flag , Emojipedia , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guatemala , Regional Indicator Symbol , Emojipedia , Flag , Flag of Guatemala .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guernsey , Flag of Guernsey , Flag , Flags of the World , Flag of the Cayman Islands , Vector graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guinea , Romania , Librairie Michel Fortin Inc , Flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guinea-Bissau , Flag of Guinea-Bissau , Emojipedia , Sign , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guitar , Emojipedia , Sticker , Image , Electric guitar .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Guyana , Flag of Guyana , Portable Network Graphics , Flag , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/HIT , Bullseye , Emojipedia , Darts , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Haiti , Flag , Flag of Haiti , Flag of Barbados , Flag of Guyana .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hamburger , Cheeseburger , Fast food , Emojipedia , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hamburger , Dango , Mochi , Oden , Onigiri .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hamburger , Oden , Steak , Fishcake , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hamburger , Rice and curry , Japanese curry , Curry , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hamburger , Rice cracker , Cracker , Emojipedia , Rice .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hammer , Emojipedia , Unicode , Claw hammer , Gavel .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hammer , Emojipedia , Unicode , Claw hammer , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hammer and pick , Hammer , Emojipedia , Pickaxe , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hand , Unicode , Finger ,  , Na .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Handbag , Clothing , Bag , Wallet , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Handbag , Emojipedia , Unicode , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Handball , Emojipedia , Universiade , Unicode , Beach handball .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Happy Hour , Album , Song , Spotify , Prelude , Just This One Night .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hat , Emojipedia , Image , Woman , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Headphones , Unicode , Emojipedia , Webdings , Wingdings .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Heart , Arrow , Heart , Arrow , Hearts and arrows .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Heart , Emojipedia , Love , Meaning , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Heart , Icon , Blue , Social media , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Heart , Product design , Font , Rectangle , Design , Product .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hedgehog , Emojipedia , Sign , Unicode , Porcupine .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Helicopter , Emojipedia , Helicopter rotor , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Herb , Emojipedia , Unicode , Image , @ Home .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/High voltage , Emojipedia , Voltage , Symbol , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/High-heeled footwear , Boot , Sandal , Image , Shoe , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hippo Regius , Algiers , Flag , Flag of Algeria , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hockey , Field hockey , Field hockey stick , Hockey stick , Ball .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Honduras , Flag of Honduras , Emojipedia , Flag , Flag of Nicaragua .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Honey , Honeypot , Emojipedia , Portable Network Graphics , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Honey bee , Bee , Steemit , Emojipedia , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hong Kong , Flag of Hong Kong , Flag , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hong Kong , TVB , Broadcasting , Television , Terrestrial television , Asia Television .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Horse , Carousel , Emojipedia , Pony , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Horse , Donkey , Emojipedia , Mane , Pony .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Horse , Emojipedia , Sticker , Icon , Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Horse , Equestrianism , Horse racing , Emojipedia , Horse&amp;Rider .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hospital , Emojipedia , Trillian , Image , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hot dog , Sausage , Emojipedia , BTS , Burrito .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hotel , Love hotel , Emojipedia , PicsArt Photo Studio , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hourglass , Emojipedia , Snapchat , Product design , Sand .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human , Human skin color , Skin , Light skin , Dark skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color ,  , Skin ,  , Rowing .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Biceps , Light skin , Emojipedia , Thumb .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Emoji domain , Skin , Bed , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Emojipedia , Dark skin , Light skin , Black .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Emojipedia , Light skin , Dark skin , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Emojipedia , Man , Light skin , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Human , Dark skin , Human skin , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Human , Emojipedia , React , Skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Human , Light skin , Dark skin , Skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Human skin , Light skin , Human , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Light skin , Emojipedia , Skin ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Light skin , Human , Color , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Light skin , Human , Skin , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Light skin , Human , Skin , Fitzpatrick scale .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Light skin , Human skin , Dark skin , Human .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Light skin , Skin , Human , Woman .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Skin , Color , Human , Finger .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , Skin , Nail , Light skin , Nail polish .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Human skin color , The Emoji Movie , Light skin , Emojipedia , Dark skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hungary , Flag of Hungary , Flag , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Hungary , Motorboat , Launch , Boat , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/I Can't Give Everything Away , Star , Inch , Image , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/IEEE 802.11ac , Router , Computer network , Wi-Fi , Netgear .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ice cream , Cream , Custard , Ice cream cone , Pumpkin pie , Frozen custard .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ice cream , Cream , Shaved ice , Sorbet , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ice hockey , Hockey stick , Emojipedia , Ice hockey stick , Hockey puck .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ice skate , Ice skating , Universiade , Ice , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Iceland , Flag of Iceland , Flag , Nordic Cross flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Icon , Diamond , Gemstone , Download , The Noun Project , Portable Network Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Icon , Emojipedia , Scalable Vector Graphics , Portable Network Graphics , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Icon , Icon design , ICO , Iconfinder , Thumbnail , Menu .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Icon , Scalable Vector Graphics , Encapsulated PostScript , Vector graphics , Portable Network Graphics , Psd .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Icon , Unicode , Vector graphics , Scalable Vector Graphics , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Emojipedia , Text messaging , Unicode , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Emojipedia , Webdings , Unicode , Wingdings .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Meaning , Sign , Unicode , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Photograph , Photography , Illustration , Stock photography .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Symbol , Information , Meaning , Object .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Text , PicsArt Photo Studio , Sign , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Text messaging , Information , Unicode , Message .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Unicode ,  , Harry Potter (Literary Series) , Building .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Unicode , Emojipedia , Magnifying glass , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Image , Video camera , Emojipedia , Unicode , Video .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Index card , Cardfile , Business card , Emojipedia , Rolodex .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/India , Flag of India , Emojipedia , Regional Indicator Symbol , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Indonesia , Flag of Indonesia , Flag , National flag , Badge , Vector graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Iran , Flag of Iran , Flag , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Iraq , Flag , Flag of Iraq , Emojipedia , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Isle of Man , Flag of the Isle of Man , Flag , Flag of Gibraltar , Flag of Greenland .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Israel , Flag of Israel , Flag , Second Temple , Western Wall .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/It , Ybor City , Vector graphics , Illustration , Stock illustration .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Italy , Flag of Italy , English language , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Jack-o'-lantern , Calabaza , Gourd , Winter squash , Pumpkin , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Jamaica , Flag of Jamaica , Flag , Emojipedia , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Japan , Android , Flag of Japan , Virtual private network , Google Play .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Jeans , Blue , Product design , Text , Font , Leggings .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Jiaozi , Varenyky , Empanada , Polish cuisine , Take-out , Dumpling .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Joker , Clown , Emojipedia , Evil clown , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Jordan , Jordan River , Flag of Jordan , Flag , Flag of Palestine .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Joystick , Emojipedia , Unicode , Information , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Juggling , Emojipedia , Dark skin , Human skin color , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kaaba , Emojipedia , Mosque , Meaning , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kaaba , Mosque , Emojipedia , Sign , Islam .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kazakhstan , Flag , Flag of Kazakhstan , Emojipedia , Flag of Kosovo .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kenya , Flag of Kenya , Flag , National flag , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Key , Lock , Emojipedia , Unicode , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kingstown , Grenadines Parish , Grenada , Flag of Saint Vincent and the Grenadines , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kiss , Sticker , Emojipedia , Smiley , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Knife , Dagger , Bowie knife , Unicode , Blade .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Knife , Utility knife , Kitchen knife , Throwing knife , Hunting knife .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kosovo , Flag of Kosovo , Flag , Flag of Albania , Flag of Liechtenstein .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kuala Lumpur , Flag , Flag of Malaysia , Emojipedia , Malaysian cuisine .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Kumbhalgarh , Kumbhalgarh , Flag , Flag of India , Flag of Niger .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ladybird , Beetle , Emojipedia , Unicode , Flashcard .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Landscape with the Fall of Icarus , Heart , Suit , Photograph , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Laos , Typography , Flag of Laos , Flag , Text .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Laptop , Emojipedia , Unicode , Computer monitor , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Leaf , Autumn leaf color , Autumn , Meaning , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Leaf , Emojipedia , 2017 Nissan LEAF , Meaning , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lebanon , Flag of Lebanon , Flag , Illustration , Vector graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lemon , Emojipedia , Unicode , Meaning , Pound cake .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lesotho , Flag of Lesotho , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Libya , Flag of Libya , Meaning , Flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Liechtenstein , Flag of Liechtenstein , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Light skin , Emojipedia , Human skin color , Woman , Girl .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Light skin , Human skin color , Emojipedia , English language , Cheek .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Light skin , Zongzi , Human skin color , Human , If(we) .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lion , Cheetah , Leopard , Animal , Yellow , Fauna .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lion , Emojipedia , Pile of Poo emoji , Meaning , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lipstick , Emojipedia , Cosmetics , Image , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lithuania , Flag of Lithuania , Flag , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lizard , Gecko , Reptile , Emojipedia , Tropical house gecko .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Logo , Flag of Chile , FIRST Lego League Jr. ,  , Vector graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lollipop , Emojipedia , Stick candy , Sign , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/London , A-Safe - UK , United States of America , Elland , A-Safe (UK) , Direct Healthcare Services .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/London , Castle , Japanese castle , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lotus position , Human , Sign , Yoga , Person .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Loudspeaker , Megaphone , Sound , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Loudspeaker , Portable Network Graphics , Sound , Emojipedia , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Love hotel , Emojipedia , Image , Royalty-free , Stock photography .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Lusaka , Flag of Zambia , Flag , Clip art , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Luxembourg , Flag , Flag of Luxembourg , Flag of Kyrgyzstan , English language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Luxury yacht , Motorboat , Boat , Unicode , Yacht .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Macau , Flag of Macau , Flag , Icon , English language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Madagascar , Pacific , Canada , Flag of Madagascar , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Malabo , Guinea , Angola , Flag of Equatorial Guinea , Flag , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Malawi , Circle , Flag of Malawi , Red , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Maldives , Circle , Flag of the Maldives , Flag , Typography .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mali , Flag , Flag of Mali , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Malta , Android , Application software , Google Play , Mobile app .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Map , World map , World , Emojipedia , Android Oreo .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Marshall Islands , Northern Mariana Islands , South Georgia Island , Flag of the Marshall Islands , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Martinique , Flag of Martinique , Flag , Emojipedia , Flag of Puerto Rico .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mauritius , Flag of Mauritius , Flag , National flag , Flag of Angola .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mavic , Sign , WhatsApp , Message , Emoticon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mayotte , Dependent territory , flag of Mayotte , Flag and coat of arms of Mayotte , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Meaning , Emojipedia , Wikimedia Commons , Image , Discord .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Meaning , Object , Sign , Unicode , Name .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Meaning , Symbol , Object , Sign , Category of being .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Meaning , Unicode , SMS , WhatsApp , Text .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Medal , Emojipedia , Sign , PicsArt Photo Studio , Military Medal .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mermaid , Emojipedia , React , Merman , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Meteorological Department , Chevrolet , Flag of Kuwait , Emojipedia , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mexico , Flag of Mexico , Flag , Emojipedia , Mexican cuisine .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Microphone , Emojipedia , Image , www.30secondstomars.com , Linkin Park .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Microphone , Emojipedia , Meaning , Unicode , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Minesweeper , Microsoft Minesweeper , Endless Minesweeper , Endless Minesweeper Free , Oleksandr Filipenko , Application software .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mobile phone , Human skin color , Skin ,  , Selfie .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mongolia , Flag of Mongolia , Flag , National flag , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Monkey , Face , Emojipedia , Smiley , Bathroom .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Monorail , Tram , Train , Rapid transit , Rail transport , Light rail .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Montenegro , Serbia and Montenegro , Flag of Montenegro , Coat of arms , Coat of arms of Montenegro .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Motorcycle , Emojipedia , Car , Sign , Motor vehicle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mount Fuji , Emojipedia , Sign , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mount Korek , Korek Mountain Resort &amp; Spa , Aerial tramway , Emojipedia , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mount Korek , Rail transport , Monorail , Suspension railway , Vehicle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mouse , Rat , Emojipedia , Domestic rabbit , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mouth , Photography , Photograph , Image , Tongue .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Movie camera , Film , Emojipedia , Image , Camera .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mozambique , Flag , Flag of Mozambique , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mr. Mackay , Image , Sign , Eye , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mrs. Claus , Emojipedia , Christmas Day , Unicode , Typography .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mug , Straw , Bowl , Drink ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Munich , West Germany , Flag of Germany , Flag , East Germany , Tantra massage .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Mushroom , Emojipedia , Sign , PicsArt Photo Studio , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Musical keyboard , Keyboard , Image , Piano , Musical instrument .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Musical note , Icon , Music , Image , Sound .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Musical note , Image , Barber , Emojipedia , Barber's pole .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Musical note , Music , Emojipedia , Image , Eighth note .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Musical note , Music , Sheet music , Image , Staff .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Myanmar , Flag , Flag of Myanmar , National flag , Flag of Samoa .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Myanmar , Flag of Myanmar , Flag , National flag , Flags of Asia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/NBA , Basketball , Universiade , Basketball , Ball .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Najd , Flag of Saudi Arabia , Sultanate of Nejd , Emirate of Nejd , Kingdom of Hejaz .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Necktie , T-shirt , Shirt , Emojipedia , Clothing .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Nepal , Flag of Nepal , Flag , Emojipedia , Flag of Nauru .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/New Caledonia , Flag of New Caledonia , Flag ,  , Illustration .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/New Taipei City , China ,  , Blue Sky with a White Sun , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/New Zealand , Emoji , Flag of New Zealand , Flag , Emojipedia ,.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/New Zealand , Emoji , Flag of New Zealand , Flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/New Zealand , Flag of New Zealand , Flag , Emojipedia , Flag of Nicaragua .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/New Zealand , Flag of New Zealand , Flag , Emojipedia , Flag of Vanuatu .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Newspaper , Emojipedia , Meaning , 1979 Summer Universiade , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Newspaper , Emojipedia , Unicode , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Nigeria , Flag of Nigeria , Emojipedia , Flag , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Night , Bridge , Emojipedia , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ningbo Beilun People's Government , World War I , Flag of China , Flag , Chinese language , Flag of Afghanistan .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Niue , Clip art , Flag of Niue , Icon , Vector graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Norfolk Island , New Caledonia , Wallis and Futuna , Flag of Norfolk Island , 2017 Pacific Mini Games .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/North Korea , Flag of North Korea , Flag , National flag , Flag of South Korea .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Northern Mariana Islands , Marshall Islands , Flag of the Northern Mariana Islands , Flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Northern giraffe , Giraffe , Emojipedia , Sign , WhatsApp .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Norway , Flag of Norway , Flag , Icon , Badge .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Nose , Drawing , Image , PicsArt Photo Studio , Human skin color .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Nose , Smiley , Cheek , Eye , Mouth , Forehead .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Nut , Screw , Emojipedia , Bolt , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Oman , Flag , Flag of Oman , Emojipedia , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Orlando City SC , MLS , Orlando City B , Orlando City SC , Columbus Crew SC , D.C. United .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Owl , Emojipedia , Meaning , Unicode , Owl .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/PaintShop Pro , GitHub , Unicode , npm , CoffeeScript .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Paintbrush , Emojipedia , Image , Brush , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Palau , Flag , Flag of Palau , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Palestinian territories , State of Palestine , Image , Flag , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Palette , Mural , Paint , Image , Painting .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pancake , Emojipedia , Dish , Food , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Paper , Festival , Paper lantern , Lantern , Flashlight .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Paper clip , Paper , Meaning , Emojipedia , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Papua New Guinea , Flag , Flag of Papua New Guinea , Emojipedia , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Paraguay , Flag of Paraguay , Flag , National flag , Flag of Peru .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Paris , Roller coaster , Emojipedia , Amusement park , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Park , National park , Emojipedia , Sign , River .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Party , Party popper , Smiley , Emojipedia , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Peace , Pigeons and doves , Doves as symbols , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Peach , Fruit , Apple , Emojipedia , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pear , Hamburger , Emojipedia , Fruit , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pen , Ballpoint pen , Fountain pen , Emojipedia , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Penguin , Emojipedia , Symbol , Sticker , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Performing arts , Art , Emojipedia , Image , Performance .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Peru , Regional Indicator Symbol , Flag , Emojipedia ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Petroleum , Barrel , Emojipedia , Sign , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Philippines , Flag , Flag of the Philippines , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/PicsArt Photo Studio , Emojipedia , Unicode , Department store , Brand .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pile of Poo emoji , Emojipedia , Meaning , Image , Feces .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pine , Kadomatsu , Emojipedia , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pineapple , Hamburger , Emojipedia , Unicode , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pistol , Emojipedia , Revolver , BTS , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pizza , Emojipedia , Sticker , Portable Network Graphics , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Place of worship , Worship , Emojipedia , Sign , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pokémon GO , Hourglass , Emojipedia , Snapchat , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Poland , Flag of Poland , Flag , Image , Idea .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Police officer , Human skin color , Emojipedia , Dark skin , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Poodle , Pomeranian , Chow Chow , Emojipedia , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Popcorn , Emojipedia , Popcorn Time , Unicode , Two Lions .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Portable Network Graphics , Bookmark , Computer file , Scalable Vector Graphics , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Portable Network Graphics , Pencil , Icon , Drawing , Transparency .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Portugal , Emojipedia , Flag of Portugal ,  , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Post box , Emojipedia , Email , Mail , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Post horn , French horn , Emojipedia , Bugle , Horn .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Post office , Emojipedia , Japanese postal mark , Unicode , Mail .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Post office , Mail , Correos , Emojipedia , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Prayer beads , Prayer , Emojipedia , Rosary , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pretzel , Emojipedia , Text messaging , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Printer , Inkjet printing , Paper , Printing , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Product design , Brand , Text , Font , Product , Red .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Product design , Red , Product , Clip art , Design .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Product design , Red , Product , Technology , Megaphone , Angle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Product design , Text , Font , Yellow , Product , Material .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Product design , White , Product , Shoe , Walking , Design .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Product design , Yellow , Product , Font , Design , Artifact .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Puerto Rico , Flag of Puerto Rico , Flag , Emojipedia , Flag of Cuba .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Pumpkin pie , Apple pie , Tart , Cheesecake , Pie .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Puppy , Dog , Emojipedia , Face , Smile .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Qatar , Flag of Qatar , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Radio , Emojipedia , Unicode , Information , Webdings .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rail transport , Train , Rapid transit , Monorail , Light rail .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rail transport , Train , Rapid transit , Tram , Light rail .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rail transport , Train , Track , Emojipedia , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rail transport , Tram , Train , Car , Railroad car .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ramen , Noodle , Emojipedia , Instant noodle , Pho .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rat , Mouse , Domestic rabbit , Whiskers , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rat , Mouse , Emojipedia , Unicode , Miscellaneous Symbols .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Recycling symbol , Vector graphics , Recycling , Stock illustration , Logo , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Red , Product design , Circle , Font , Design , Product .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Red Wine , Wine , Wine glass , Drink , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Red fox , Emojipedia , Unicode , PicsArt Photo Studio , Fox .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Regional Indicator Symbol , Flag , Flag of Norway , Emojipedia , Flag of Iceland .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Republic of Ireland , Peru , Flag of Ireland , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Republic of Macedonia , Flag of the Republic of Macedonia , Flag , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Responsive web design , Cascading Style Sheets , Web design , Page layout , Image , jQuery .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ribbon , Emojipedia , Red ribbon , Yellow ribbon , Awareness ribbon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ribbon , Unicode , Emojipedia , Awareness ribbon , Reminder .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rice , Emojipedia , Wheat , Image , Harvest .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Robe , Kimono , Dress , Clothing , Sleeve .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Robot , Face , Emojipedia , Pile of Poo emoji , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Romania , Flag of Romania , Flag , Icon , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rooster , Chicken , Emojipedia , Sign , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Rooster , Emojipedia , Chicken , Sign , Fediverse .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ruler , Triangle , Emojipedia , Scalable Vector Graphics , Apple Color Emoji .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Réunion , Flag of Réunion , Emojipedia , Balance board , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sago soup , The Emoji Movie , Human skin color , Skin , Light skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sail , Sailboat , Boat , Yacht , Sailing ship .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saint Barthélemy , RS Roasted Gram Mills ,  , Regional Indicator Symbol ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saint Croix, U.S. Virgin Islands , United States of America , Flag of the United States Virgin Islands , Icon , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saint Helena , Flag of Saint Helena , Flag , Sticker , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saint Kitts and Nevis , Flag of Saint Kitts and Nevis , Regional Indicator Symbol , Flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saint Lucia , Emojipedia , Flag of Saint Lucia , Regional Indicator Symbol , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saint Pierre and Miquelon , Flag , Flag of Saint Pierre and Miquelon , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Salad , Emojipedia , Cuisine , Lettuce , Tomato .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Samsung Galaxy S8 , Emojipedia , LG G5 , iOS , fire .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sandal , Flip-flops , Footwear , Clothing , Shoe .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Santa Claus , Father Christmas , The Santa Clause , Christmas Day , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Satellite dish , Antenna , SMS , Sticker , Satellite .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Saxophone , Emojipedia , Image , Meaning , Text .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Scarf , Emojipedia , Clothing , Necktie , Headscarf .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/School , Clip art , Emojipedia , Emoji domain , Portable Network Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Scientist , Emojipedia , Zero-width joiner , Human , Human skin color .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Scissors , Emojipedia , PicsArt Photo Studio , Object , iOS .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Scooter , Bicycle , Kick scooter , Wheel , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Scorpion , Emojipedia , PicsArt Photo Studio , Scorpius , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Screw , Plastic , Self-tapping screw , Drywall , Wall plug , Spacers and standoffs .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Seashell , Spiral , Emojipedia , Snail , Mollusc shell .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Seedling , Emojipedia , Meaning , Bean sprout , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Senegal , Flag , Flag of Senegal , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Serbia , Flag of Serbia , Regional Indicator Symbol , Emojipedia , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Seychelles , Flag of Seychelles , Flag , Fediverse , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shaved ice , Dango , Snow cone , Emojipedia , Ice .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sheep , Emojipedia , Eid al-Fitr , Unicode , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sheep , Random-access memory , Typography , Unicode , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shinto shrine , Emojipedia , Shrine , Shinto , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ship , Emojipedia , Meaning ,  , Boat .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shiva , Natya Shastra , Hinduism , Statue , Nataraja .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shoe , Emojipedia , Footwear , Caleres , Sneakers .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shoe , High-heeled footwear , Footwear , Clothing , Fashion .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shoe , Sneakers , High-heeled footwear , Emojipedia , Clothing .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shopping , Tote bag , Shopping bag , Bag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shopping cart , Emojipedia , Meaning , Object , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shortcake , Strawberry , Tart , Cake , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Shower , Meaning , Word , Emojipedia , Synonym .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sign , Meaning , Warning sign , Image , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sint Maarten , Area code 721 , Flag , Country code , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ski , Skiing , Ski boot , Emojipedia , Ski pole .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Skiing , Ski pole , Ski , Emojipedia , Ski boot .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Skin , Human skin color , Breastfeeding , Light skin ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Skull and crossbones , Bone , Skull , Emojipedia , Human skull .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sled , Emojipedia , Toboggan ,  , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sleeve , Coat , Overcoat , Jacket , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Slot machine , Emojipedia , Image , Endorphina , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Slovakia , Flag of Slovakia , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Slovenia , UEFA European Under-19 Championship , Slovenia national under-19 football team , Slovenia national under-17 football team , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Smartphone , Mobile phone , Emojipedia ,  , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Smiley , Emojipedia , iOS 11 , Unicode , Explosion .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Smiley , Emoticon , Happiness , Sadness , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Smiley , Emoticon , Smile , Apple Color Emoji , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Snail , France , Emojipedia , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Snakes , Social media , Drawing , Meaning , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Snout , Cheek , Mouth , Lip , Jaw , Text .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Snowboarding , Emojipedia , Skateboard , Snowboard , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Snowflake , Light , Icon , Vector graphics , Snow .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Snowman , Emojipedia ,  ,  , Snow .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Social media , Emojipedia , Idea , Into the Forest I Go , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sock , Emojipedia ,  , Sign , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Solomon Islands , Flag , Flag of the Solomon Islands , Emojipedia , Gallery of sovereign state flags .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/South Africa , Flag of South Africa , Flag , Emojipedia , National flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/South Korea , Flag of South Korea , Flag , Emojipedia , BTS .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/South Sudan , Flag , Flag of South Sudan , Flag of South Africa , Flag of Sudan .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Spain , Flag of Spain , Flag , Spanish Language , English language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Speech , Emojipedia , Meaning , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Spider , Spider web , Vector graphics , Emojipedia , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Spider , Spider-Man , Emojipedia , Image , Spider web .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Spoon , Bowl , Cup , Chopsticks , Coffee cup .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Spoon , Food , Meaning , Tablespoon , Message .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Spruce , Evergreen , Tree , Emojipedia , Fir .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Square academic cap , Emojipedia , Graduation ceremony , Unicode , Cap .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sri Lanka , Flag of Sri Lanka , Flag , National flag , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/St Andrews , Flag of Scotland , Flag , Emojipedia , Stock photography .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Star , Emojipedia , Star , Sign , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Star of David , Judaism , Symbol , Star , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Star of David , Yellow badge , Vector graphics , Image , Clip art , Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Stardust Resort and Casino , Palms Casino Resort , Online casino , Casino , Casino game , Slot machine .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Statue of Liberty , Statue , Liberty , Image , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Steak , Meat chop , Emojipedia , Primal cut , Meat .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sticker , Emojipedia , Image , Explosion , Web page .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sticker , Traffic sign , Unicode , Sign , Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Stopwatch , Emojipedia , Clock , Chronometer watch , Time .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Strawberry , Fruit , Emojipedia , Food , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sudan , Flag of Sudan , Flag , Flag of South Sudan , Flag of the Dominican Republic .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sunglasses , Clothing , T-shirt , Glasses , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sunlight , Light , Weather , Icon , Cloud , Iconfinder .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sunrise , Mountain , PicsArt Photo Studio , Sky , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Surfing , Emojipedia , Human skin color , Zero-width joiner , Dark skin .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Suriname , Icon , Flag of Suriname , Vector graphics , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sushi , Bento , Ramen , Emojipedia , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sushi , Hamburger , Emojipedia , Food , Ramen .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sushi , Onigiri , Meaning , Flag , Quality .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sushi , Paella , Food , Emojipedia , Bread .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Svalbard , Jan Mayen , Flag , Flag of Norway , Gallery of sovereign state flags .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Switzerland , Flag of Switzerland , Flag , Emojipedia , SMS .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Switzerland , UEFA Euro 2016 , UEFA Euro 2008 , Romania national football team , Albania national football team , Switzerland national football team .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Sword , Kirito , Emojipedia , Meaning , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Symbol , Atom , Unicode , Icon ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Symbol , Emojipedia , Image , Meaning , Portable Network Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Symbol , Sticker , Object , Image , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Synagogue , Temple , Sign , Judaism , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Syria , Flag of Syria , Flag , Emojipedia , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Syringe , Blood , Emojipedia , Hypodermic needle , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/São Tomé and Príncipe , Flag of São Tomé and Príncipe , Unicode , Regional Indicator Symbol , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/T-shirt , American football , NFL , Emojipedia , Ball .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/T-shirt , Shirt , Clothing , Unicode , Sleeve .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tabasco pepper , Chili pepper , Cayenne pepper , Peppers , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Table tennis racket , Table tennis , Emojipedia , Unicode , Ball .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Taco , Mexican cuisine , Burrito , Emojipedia , Portable Network Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tahiti , Flag , Flag of French Polynesia , Flag of France , Pitcairn Islands .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Taiwan , Flag , Flag of the Republic of China , National flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tajikistan , Flag , Flag of Tajikistan , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Take-out , Emojipedia , Text messaging , Meaning , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tanabata , Bamboo , Tree , Meaning , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tanzania , Flag , Flag of Namibia , Flag of Tanzania , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tea , Cup drink , Cup , Sake , Drink .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tea , Teacup , Sign , Coffee cup , Cup .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Teacher , Pomona-Pitzer Sagehens women's basketball , Emojipedia , Zero-width joiner , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Telescope , Emojipedia , Symbol , Icon , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Television , Emojipedia , Image , Ponmile , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tennis , Tennis ball , Racket , Wimbledon , Ball .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tent , Camping , Emojipedia , Unicode , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Text , Font , Product design , Finger , Brown , Design .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Text messaging , Emojipedia , Glasses , Smiley , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/The Emoji Movie , Emojipedia , Farmer , Zero-width joiner , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/The Emoji Movie , Emojipedia , World Emoji Day , Portable Network Graphics , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/The Emoji Movie , Emojipedia , Zero-width joiner , Student , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/The Emoji Movie , Nikon India Private Limited. , Nikon D7200 , Light skin ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/The Emoji Movie , Skin , Massage , Human skin color , Face .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/The Evil Monkey , Ape , Monkey , Emojipedia , Gorilla .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Thumb , Hand , Light skin , Human , Human skin color .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tiburón Island , Shark , Emojipedia , Requiem shark , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tiger , Emojipedia , Cat , Image , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tiger , Lion , Whiskers , Emojipedia , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Timor-Leste , Flag , Flag of East Timor , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tinker Bell , Wind chime , Emojipedia , 7 for 7 , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Toast , Sandwich , Fast food , Emojipedia , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Togo , Flag of Togo , Flag , Tokelau , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Toilet seat , Toilet , Information , Unicode , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tokelau , Flag of Tokelau , Flag , National flag , Flag of Bosnia and Herzegovina .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tokyo Tower , Eiffel Tower , Emojipedia , Tower , pandas .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tomato , Emojipedia , Fruit salad , Meaning , Food .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tonga , Flag of Tonga , Flag , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tork , Voyenpro, Internet-Magazin , Flag of Russia , Tricolour , Coat of arms of Russia , Moscow .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tornado , Emojipedia , Sticker , Tropical cyclone , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Traffic sign , Sign , Clip art , Parking , Road transport , Scalable Vector Graphics .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Train , Rail transport , High-speed rail , Shinkansen , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Train , Vehicle , Car , Locomotive , Steam locomotive .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tram , Emojipedia , Image , Unicode , Message .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Trinidad and Tobago , Flag of Trinidad and Tobago , Sticker , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tristan da Cunha , Ascension Island , British Virgin Islands , Flag of the British Virgin Islands , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tristan da Cunha , British Virgin Islands , Anguilla , Turks and Caicos Islands , Montserrat , Flag of the British Virgin Islands .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Trophy , Emojipedia , Cup , Sign , Vince Lombardi Trophy .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tropical fish , Fish , Emojipedia , Tropics , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Trumpet , Emojipedia , Image , Musical instrument , Flute .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Turkey , Emojipedia , Thanksgiving , Image , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Turkmenistan , Flag , Flag of Turkmenistan , Flag of Yemen , Flag of Azerbaijan .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Turks and Caicos Islands , Flag of the Turks and Caicos Islands , Emojipedia , Regional Indicator Symbol , Flag .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Turtle , Sticker , Emojipedia ,  , Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Tyrannosaurus , Emojipedia , Text messaging , Triceratops , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Uganda , Flag of Uganda , Flag , Flags of the World , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Ukraine , Flag , Flag of Ukraine , National flag , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Umbrella , Emojipedia , Image , Unicode , Rain .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Umbrella , Emojipedia , Rain , Meaning , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Umbrella , Emojipedia , Rain , Sign , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Umbrella , Emojipedia , Unicode ,  , Image .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , BTS , Sign , Image , K-pop .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Canning , Sign , Food , Drink .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Emojipedia , Desktop computer , Typography , Information .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Emojipedia , MileyCyrus , Symbol , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Image , Meaning , Information , Name .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Imagination is more important than knowledge. , Universiade , Sign , Football .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Meaning , Image , Sign , Mouth .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Number sign , Keycap , Ideogram , CJK Unified Ideographs .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Ramen , Image , Sign , PicsArt Photo Studio .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Sign , Image , A Little Sweet , Alarm clock .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Sign , Image , Smiley , Icon .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicode , Sign , Information , Image , Baby bottle .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Unicorn , Clip art , Emojipedia , Face , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/United Kingdom , British Indian Ocean Territory , Flag , Regional Indicator Symbol , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/United States Dollar , Emojipedia , Banknote , United States one-dollar bill , United States one hundred-dollar bill .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/United States of America , Flag of the United States , Emojipedia , Flag ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/United States of America , United Nations , Human rights , United Nations Economic and Social Council , Flag of the United Nations .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Universiade , Martial arts , 2016 Nissan LEAF , Taekwondo , Journal of Asian Martial Arts .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Uruguay , Flag of Uruguay , Flag , Emojipedia , Regional Indicator Symbol .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Uzbekistan , Flag of Uzbekistan , Emojipedia , Regional Indicator Symbol , Sticker .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Valentine's Day , Unicode , Image , GIF , Spring .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Vector graphics , Octopus , Illustration , Cartoon , Royalty-free , Photograph .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Veil , Human skin color , Bride , Light skin , Eye .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Venezuela , Flag of Venezuela , Flag , Meaning , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Vietnam , Icon , Portable Network Graphics , Vector graphics , ICO .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Violin , Saint Francis with an angel playing violin , Emojipedia , Image , Facebook .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Volcano , Emojipedia , Unicode , Meaning , Lava .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Volleyball , Ball , Emojipedia , Icon , Ball game .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Vomiting , Emojipedia , Meaning , Emoticon , Text messaging .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wales , Flag of Wales , Welsh Dragon , Flag , Hen Wlad Fy Nhadau , Welsh language .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Walt Disney World , Notebook , Unicode , Object , Tagged .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Waste container , Emojipedia , Pillow , Waste , Basket .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wat Pho , Flag of Thailand , Flag , Flag of Syria , Flag of Myanmar .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Watch , Clock , Unicode , Emojipedia , Festina .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Water buffalo , Cattle , Ox , Emojipedia , Bull .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Water polo , Human skin color , Emojipedia , Light skin , Polo .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Watermelon , Emojipedia , Image , Unicode , Clip art .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wedding , Emojipedia , Heart , Marriage , Emoji domain .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Weighing scale , Information , Boyfriend , Meaning , Idea .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Weight training , Human skin color , Emojipedia , Light skin , Olympic weightlifting .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Western Sahara , Emojipedia , Flag , Flag of Western Sahara , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wheelchair , Symbol , International Symbol of Access , Emojipedia , Sign .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Whiskers , Emojipedia , Rhinoceros , Unicode , Writing system .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Whisky , Tumbler , Emojipedia , Table-glass , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wild boar , Emojipedia , Flame Princess , Image , Pig .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wild boar , Emojipedia , Image , Dog , Unicode .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wine glass , Sticker , Sign , Meaning , Toast .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Winter , Emojipedia ,  , Snow , Santa Claus .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Winter , Image , Unicode ,  , Emojipedia .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wisconsin , American Community Survey , Student , School , Catholic school , Root canal .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Woman , Clothing , Emojipedia , fringe top , Top .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Woman , Emojipedia , Kiss , Love , Zero-width joiner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Woman , Human skin color , Pregnancy , Skin ,  .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Wrench , Icon , Emojipedia , Unicode , Adjustable spanner .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Yam , Emojipedia , Sweet potato ,  , Baked potato .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Yemen , Flag of Yemen , Flag , National flag , Illustration .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Zebra , Emojipedia , Horse , Sign , Meaning .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/Zebu , Ox , Dairy cattle , Bull , Calf .png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/tag/iPhone 8 , Cameroon , Emojipedia , Flag of Cameroon , Flag .png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.py" afterPath="$PROJECT_DIR$/Database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary.py" afterPath="$PROJECT_DIR$/Diary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Calendar.py" afterPath="$PROJECT_DIR$/Diary_Calendar.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Text_Editor.py" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speech_Recognition.py" afterPath="$PROJECT_DIR$/Speech_Recognition.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Language_Analysis.py" afterPath="$PROJECT_DIR$/Language_Analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,23 +936,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Speech_Recognition.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="try.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="412">
+              <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -56,13 +960,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="347">
+              <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,9 +987,11 @@
       <file leaf-file-name="Diary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="504">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +999,8 @@
       <file leaf-file-name="Database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="184">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -90,14 +1008,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/User_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="339" column="0" lean-forward="true" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+            <state relative-caret-position="-158">
+              <caret line="320" column="147" lean-forward="false" selection-start-line="320" selection-start-column="147" selection-end-line="320" selection-end-column="147" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Diary_Calendar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2188">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Button.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInterface.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="546" column="67" lean-forward="true" selection-start-line="546" selection-start-column="67" selection-end-line="546" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,36 +1063,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Database</find>
-      <find>self.modeli</find>
-      <find>mouserelease</find>
-      <find>releasedmain</find>
-      <find>redrawdi</find>
-      <find>drawdi</find>
-      <find>MainBarButtonDict</find>
-      <find>Database.retrieve_diary</find>
-      <find>initnew</find>
-      <find>self.Text_Editor.mo</find>
-      <find>redraw</find>
-      <find>save</find>
-      <find>fps</find>
-      <find>DrawD</find>
+      <find>myFont1</find>
+      <find>myFont15</find>
+      <find>gap</find>
+      <find>dateButton</find>
+      <find>Calendar.current_d</find>
       <find>redrawd</find>
-      <find>initSaveDiaryButton</find>
-      <find>initDiaryEditButton</find>
-      <find>saveDiaryButton</find>
-      <find>redrawedi</find>
-      <find>mousemotione</find>
-      <find>black</find>
+      <find>redrawdi</find>
+      <find>Trash</find>
+      <find>font</find>
+      <find>myfont15</find>
+      <find>measu</find>
+      <find>drawdis</find>
+      <find>imagef</find>
+      <find>==</find>
+      <find>createDateButtons</find>
+      <find>anc</find>
+      <find>weekday_b</find>
+      <find>title</find>
+      <find>initfon</find>
+      <find>lightGr</find>
+      <find>self.orange</find>
+      <find>load</find>
+      <find>icon</find>
+      <find>drawd</find>
       <find>mousereleased</find>
-      <find>print</find>
-      <find>swim</find>
-      <find>releaseded</find>
-      <find>redrawed</find>
-      <find>DrawDisplayDiary</find>
-      <find>createNewDiary</find>
-      <find>update</find>
-      <find>deleteLast</find>
+      <find>create</find>
+      <find>increm</find>
+      <find>mousemotiond</find>
+      <find>mousemotiondi</find>
+      <find>now_time</find>
     </findStrings>
     <replaceStrings>
       <replace>listen_loop</replace>
@@ -157,7 +1107,12 @@
       <replace>db</replace>
       <replace>initDiarySaveButton</replace>
       <replace>initEditDiaryButton</replace>
+      <replace>UI.</replace>
       <replace>diarySaveButton</replace>
+      <replace>bright</replace>
+      <replace>self.tag_icon_list</replace>
+      <replace>dateButtonList[index]</replace>
+      <replace>day_highlighted</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -175,8 +1130,6 @@
         <option value="$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py" />
         <option value="$PROJECT_DIR$/icon/Highlight_Timeline.py" />
         <option value="$PROJECT_DIR$/Mood_Tracker.py" />
-        <option value="$PROJECT_DIR$/Language_Analysis.py" />
-        <option value="$PROJECT_DIR$/Button.py" />
         <option value="$PROJECT_DIR$/icon/main.py" />
         <option value="$PROJECT_DIR$/Tags_Handling.py" />
         <option value="$PROJECT_DIR$/Data Processing/__init__.py" />
@@ -185,20 +1138,22 @@
         <option value="$PROJECT_DIR$/tags/FoodDetection.py" />
         <option value="$PROJECT_DIR$/tags/ImageRecognition.py" />
         <option value="$PROJECT_DIR$/tags/Tags_Handling.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
-        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
         <option value="D:/Machine-Learning/Deep Learning/MNIST/Try(MNIST).py" />
-        <option value="$PROJECT_DIR$/try.py" />
-        <option value="$PROJECT_DIR$/Database.py" />
-        <option value="$PROJECT_DIR$/User_Interface.py" />
-        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
-        <option value="$PROJECT_DIR$/Diary.py" />
         <option value="$PROJECT_DIR$/Speech_Recognition.py" />
+        <option value="$PROJECT_DIR$/Language_Analysis.py" />
+        <option value="$PROJECT_DIR$/Database.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Button.py" />
+        <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/Diary.py" />
+        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
+        <option value="$PROJECT_DIR$/User_Interface.py" />
+        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -394,7 +1349,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -430,7 +1385,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -478,7 +1433,7 @@
         <state relative-caret-position="2530">
           <caret line="117" column="22" lean-forward="false" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -495,6 +1450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -513,7 +1469,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -533,34 +1489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="529" column="39" lean-forward="false" selection-start-line="529" selection-start-column="39" selection-end-line="529" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mood_Tracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="61" column="178" lean-forward="false" selection-start-line="61" selection-start-column="178" selection-end-line="61" selection-end-column="178" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,38 +1563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tags/Tags_Handling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tags/ImageRecognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -703,30 +1607,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Machine-Learning/Deep Learning/MNIST/CNNTest(MNIST).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +1622,7 @@
         <state relative-caret-position="-25">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,7 +1632,7 @@
         <state relative-caret-position="596">
           <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -759,23 +1645,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
+    <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="145">
+          <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database.py">
+    <entry file="file://$PROJECT_DIR$/tags/Tags_Handling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags/ImageRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="61" column="15" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,10 +1697,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User_Interface.py">
+    <entry file="file://$PROJECT_DIR$/Database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="339" column="0" lean-forward="true" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -801,16 +1729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Diary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+        <state relative-caret-position="504">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -819,10 +1739,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="347">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="546" column="67" lean-forward="true" selection-start-line="546" selection-start-column="67" selection-end-line="546" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2188">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User_Interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="320" column="147" lean-forward="false" selection-start-line="320" selection-start-column="147" selection-end-line="320" selection-end-column="147" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

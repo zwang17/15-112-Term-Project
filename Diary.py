@@ -1,3 +1,7 @@
+from Language_Analysis import *
+import pickle
+import Database as db
+import copy
 
 class Word(object):
     """
@@ -57,6 +61,35 @@ class Diary(object):
     def __init__(self,date):
         self.date = date
         self.text = []
+        self.sentiment_report = None
+        self.entity_sentiment_report = None
+        self.tags = None
+
+    def updateSentimentAnalysis(self):
+        print("Updating Sentiment Analysis...")
+        self.sentiment_report = sentiment_analyze(str(self))
+        self.entity_sentiment_report = entity_sentiment_analysis(str(self))
+        print("Sentiment Analysis Updated!")
+
+    def updateTags(self,num_tags=3):
+        self.tags = []
+        sentiment_value_list = list(self.entity_sentiment_report.keys())
+        sentiment_value_list.sort()
+        sentiment_value_list.reverse()
+        with open('icon\\tags\\tag.pickle', 'rb') as f:
+            tag_name_list = pickle.load(f)
+        count = 0
+        for value in sentiment_value_list:
+            entity_name = self.entity_sentiment_report[value][0]
+            tag_found = db.word_match_tag(entity_name,tag_name_list)
+            if tag_found != None:
+                self.tags.append(tag_found)
+                count += 1
+            if count == num_tags:
+                print("Tags updated!")
+                break
+        print(self.tags)
+        print("Tags updated!")
 
     def addSentence(self,sentence):
         """
@@ -72,3 +105,6 @@ class Diary(object):
         for sentence in self.text:
             result += str(sentence)
         return result
+
+    def __eq__(self, other):
+        return str(self) == str(other)
