@@ -11,7 +11,7 @@ def RecognizeImage(path):
     client = vision.ImageAnnotatorClient()
 
     file_name = os.path.join(
-        os.path.dirname(__file__),
+        os.path.dirname(__file__),"tag",
          path)
 
     with io.open(file_name, 'rb') as image_file:

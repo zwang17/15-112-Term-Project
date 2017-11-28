@@ -1,6 +1,7 @@
 from Speech_Recognition import *
 from threading import Thread
 import copy
+import Database
 
 class VoiceAssistant(object):
 
@@ -8,21 +9,27 @@ class VoiceAssistant(object):
 
         self.exit_status = False
         self.has_new_input = False
-
+        self.UI = None
         self.new_line = None
         self.activation_command = ["hey siri"]
-        self.exit_command_list = ["nevermind"]
+        self.exit_command_list = ["nevermind","bye","nothing"]
         self.exit_command = []
         self.va_activated = False
         self.dl_activated = False
         self.button = None
         
+    def setUI(self,UI):
+        self.UI = UI
 
     def RetreiveWeather(self):
         pass
 
-    def CreateDiary(self):
-        pass
+    def SaveDiary(self,Diary):
+        self.exit_status = True
+        Database.save_diary(Diary)
+
+    def EditDiary(self):
+        self.UI.mouseReleasedNewDiaryButton()
 
     def CreateReminder(self):
         pass
@@ -72,6 +79,11 @@ class VoiceAssistant(object):
         self.exit_status = True
         self.exit_status = False
 
+    def performCommands(self):
+        exit_command = copy.deepcopy(self.exit_command)
+        print("Command to be executed:"+exit_command)
+
+
     def runVoiceAssistant(self,Text_Editor):
         while True:
             Thread(target=self.collectBackgroundText).start()
@@ -82,6 +94,7 @@ class VoiceAssistant(object):
                 Thread(target=self.collectBackgroundText).start()
                 self.checkExitCommand()
                 self.deactivateVoiceAssistant()
+                self.performCommands()
                 if self.dl_activated:
                     Text_Editor.skip_line = self.new_line
                     Text_Editor.mute = False

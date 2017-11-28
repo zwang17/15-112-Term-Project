@@ -4,11 +4,11 @@ from Button import *
 from threading import Thread
 import Database
 from PIL import ImageFont
-
+from Reminder import *
 class UserInterface(object):
 
 ### Init functions ###
-    def __init__(self, Voice_Assistant, Text_Editor, Calendar, width=1000, height=600, fps=50,title=""):
+    def __init__(self, Voice_Assistant, Text_Editor, Calendar, Timeline, MoodTracker, width=1000, height=600, fps=50,title=""):
         self.timer = 0
         self.VA_refresh_time = 1500
 
@@ -20,12 +20,25 @@ class UserInterface(object):
         self.Voice_Assistant = Voice_Assistant
         self.Text_Editor = Text_Editor
         self.Calendar = Calendar
+        self.Timeline = Timeline
+        self.MoodTracker = MoodTracker
 
         # offline mode
         Thread(target=self.initVoiceAssistant).start()
+        self.initColor()
+        self.initFont()
+        self.MainBarButtonWidth = self.height/4
+        self.MainBarButtonHeight = self.height/11
+        self.MainBarFirstButtonHeight = self.height/3.5
+        self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Edit']
+        self.mode = 'Dashboard'
 
     def initVoiceAssistant(self):
-        self.Voice_Assistant.runVoiceAssistant(self.Text_Editor)
+        while True:
+            try:
+                self.Voice_Assistant.runVoiceAssistant(self.Text_Editor)
+            except:
+                print("Reinitiating Voice Assistant")
 
     def initColor(self):
         self.black = (0,0,0)
@@ -54,7 +67,9 @@ class UserInterface(object):
     def initFont(self):
         font = "zekton rg.ttf"
         self.myFont12 = pygame.font.Font(os.path.join("font", font), 12)
+        self.measureFont12 = ImageFont.truetype(os.path.join("font", font),12)  # this function call originally comes from Pillow documentation
         self.myFont14 = pygame.font.Font(os.path.join("font", font), 14)
+        self.measureFont14 = ImageFont.truetype(os.path.join("font", font), 14) # this function call originally comes from Pillow documentation
         self.myFont15 = pygame.font.Font(os.path.join("font", font), 15)
         self.measureFont15 = ImageFont.truetype(os.path.join("font", font), 15) # this function call originally comes from Pillow documentation
         self.myFont15Bold = pygame.font.Font(os.path.join("font", font), 15)
@@ -105,47 +120,35 @@ class UserInterface(object):
         self.initEditDiaryButton()
         self.initVoiceAssistantButton()
 
-    def initDiarySaveButton(self):
-        buttonWidth = self.MainBarButtonWidth * 3 / 5
-        buttonHeight = self.MainBarButtonHeight * 1 / 2
-        x_left = self.width - buttonWidth * 2
-        y_up = self.height - 30
-        self.diarySaveButton = RectButton("Save", self.brightGrey, x_left, x_left + buttonWidth, y_up,
-                                         y_up + buttonHeight, 1, "Save", self.myFont15, self.brightGrey)
-        self.diarySaveButton.AddIcon("Save.png", 35, 35, 1 / 4, 1 / 2, alter_icon_path="Save_black.png")
+    def initDashboardReminder(self):
+        date = Database.todayDate()
+        self.today_reminder = Database.retrieve_reminder(date)
+        if self.today_reminder != None:
+            self.today_reminder.createReminderButtons(self.white, self.MainBarButtonWidth + 50, 50, self.myFont15Bold, self.measureFont15, self.brightGrey,600)
 
-    def initDiaryEditButton(self):
-        buttonWidth = self.MainBarButtonWidth * 3 / 5
-        buttonHeight = self.MainBarButtonHeight * 1 / 2
-        x_left = self.width - buttonWidth * 2
-        y_up = self.height - 30
-        self.diaryEditButton = RectButton("Edit", self.brightGrey, x_left, x_left + buttonWidth, y_up,
-                                         y_up + buttonHeight, 1, "Edit", self.myFont15, self.brightGrey)
-        self.diaryEditButton.AddIcon("Edit.png", 35, 35, 1 / 4, 1 / 2, alter_icon_path="Edit_black.png")
+    def initReminder(self):
+        date = Database.todayDate()
+        self.reminder = Database.retrieve_reminder(date)
+        if self.reminder != None:
+            self.reminder.createReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
+                                    self.myFont12, self.measureFont12, self.brightGrey, 100)
+        else:
+            self.reminder = Reminder(date)
 
-    def initEditButton(self):
-        self.initDiarySaveButton()
-        self.initDiaryEditButton()
-
-    def initCalendarButton(self):
-        self.Calendar.createDateButtons(self)
-        self.Calendar.createWeekdayButtons(self)
-        self.Calendar.createTitleButton(self)
-        self.Calendar.createSideYearButtons(self)
-        self.Calendar.createSideMonthButtons(self)
+    def updateReminder(self,date):
+        self.reminder = Database.retrieve_reminder(date)
+        if self.reminder != None:
+            self.reminder.createReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
+                                            self.myFont12, self.measureFont12, self.brightGrey, 100)
 
     def init(self):
-        self.initColor()
-        self.initFont()
-        self.MainBarButtonWidth = self.height/4
-        self.MainBarButtonHeight = self.height/11
-        self.MainBarFirstButtonHeight = self.height/3.5
-        self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Edit']
-        self.mode = 'Dashboard'
         self.MainBarButtonDict = {}
         self.initMainBarButtons()
-        self.initEditButton()
-        self.initCalendarButton()
+        self.Text_Editor.initAllButtons()
+        self.Calendar.updateAllButtons()
+        self.MoodTracker.updateAllButtons()
+        self.initDashboardReminder()
+        self.initReminder()
 
 ### Helper functions ###
     def click_within(self,x_left,x_right,y_up,y_down,x,y):
@@ -183,11 +186,29 @@ class UserInterface(object):
             if button.WithinRange(x,y):
                 button.color = self.darkOrange
                 button.textColor = self.white
+        button = self.voiceAssistantButton
+        if button.WithinRange(x,y):
+            if button.status == False:
+                button.color = self.brightGrey
+                button.displayed_icon = button.alter_icon
+            if button.status == True:
+                button.color = self.brightGrey
+                button.displayed_icon = button.extra_icon
+
 
     def mousePressed(self,x,y):
         self.mousePressedMainBar(x,y)
 
 ### mouseReleased ###
+    def mouseReleasedNewDiaryButton(self):
+        self.mode = "Edit"
+        self.Text_Editor.mode = "edit"
+        Thread(target=self.Voice_Assistant.runDiaryListener).start()
+        if Database.retrieve_diary(Database.todayDate()) == None:
+            self.Text_Editor.createNewDiary()
+        else:
+            self.Text_Editor.getDiary(Database.todayDate())
+
     def mouseReleasedMainBar(self,x,y):
         for buttonName in self.MainBarButtonDict:
             button = self.MainBarButtonDict[buttonName]
@@ -195,50 +216,40 @@ class UserInterface(object):
                 button.color = self.orange
                 button.textColor = self.white
                 self.mode = buttonName
+                if self.mode == "Diary":
+                    if self.Calendar.getCurrentDate() == Database.todayDate():
+                        self.updateReminder(self.Calendar.getCurrentDate())
+                if self.mode == "Dashboard":
+                    self.initDashboardReminder()
         if self.voiceAssistantButton.WithinRange(x, y):
             self.voiceAssistantButton.color = self.white
             self.voiceAssistantButton.displayed_icon = self.voiceAssistantButton.extra_icon
-            if self.Voice_Assistant.activated == False:
-                self.Voice_Assistant.activate()
+            if self.Voice_Assistant.va_activated == False:
+                self.Voice_Assistant.activateVoiceAssisant()
             else:
-                self.Voice_Assistant.deactivate()
+                self.Voice_Assistant.deactivateVoiceAssistant()
         if self.newDiaryButton.WithinRange(x,y):
-            self.mode = "Edit"
-            self.Text_Editor.mode = "edit"
-            Thread(target=self.Voice_Assistant.runDiaryListener).start()
-            self.Text_Editor.status = True
-            if Database.retrieve_diary(Database.todayDate()) == None:
-                self.Text_Editor.createNewDiary()
-            else:
-                self.Text_Editor.getDiary(Database.todayDate())
+            self.mouseReleasedNewDiaryButton()
+        self.mouseMotionMainBar(x,y)
         print(self.mode)
 
+    def mouseReleasedDashboard(self,x,y):
+        if self.today_reminder == None: return None
+        for index in range(len(self.today_reminder.button_list)):
+            button = self.today_reminder.button_list[index]
+            if button.WithinRange(x,y):
+                self.today_reminder.status_list[index] = not self.today_reminder.status_list[index]
+        Database.save_reminder(self.today_reminder)
+        self.mouseMotionDashboard(x,y)
+
     def mouseReleasedEdit(self,x,y):
-        if self.Text_Editor.mode == "edit":
-            button = self.diarySaveButton
-            if button.WithinRange(x, y):
-                Database.save_diary(self.Text_Editor.Diary)
-                # for testing purposes
-                self.Text_Editor.loadTags(self)
+        self.Text_Editor.mouseReleased(x,y)
 
     def mouseReleasedDiary(self,x,y):
-        dateButtonList = self.Calendar.date_button_list
-        for index in range(len(dateButtonList)):
-            if dateButtonList[index].WithinRange(x, y):
-                self.Calendar.current_day_num = index + 1
-                self.Calendar.day_highlighted[0] = self.Calendar.current_year_num
-                self.Calendar.day_highlighted[1] = self.Calendar.current_month_num
-                self.mouseMotionDiary(x,y)
-        if self.Calendar.left_month_button.WithinRange(x, y):
-            self.Calendar.incrementMonth(-1)
-        if self.Calendar.right_month_button.WithinRange(x, y):
-            self.Calendar.incrementMonth(1)
-        if self.Calendar.left_year_button.WithinRange(x, y):
-            self.Calendar.current_year_num -= 1
-        if self.Calendar.right_year_button.WithinRange(x, y):
-            self.Calendar.current_year_num += 1
-        self.initCalendarButton()
-        self.mouseMotionDiary(x,y)
+        self.Calendar.mouseReleased(x,y)
+
+    def mouseReleasedHighlight(self,x,y):
+        self.Timeline.mouseReleased(x,y)
 
     def mouseReleased(self,x,y):
         self.mouseReleasedMainBar(x,y)
@@ -246,6 +257,10 @@ class UserInterface(object):
             self.mouseReleasedEdit(x,y)
         if self.mode == "Diary":
             self.mouseReleasedDiary(x,y)
+        if self.mode == "Dashboard":
+            self.mouseReleasedDashboard(x,y)
+        if self.mode == "Highlight":
+            self.mouseReleasedHighlight(x,y)
 
 ### mouseMotion ###
 
@@ -293,54 +308,51 @@ class UserInterface(object):
                 button.color = self.brightGrey
                 button.displayed_icon = button.icon
 
+    def mouseMotionDashboard(self,x,y):
+        if self.today_reminder == None: return None
+        for index in range(len(self.today_reminder.button_list)):
+            button = self.today_reminder.button_list[index]
+            if button.WithinRange(x,y):
+                if self.today_reminder.status_list[index] == True:
+                    button.displayed_icon = button.extra_icon
+                else:
+                    button.displayed_icon = button.alter_icon
+            else:
+                if self.today_reminder.status_list[index] == True:
+                    button.displayed_icon = button.extra_icon
+                else:
+                    button.displayed_icon = button.icon
+
     def mouseMotionEdit(self,x,y):
-        if self.Text_Editor.mode == "edit":
-            button = self.diarySaveButton
-            if button.WithinRange(x, y):
-                button.color = self.orange
-                button.textColor = self.orange
-                button.displayed_icon = button.alter_icon
-            else:
-                button.color = self.brightGrey
-                button.textColor = self.brightGrey
-                button.displayed_icon = button.icon
-        if self.Text_Editor.mode == "display":
-            button = self.diaryEditButton
-            if button.WithinRange(x, y):
-                button.color = self.orange
-                button.textColor = self.orange
-                button.displayed_icon = button.alter_icon
-            else:
-                button.color = self.brightGrey
-                button.textColor = self.brightGrey
-                button.displayed_icon = button.icon
+        self.Text_Editor.mouseMotion(x,y)
 
     def mouseMotionDiary(self,x,y):
-        dateButtonList = self.Calendar.date_button_list
-        for index in range(len(dateButtonList)):
-            if ((self.Calendar.current_year_num,self.Calendar.current_month_num) == (self.Calendar.day_highlighted[0],self.Calendar.day_highlighted[1]) and index + 1 == self.Calendar.current_day_num):
-                dateButtonList[index].color = self.orange
-                dateButtonList[index].textColor = self.white
-            elif dateButtonList[index].WithinRange(x,y):
-                dateButtonList[index].color = self.orange
-                dateButtonList[index].textColor = self.white
-            else:
-                dateButtonList[index].color = self.white
-                dateButtonList[index].textColor = self.brightGrey
+        self.Calendar.mouseMotion(x,y)
+        if self.reminder == None: return None
+        self.reminder.mouseMotion(x,y)
+
+    def mouseMotionHighlight(self,x,y):
+        self.Timeline.mouseMotion(x,y)
 
     def mouseMotion(self,x,y):
         self.mouseMotionMainBar(x,y)
+        if self.mode == "Dashboard":
+            self.mouseMotionDashboard(x,y)
         if self.mode == "Edit":
             self.mouseMotionEdit(x,y)
         if self.mode == "Diary":
             self.mouseMotionDiary(x,y)
+        if self.mode == 'Highlight':
+            self.mouseMotionHighlight(x,y)
+### timerFired ###
 
-    ### timerFired ###
     def timerFired(self,time):
         self.timer += 1
         if self.VA_refresh_time == self.timer:
             self.Voice_Assistant.refresh()
             self.timer = 0
+        if self.mode == 'Diary':
+            self.Calendar.timerFiredSideBar()
 
 ### redraw ###
     def drawMainBar(self,screen):
@@ -363,43 +375,51 @@ class UserInterface(object):
         self.drawMainBar(screen)
         self.drawMainBarButtons(screen)
 
+    def redrawDashboard(self,screen):
+        if self.today_reminder == None: return None
+        self.today_reminder.Draw(screen)
+
     def redrawEdit(self,screen):
-        if self.Text_Editor.status == True:
-            self.Text_Editor.DrawDisplayDiary(screen,self.myFont15,self.measureFont15,self)
-        if self.Text_Editor.mode == "edit":
-            self.diarySaveButton.Draw(screen)
+        self.Text_Editor.redraw(screen)
 
-        if self.Text_Editor.mode == "display":
-            self.diaryEditButton.Draw(screen)
-
-    def drawRightBar(self,screen):
-        pygame.draw.rect(screen, self.grey, (self.width-self.MainBarButtonWidth, 0, self.width-self.MainBarButtonWidth, self.height), 0)
+    def redrawHighlight(self,screen):
+        self.Timeline.redraw(screen)
 
     def redrawDiary(self,screen):
-        self.Calendar.Draw(screen)
-        self.drawRightBar(screen)
+        self.Calendar.redraw(screen)
+
+        if self.Calendar.calendarSideBarWidth >= self.MainBarButtonWidth and self.reminder != None:
+            self.reminder.Draw(screen,1/6)
+    def redrawMoodTracker(self,screen):
+        self.MoodTracker.redraw(screen)
 
     def redrawAll(self,screen):
         self.redrawMainBar(screen)
+        if self.mode == "Dashboard":
+            self.redrawDashboard(screen)
         if self.mode == "Edit":
             self.redrawEdit(screen)
         if self.mode == "Diary":
             self.redrawDiary(screen)
+        if self.mode == "Highlight":
+            self.redrawHighlight(screen)
+        if self.mode == "Mood Tracker":
+            self.redrawMoodTracker(screen)
 
 ### update ###
-    def VoiceAssistantUpdate(self):
-        if self.voiceAssistantButton.status == True:
-            self.voiceAssistantButton.displayed_icon = self.voiceAssistantButton.extra_icon
-        else:
-            self.voiceAssistantButton.displayed_icon = self.voiceAssistantButton.icon
+    def VoiceAssistantButtonUpdate(self):
+        button = self.voiceAssistantButton
+        if button.status == True:
+            button.color = self.white
+            button.displayed_icon = button.extra_icon
 
     def TextEditorUpdate(self):
         self.Text_Editor.updateDiary(self.Voice_Assistant)
 
     def UpdateAll(self):
-        self.VoiceAssistantUpdate()
+        self.VoiceAssistantButtonUpdate()
         if self.mode == "Edit":
-            if self.Text_Editor.status == True and self.Text_Editor.mode == "edit":
+            if self.Text_Editor.mode == "edit":
                 self.TextEditorUpdate()
 
     def run(self):

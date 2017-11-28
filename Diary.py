@@ -2,6 +2,7 @@ from Language_Analysis import *
 import pickle
 import Database as db
 import copy
+import string
 
 class Word(object):
     """
@@ -68,6 +69,7 @@ class Diary(object):
     def updateSentimentAnalysis(self):
         print("Updating Sentiment Analysis...")
         self.sentiment_report = sentiment_analyze(str(self))
+        print("Updating Entity Sentiment Analysis...")
         self.entity_sentiment_report = entity_sentiment_analysis(str(self))
         print("Sentiment Analysis Updated!")
 
@@ -76,12 +78,10 @@ class Diary(object):
         sentiment_value_list = list(self.entity_sentiment_report.keys())
         sentiment_value_list.sort()
         sentiment_value_list.reverse()
-        with open('icon\\tags\\tag.pickle', 'rb') as f:
-            tag_name_list = pickle.load(f)
         count = 0
         for value in sentiment_value_list:
             entity_name = self.entity_sentiment_report[value][0]
-            tag_found = db.word_match_tag(entity_name,tag_name_list)
+            tag_found = db.word_match_tag(entity_name)
             if tag_found != None:
                 self.tags.append(tag_found)
                 count += 1
@@ -96,6 +96,16 @@ class Diary(object):
         :param sentence: a Sentence object
         """
         self.text.append(sentence)
+
+    def addStrings(self,strings):
+        strings.replace("  "," ")
+        string_list = strings.split(" ")
+        new_line = ""
+        for index in range(len(string_list)-1):
+            new_line = new_line + string_list[index] + " "
+            if string_list[index+1][0].upper() in string.ascii_uppercase and string_list[index][-1] in string.punctuation:
+                self.addSentence(Sentence(new_line))
+                new_line = ""
 
     def __repr__(self):
         return repr(self.text)

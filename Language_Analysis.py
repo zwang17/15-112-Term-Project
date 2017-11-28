@@ -28,7 +28,6 @@ def entity_sentiment_analysis(text):
     :return a dictionary with salience values as keys, and the values are tuples in the form (entity name, entity magnitude value, entity sentiment value)
     """
     client = language.LanguageServiceClient()
-
     if isinstance(text, six.binary_type):
         text = text.decode('utf-8')
 

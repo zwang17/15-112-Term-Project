@@ -5,19 +5,20 @@ from Language_Analysis import *
 import pickle
 from Diary import *
 from Diary_Calendar import *
-
+from Reminder import *
+from Highlight_Timeline import *
 
 # for manually modifying a diary entry object
-# with open("diary\\2017.11.25.pickle",'rb') as f:
-#     save = pickle.load(f)
-# save.addSentence(Sentence('I had lunch at Chipotle and went to swim in the afternoon as usual.'))
-# save.addSentence(Sentence('The water was kind of cold today.'))
-# save.addSentence(Sentence('I was late for my English class this afternoon because it started five minutes earlier than I thought for some reason.'))
-# save.addSentence(Sentence('Luckily the teacher was not taking attendance at the beginning of the class.'))
-# print(save.text)
-#
-# with open("diary\\2017.11.25.pickle",'wb') as f:
-#     pickle.dump(save,f,pickle.HIGHEST_PROTOCOL)
+
+diary = Diary([2017,11,5])
+text = "Christmas Eve was fun, but also terrible. I got so sick! Fever, chills, nausea. Super thankful I had my boyfriend there to take care of me, but I know that is not how he wanted to spend his basic training holiday leave. Also, Christmas Day I was sick. Again, he held me tight and took care of me all day long. Today I am giving him a break and am going to take care of myself. He's definitely hubby material. All the days I could have gotten sick though and it happens when he's home.. of course."
+
+diary.addStrings(text)
+Database.save_diary(diary)
+
+# diary = Database.retrieve_diary([2017,10,30])
+# print(diary.text)
+# Database.save_diary(diary)
 
 ## for manually deleting a tag name in the tag name list
 # with open('icon\\tags\\tag.pickle', 'rb') as f:
@@ -58,5 +59,10 @@ def word_match_tag(word,tag_name_list):
                 winner = tagName
     return winner
 
-# print(type(datetime.datetime(2017, 11, 25).weekday()))
-print(str(None))
+
+# save = Reminder([2017,11,25])
+# save.addContent("Do 128 homework and review for midterm")
+# save.addContent("Do 112 tp1")
+#
+# with open("reminders\\2017.11.25.pickle",'wb') as f:
+#     pickle.dump(save,f,pickle.HIGHEST_PROTOCOL)

@@ -23,12 +23,14 @@ def retrieve_diary(date):
         diary = pickle.load(f)
     return diary
 
-def word_match_tag(word,tag_name_list):
+def word_match_tag(word):
     """
     :param word: entity word to be matched with a tag
     :param tag_name_list: the list of all available tags saved locally
     :return: the name of the file of the matched tag
     """
+    with open('icon\\tags\\tag.pickle', 'rb') as f:
+        tag_name_list = pickle.load(f)
     winner = None
     max_score = 0
     for tagName in tag_name_list:
@@ -66,3 +68,78 @@ def save_diary(diary):
     filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
     with open("diary\\"+filename,"wb") as f:
         pickle.dump(diary,f,pickle.HIGHEST_PROTOCOL)
+
+def retrieve_reminder(date):
+    """
+    :param date: should be a list of integers in the form [year,month,day]
+    :return: an Diary object
+    """
+    date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".pickle"
+    exist = False
+    for filename in os.listdir("reminders"):
+        if filename == date_str:
+            exist = True
+    if not exist:
+        return None
+    with open("reminders\\"+date_str,'rb') as f:
+        reminder = pickle.load(f)
+    return reminder
+
+def save_reminder(reminder):
+    date = reminder.date
+    filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
+    with open("reminders\\" + filename, "wb") as f:
+        pickle.dump(reminder, f, pickle.HIGHEST_PROTOCOL)
+
+def next_date(date):
+    date[2] += 1
+    if date[2] > 31:
+        date[2] = 0
+        date[1] += 1
+    if date[1] > 12:
+        date[1] = 0
+        date[0] += 1
+
+def retreieve_diary_between(startDate,endDate):
+    ending_date = copy.deepcopy(endDate)
+    ending_date[2] += 1
+    starting_date = copy.deepcopy(startDate)
+    result = []
+    while starting_date != ending_date:
+        diary = retrieve_diary(starting_date)
+        if diary != None:
+            result.append(diary)
+        next_date(starting_date)
+    return result
+
+def sortDiariesByDates(diary_list):
+    length = len(diary_list)
+    for i in range(length):
+        min = i
+        for k in range(i+1,length):
+            if diary_list[k].date < diary_list[min].date:
+                min = k
+        diary_list[i],diary_list[min] = diary_list[min],diary_list[i]
+
+def getDiariesWithHighestSentiments(diary_list,num_diary):
+    sentiment_diary_dict = {}
+    for diary in diary_list:
+        key = diary.sentiment_report[0]
+        if key not in sentiment_diary_dict:
+            sentiment_diary_dict[key] = [diary]
+        else:
+            sentiment_diary_dict[key].append(diary)
+    key_list = list(sentiment_diary_dict.keys())
+    key_list.sort()
+    key_list.reverse()
+    length = min(num_diary,len(key_list))
+    key_list = key_list[:length]
+    new_diary_list = []
+    for key in key_list:
+        for diary in sentiment_diary_dict[key]:
+            new_diary_list.append(diary)
+    sortDiariesByDates(new_diary_list)
+    return new_diary_list
+
+def getDeltaDays(date1,date2):
+    return (datetime.date(date1[0],date1[1],date1[2])-datetime.date(date2[0],date2[1],date2[2])).days
