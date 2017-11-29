@@ -96,7 +96,7 @@ class Calendar(object):
             self.date_button_list[datetime.datetime.now().day - 1].textColor = self.UI.white
 
     def createEditDiaryButton(self):
-        width = 100
+        width = 110
         x_left = self.UI.width - (self.UI.MainBarButtonWidth-width)/2-width
         x_right = x_left + width
         y_up = 500
@@ -104,7 +104,7 @@ class Calendar(object):
         self.edit_diary_button = RectButton("edit", self.UI.orange, x_left,
                                        x_right, y_up,y_down, \
                                        margin_width=1,
-                                       text="Edit Diary",
+                                       text="Check Diary",
                                        font=self.UI.myFont15Bold, textColor=self.UI.orange)
 
     def updateAllButtons(self):
@@ -179,6 +179,7 @@ class Calendar(object):
             if Database.retrieve_diary(self.getCurrentDate()) != None:
                 self.UI.Text_Editor.getDiary(self.getCurrentDate())
                 self.UI.mode = "Edit"
+                self.UI.Text_Editor.mode = "display"
         self.mouseMotion(x, y)
 
     # redraw #
@@ -199,7 +200,7 @@ class Calendar(object):
         self.left_month_button.Draw(screen)
         self.right_month_button.Draw(screen)
         self.drawRightBar(screen)
-        if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth:
+        if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth and Database.retrieve_diary(self.getCurrentDate()) != None:
             self.drawEditButton(screen)
 
 

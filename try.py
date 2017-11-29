@@ -10,22 +10,23 @@ from Highlight_Timeline import *
 
 # for manually modifying a diary entry object
 
-diary = Diary([2017,11,5])
-text = "Christmas Eve was fun, but also terrible. I got so sick! Fever, chills, nausea. Super thankful I had my boyfriend there to take care of me, but I know that is not how he wanted to spend his basic training holiday leave. Also, Christmas Day I was sick. Again, he held me tight and took care of me all day long. Today I am giving him a break and am going to take care of myself. He's definitely hubby material. All the days I could have gotten sick though and it happens when he's home.. of course."
-
-diary.addStrings(text)
-Database.save_diary(diary)
-
-# diary = Database.retrieve_diary([2017,10,30])
-# print(diary.text)
+# diary = Diary([2017,10,27])
+# text = "Tomorrow is my first day of senior year, and I am beyond nervous. I don't know anyone in my gym and lunch and those are the most social periods of the day. I don't have a specific friend group like everyone else does, so I am terrified that I am going to end up by myself. I don't like going to talk to new people because I feel like they don't want to talk to me and I feel like they think of me as a loser and that makes me sad. I would much rather just stay by myself but then I feel so embarrassed and judged. I always want to cry and have panic attacks in these situations. I don't know how to handle being alone if I am. I don't know how I can go four months by myself while everyone else has friends. I am praying to God that I end up knowing someone and having someone to talk to that I am kind of friends with. I am so scared. I want to cry just thinking about it. School gives me so much anxiety... well high school does. At least when I start college everyone will be in the same boat and wanna meet people, in high school you're pretty much fucked if you're a senior with no friends."
+#
+# diary.addStrings(text)
 # Database.save_diary(diary)
 
-## for manually deleting a tag name in the tag name list
+# diary = Database.retrieve_diary([2017,11,28])
+# print(diary.sentiment_report)
+# Database.save_diary(diary)
+
+# for manually deleting a tag name in the tag name list
 # with open('icon\\tags\\tag.pickle', 'rb') as f:
 #     tag_name_list = pickle.load(f)
-#     index = tag_name_list.index('Wisconsin , American Community Survey , Student , School , Catholic school , Root canal .png')
+#     print(tag_name_list)
+#     index = tag_name_list.index('Flag of Croatia , Flag , Croatian language , Zagreb School of Economics and Management , National flag .png')
 #     tag_name_list.pop(index)
-#
+
 # with open('icon\\tags\\tag.pickle', 'wb') as f:
 #     pickle.dump(tag_name_list,f,pickle.HIGHEST_PROTOCOL)
 
@@ -59,10 +60,9 @@ def word_match_tag(word,tag_name_list):
                 winner = tagName
     return winner
 
-
-# save = Reminder([2017,11,25])
+#
+# save = Reminder([2017,11,28])
 # save.addContent("Do 128 homework and review for midterm")
 # save.addContent("Do 112 tp1")
 #
-# with open("reminders\\2017.11.25.pickle",'wb') as f:
-#     pickle.dump(save,f,pickle.HIGHEST_PROTOCOL)
+# Database.save_reminder(save)

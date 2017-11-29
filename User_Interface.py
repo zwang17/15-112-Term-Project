@@ -12,6 +12,9 @@ class UserInterface(object):
         self.timer = 0
         self.VA_refresh_time = 1500
 
+        self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Edit']
+        self.mode = 'Dashboard'
+
         self.width = width
         self.height = height
         self.fps = fps
@@ -23,22 +26,18 @@ class UserInterface(object):
         self.Timeline = Timeline
         self.MoodTracker = MoodTracker
 
-        # offline mode
         Thread(target=self.initVoiceAssistant).start()
         self.initColor()
         self.initFont()
         self.MainBarButtonWidth = self.height/4
         self.MainBarButtonHeight = self.height/11
         self.MainBarFirstButtonHeight = self.height/3.5
-        self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Edit']
-        self.mode = 'Dashboard'
+
+        self.MainBarButtonDict = {}
+        self.initMainBarButtons()
 
     def initVoiceAssistant(self):
-        while True:
-            try:
-                self.Voice_Assistant.runVoiceAssistant(self.Text_Editor)
-            except:
-                print("Reinitiating Voice Assistant")
+        self.Voice_Assistant.runVoiceAssistant(self.Text_Editor)
 
     def initColor(self):
         self.black = (0,0,0)
@@ -104,7 +103,6 @@ class UserInterface(object):
         self.voiceAssistantButton = CircButton("Voice Assistnat",self.brightGrey,center_x,center_y,radius,margin_width=5)
         self.voiceAssistantButton.AddIcon("Voice Assistant.png",50,50,alter_icon_path="Voice Assistant_white.png")
         self.voiceAssistantButton.AddExtraIcon("Voice Assistant_speaking.png",50,50)
-        self.Voice_Assistant.button = self.voiceAssistantButton
 
     def initMainBarButtons(self):
         mode = self.modeList
@@ -142,8 +140,6 @@ class UserInterface(object):
                                             self.myFont12, self.measureFont12, self.brightGrey, 100)
 
     def init(self):
-        self.MainBarButtonDict = {}
-        self.initMainBarButtons()
         self.Text_Editor.initAllButtons()
         self.Calendar.updateAllButtons()
         self.MoodTracker.updateAllButtons()
@@ -186,15 +182,7 @@ class UserInterface(object):
             if button.WithinRange(x,y):
                 button.color = self.darkOrange
                 button.textColor = self.white
-        button = self.voiceAssistantButton
-        if button.WithinRange(x,y):
-            if button.status == False:
-                button.color = self.brightGrey
-                button.displayed_icon = button.alter_icon
-            if button.status == True:
-                button.color = self.brightGrey
-                button.displayed_icon = button.extra_icon
-
+        self.Voice_Assistant.mousePressed(x,y)
 
     def mousePressed(self,x,y):
         self.mousePressedMainBar(x,y)
@@ -221,13 +209,7 @@ class UserInterface(object):
                         self.updateReminder(self.Calendar.getCurrentDate())
                 if self.mode == "Dashboard":
                     self.initDashboardReminder()
-        if self.voiceAssistantButton.WithinRange(x, y):
-            self.voiceAssistantButton.color = self.white
-            self.voiceAssistantButton.displayed_icon = self.voiceAssistantButton.extra_icon
-            if self.Voice_Assistant.va_activated == False:
-                self.Voice_Assistant.activateVoiceAssisant()
-            else:
-                self.Voice_Assistant.deactivateVoiceAssistant()
+        self.Voice_Assistant.mouseReleased(x,y)
         if self.newDiaryButton.WithinRange(x,y):
             self.mouseReleasedNewDiaryButton()
         self.mouseMotionMainBar(x,y)
@@ -299,14 +281,7 @@ class UserInterface(object):
             button.displayed_icon = button.icon
 
         # mouseMotion of voice assistant button
-        button = self.voiceAssistantButton
-        if button.status == False:
-            if button.WithinRange(x,y):
-                button.color = self.white
-                button.displayed_icon = button.alter_icon
-            else:
-                button.color = self.brightGrey
-                button.displayed_icon = button.icon
+        self.Voice_Assistant.mouseMotion(x,y)
 
     def mouseMotionDashboard(self,x,y):
         if self.today_reminder == None: return None
@@ -334,6 +309,9 @@ class UserInterface(object):
     def mouseMotionHighlight(self,x,y):
         self.Timeline.mouseMotion(x,y)
 
+    def mouseMotionMoodTracker(self,x,y):
+        self.MoodTracker.mouseMotion(x,y)
+
     def mouseMotion(self,x,y):
         self.mouseMotionMainBar(x,y)
         if self.mode == "Dashboard":
@@ -344,6 +322,9 @@ class UserInterface(object):
             self.mouseMotionDiary(x,y)
         if self.mode == 'Highlight':
             self.mouseMotionHighlight(x,y)
+        if self.mode == 'Mood Tracker':
+            self.mouseMotionMoodTracker(x,y)
+
 ### timerFired ###
 
     def timerFired(self,time):
@@ -369,11 +350,11 @@ class UserInterface(object):
         else:
             # continuing editing today's diary
             self.editDiaryButton.Draw(screen,1,1/1.7)
-        self.voiceAssistantButton.Draw(screen)
 
     def redrawMainBar(self,screen):
         self.drawMainBar(screen)
         self.drawMainBarButtons(screen)
+        self.Voice_Assistant.redraw(screen)
 
     def redrawDashboard(self,screen):
         if self.today_reminder == None: return None

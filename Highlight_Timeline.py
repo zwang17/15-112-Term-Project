@@ -40,7 +40,10 @@ class TimeLine(object):
             height = random.randint(-250,250)
             if index > 0:
                 while (height>0 and self.branch[index-1].height > 0) or (height<0 and self.branch[index-1].height < 0) :
-                    height = random.randint(-250,250)
+                    height = random.randint(-200,200)
+                    if height > 0: height += 50
+                    else:
+                        height -= 50
             branch = TimelineBranch(x,diary,height,self.UI)
             self.branch.append(branch)
 

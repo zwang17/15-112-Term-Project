@@ -40,11 +40,17 @@ def modifyName(filename):
     return result
 
 result = []
-for filename in os.listdir(os.path.join("tag")):
-    result.append(filename)
+# for filename in os.listdir(os.path.join("tag")):
+#     result.append(filename)
     # old_file = os.path.join("tag - Copy", filename)
     # # new_name = getHighestLabels(RecognizeImage(filename))
     # new_name = modifyName(filename)
     # new_file = os.path.join("tag - Copy", new_name)
     # os.rename(old_file,new_file)
     # print(filename + "got renamed to " + new_name)
+
+### form tag name pickle file
+for filename in os.listdir(os.path.join("tag")):
+    result.append(filename)
+with open('tag.pickle', 'wb') as f:
+    pickle.dump(result,f,pickle.HIGHEST_PROTOCOL)
