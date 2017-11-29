@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.13.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.15.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.16.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.24.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.25.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.5.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ambulance , Star of Life , Emergency medical services , Paramedic , Emergency vehicle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Assumption High School , American Community Survey , Student , Cathedral of Christ the King , Wisconsin Rapids , School .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag of Croatia , Flag , Croatian language , Zagreb School of Economics and Management , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Funeral , Urn , Funeral home , Coffin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Germany , Flag of China , Ningbo Beilun People's Government , Flag , Chinese language , National flag .png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.27.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.27.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.30.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.30.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon/tags/tag.pickle" afterPath="$PROJECT_DIR$/icon/tags/tag.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.25.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.25.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.26.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.26.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Button.py" afterPath="$PROJECT_DIR$/Button.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.28.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.28.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.py" afterPath="$PROJECT_DIR$/Database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Calendar.py" afterPath="$PROJECT_DIR$/Diary_Calendar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight_Timeline.py" afterPath="$PROJECT_DIR$/Highlight_Timeline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mood_Tracker.py" afterPath="$PROJECT_DIR$/Mood_Tracker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Text_Editor.py" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reminder.py" afterPath="$PROJECT_DIR$/Reminder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice_Assistant.py" afterPath="$PROJECT_DIR$/Voice_Assistant.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon/tags/Tags_Handling.py" afterPath="$PROJECT_DIR$/icon/tags/Tags_Handling.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,22 +25,10 @@
       <file leaf-file-name="Database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="215">
+              <caret line="89" column="31" lean-forward="false" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diary_Calendar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="107" column="91" lean-forward="true" selection-start-line="107" selection-start-column="91" selection-end-line="107" selection-end-column="91" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,31 +37,21 @@
       <file leaf-file-name="Speech_Recognition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Highlight_Timeline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="320">
+              <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +69,7 @@
       <file leaf-file-name="try.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="1014">
               <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -115,23 +78,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tags_Handling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/icon/tags/Tags_Handling.py">
+      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/User_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="372">
+              <caret line="242" column="31" lean-forward="true" selection-start-line="242" selection-start-column="31" selection-end-line="242" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User_Interface.py">
+      <file leaf-file-name="Diary_Calendar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="392" column="20" lean-forward="false" selection-start-line="392" selection-start-column="11" selection-end-line="392" selection-end-column="20" />
+            <state relative-caret-position="94">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reminder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reminder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +117,18 @@
       <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="169">
+              <caret line="108" column="15" lean-forward="false" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInterface.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="389" column="34" lean-forward="true" selection-start-line="389" selection-start-column="34" selection-end-line="389" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -158,36 +145,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>diary</find>
-      <find>edit_diary_button</find>
-      <find>save_remin</find>
+      <find>checkActivationCommand</find>
+      <find>showhighli</find>
+      <find>createreminder</find>
+      <find>text</find>
+      <find>text</find>
+      <find>myFont15</find>
+      <find>myFont18</find>
+      <find>today_remin</find>
+      <find>myfont15</find>
       <find>remin</find>
-      <find>mousereleased</find>
-      <find>self.exit_command</find>
-      <find>self.but</find>
-      <find>self.button</find>
-      <find>Voice</find>
-      <find>self.voiceAss</find>
-      <find>initV</find>
-      <find>self.modeList</find>
-      <find>initMainBarButtons</find>
-      <find>initVoiceAssistantButton</find>
-      <find>save</find>
-      <find>save_diar</find>
-      <find>mouserele</find>
-      <find>Save</find>
-      <find>voic</find>
-      <find>stat</find>
-      <find>mouseReleased</find>
-      <find>voiceassistantbutton</find>
-      <find>redraw</find>
-      <find>mousemotionmain</find>
-      <find>mousemotion</find>
-      <find>button.st</find>
-      <find>create</find>
-      <find>editD</find>
+      <find>updateReminderButtons</find>
       <find>createNewDiary</find>
-      <find>check</find>
+      <find>updatea</find>
+      <find>mousedr</find>
+      <find>reminder</find>
+      <find>today_reminder</find>
+      <find>self.red</find>
+      <find>redrawdash</find>
+      <find>mousemotiondash</find>
+      <find>savedi</find>
+      <find>mousereleasedD</find>
+      <find>today_</find>
+      <find>updateRemin</find>
+      <find>mouseMotionDashboard</find>
+      <find>releasedd</find>
+      <find>initdash</find>
+      <find>initReminder</find>
+      <find>saver</find>
+      <find>mousereleased</find>
+      <find>updateReminder</find>
     </findStrings>
     <replaceStrings>
       <replace>listen_loop</replace>
@@ -243,18 +230,18 @@
         <option value="$PROJECT_DIR$/Language_Analysis.py" />
         <option value="$PROJECT_DIR$/icon/tags/ImageRecognition.py" />
         <option value="$PROJECT_DIR$/Diary.py" />
-        <option value="$PROJECT_DIR$/Reminder.py" />
-        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
-        <option value="$PROJECT_DIR$/Database.py" />
         <option value="$PROJECT_DIR$/Button.py" />
         <option value="$PROJECT_DIR$/Mood_Tracker.py" />
         <option value="$PROJECT_DIR$/icon/tags/Tags_Handling.py" />
-        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
         <option value="$PROJECT_DIR$/try.py" />
-        <option value="$PROJECT_DIR$/User_Interface.py" />
+        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
+        <option value="$PROJECT_DIR$/Database.py" />
+        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
+        <option value="$PROJECT_DIR$/Reminder.py" />
+        <option value="$PROJECT_DIR$/User_Interface.py" />
       </list>
     </option>
   </component>
@@ -530,7 +517,7 @@
         <state relative-caret-position="1610">
           <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
-            <element signature="e#0#32#0" expanded="false" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,7 +573,7 @@
         <state relative-caret-position="253">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="false" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -801,26 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reminder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="273" column="20" lean-forward="false" selection-start-line="273" selection-start-column="8" selection-end-line="273" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -838,7 +809,7 @@
         <state relative-caret-position="343">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,26 +819,6 @@
         <state relative-caret-position="458">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="107" column="91" lean-forward="true" selection-start-line="107" selection-start-column="91" selection-end-line="107" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,9 +834,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,39 +858,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database.py">
+    <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HACK112-SnapTrack/UserInterface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="389" column="34" lean-forward="true" selection-start-line="389" selection-start-column="34" selection-end-line="389" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="13" />
+          <caret line="108" column="15" lean-forward="false" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="89" column="31" lean-forward="false" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reminder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/User_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="392" column="20" lean-forward="false" selection-start-line="392" selection-start-column="11" selection-end-line="392" selection-end-column="20" />
+        <state relative-caret-position="372">
+          <caret line="242" column="31" lean-forward="true" selection-start-line="242" selection-start-column="31" selection-end-line="242" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

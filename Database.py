@@ -87,6 +87,7 @@ def retrieve_reminder(date):
 
 def save_reminder(reminder):
     date = reminder.date
+    print(reminder.content_list)
     filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
     with open("reminders\\" + filename, "wb") as f:
         pickle.dump(reminder, f, pickle.HIGHEST_PROTOCOL)

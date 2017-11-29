@@ -168,12 +168,6 @@ class Calendar(object):
                 self.mouseMotion(x, y)
                 self.UI.updateReminder(self.getCurrentDate())
         self.updateAllButtons()
-        if self.UI.reminder != None:
-            for index in range(len(self.UI.reminder.button_list)):
-                button = self.UI.reminder.button_list[index]
-                if button.WithinRange(x, y):
-                    self.UI.reminder.status_list[index] = not self.UI.reminder.status_list[index]
-            Database.save_reminder(self.UI.reminder)
         button = self.edit_diary_button
         if button.WithinRange(x, y):
             if Database.retrieve_diary(self.getCurrentDate()) != None:

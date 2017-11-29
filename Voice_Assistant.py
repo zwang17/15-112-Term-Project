@@ -2,6 +2,7 @@ from Speech_Recognition import *
 from threading import Thread
 import copy
 import Database
+import pygame
 
 class VoiceAssistant(object):
 
@@ -16,6 +17,9 @@ class VoiceAssistant(object):
         self.va_activated = False
         self.dl_activated = False
         self.init()
+        self.timer = 0
+        self.display_text = False
+        self.text_displayed = None
 
     def setUI(self,UI):
         self.UI = UI
@@ -24,7 +28,7 @@ class VoiceAssistant(object):
     def init(self):
         self.saveDiary_command_list = ['save','diary']
         self.editDiary_command_list = ['edit','diary']
-        self.createReminder_command_list = ['reminder','remind']
+        self.createReminder_command_list = ['reminder']
         self.help_command_list = ['help']
         self.showDiaryCalendar_command_list = ['calendar','show']
         self.showHighlight_command_list = ['show','highlight']
@@ -54,7 +58,7 @@ class VoiceAssistant(object):
 
     def mouseMotion(self,x,y):
         button = self.va_button
-        if button.status == False:
+        if self.va_activated == False:
             if button.WithinRange(x,y):
                 button.color = self.UI.white
                 button.displayed_icon = button.alter_icon
@@ -62,8 +66,51 @@ class VoiceAssistant(object):
                 button.color = self.UI.brightGrey
                 button.displayed_icon = button.icon
 
+    def timerFired(self):
+        if self.display_text == True:
+            self.timer += 1
+            if self.timer == 100:
+                self.display_text = False
+                self.timer = 0
+###
+    def getPixelLength(self,measureFont,text):
+        return measureFont.getsize(text)  # this function call originally comes from Pillow documentation
+
+    def separatedText(self,measureFont):
+        text = self.text_displayed
+        line_pix_len = 105
+        result = []
+        default_string_len = 1
+        while self.getPixelLength(measureFont,text)[0] > line_pix_len:
+            length = default_string_len
+            new_line = text[:length]
+            while self.getPixelLength(measureFont,new_line)[0] < line_pix_len:
+                length += 1
+                new_line = text[:length]
+            text = text[length:]
+            if len(text) != 0 and text[0] != " ":
+                new_line += "-"
+            result.append(new_line)
+        result.append(text)
+        return result
+
+    def drawText(self,screen):
+        if self.display_text == True:
+            margin = 10
+            y_gap = 20
+            canvas_x_left = margin
+            canvas_y_up = self.UI.height / 3 * 2
+            self.text_list = self.separatedText(self.UI.measureFont15)
+            for index in range(len(self.text_list)):
+                line = self.text_list[index]
+                screen.blit(self.UI.myFont15.render(line, 1, self.UI.brightGrey),
+                            (canvas_x_left, canvas_y_up + (index + 1) * y_gap))
+###
+
     def redraw(self,screen):
         self.va_button.Draw(screen)
+        if self.display_text:
+            self.drawText(screen)
 
 # actions #
     def SaveDiary(self):
@@ -83,6 +130,20 @@ class VoiceAssistant(object):
     def CreateReminder(self):
         print("create reminder")
         print(self.new_line)
+        temp = self.new_line
+        self.deactivateVoiceAssistant()
+        self.display_text = True
+        self.text_displayed = "Remind you to?"
+        self.exit_status = False
+        Thread(target=self.collectBackgroundText).start()
+        while self.new_line.strip() == temp.strip():
+            pass
+        self.exit_status = True
+        content = self.new_line
+        self.UI.today_reminder.addContent(content)
+        self.UI.today_reminder.updateReminderButtons(self.UI.white, self.UI.MainBarButtonWidth + 50, 80, self.UI.myFont15Bold, self.UI.measureFont15, self.UI.brightGrey,600)
+        Database.save_reminder(self.UI.today_reminder)
+        self.deactivateVoiceAssistant()
 
     def Help(self):
         print("help")
@@ -101,7 +162,7 @@ class VoiceAssistant(object):
         self.UI.mode = "Mood Tracker"
         self.deactivateVoiceAssistant()
 
-#   #
+#####
 
     def performCommands(self):
         exit_command = copy.deepcopy(self.exit_command_heard)
@@ -114,11 +175,9 @@ class VoiceAssistant(object):
 
     def activateVoiceAssisant(self):
         self.va_activated = True
-        self.va_button.status = True
 
     def deactivateVoiceAssistant(self):
         self.va_activated = False
-        self.va_button.status = False
 
     def collectBackgroundText(self):
         getText(self)
@@ -161,7 +220,9 @@ class VoiceAssistant(object):
 
     def runVoiceAssistant(self,Text_Editor):
         while True:
+            self.exit_status = False
             Thread(target=self.collectBackgroundText).start()
+            print("here again")
             self.checkActivationCommand()
             if self.va_activated:
                 if self.dl_activated:
@@ -172,6 +233,7 @@ class VoiceAssistant(object):
                 if self.dl_activated:
                     Text_Editor.skip_line = self.new_line
                     Text_Editor.mute = False
+                self.exit_command_heard = []
 
     def runDiaryListener(self):
         print("run Diary Listener")

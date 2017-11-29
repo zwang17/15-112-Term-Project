@@ -69,6 +69,9 @@ class UserInterface(object):
         self.measureFont12 = ImageFont.truetype(os.path.join("font", font),12)  # this function call originally comes from Pillow documentation
         self.myFont14 = pygame.font.Font(os.path.join("font", font), 14)
         self.measureFont14 = ImageFont.truetype(os.path.join("font", font), 14) # this function call originally comes from Pillow documentation
+        self.myFont14Bold = pygame.font.Font(os.path.join("font", font), 14)
+        self.myFont14Bold.set_bold(True)
+
         self.myFont15 = pygame.font.Font(os.path.join("font", font), 15)
         self.measureFont15 = ImageFont.truetype(os.path.join("font", font), 15) # this function call originally comes from Pillow documentation
         self.myFont15Bold = pygame.font.Font(os.path.join("font", font), 15)
@@ -121,14 +124,15 @@ class UserInterface(object):
     def initDashboardReminder(self):
         date = Database.todayDate()
         self.today_reminder = Database.retrieve_reminder(date)
-        if self.today_reminder != None:
-            self.today_reminder.createReminderButtons(self.white, self.MainBarButtonWidth + 50, 50, self.myFont15Bold, self.measureFont15, self.brightGrey,600)
+        if self.today_reminder == None:
+            self.today_reminder = Reminder(Database.todayDate())
+        self.today_reminder.updateReminderButtons(self.white, self.MainBarButtonWidth + 50, 80, self.myFont14Bold, self.measureFont14, self.brightGrey,300)
 
     def initReminder(self):
         date = Database.todayDate()
         self.reminder = Database.retrieve_reminder(date)
         if self.reminder != None:
-            self.reminder.createReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
+            self.reminder.updateReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
                                     self.myFont12, self.measureFont12, self.brightGrey, 100)
         else:
             self.reminder = Reminder(date)
@@ -136,7 +140,7 @@ class UserInterface(object):
     def updateReminder(self,date):
         self.reminder = Database.retrieve_reminder(date)
         if self.reminder != None:
-            self.reminder.createReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
+            self.reminder.updateReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
                                             self.myFont12, self.measureFont12, self.brightGrey, 100)
 
     def init(self):
@@ -173,6 +177,7 @@ class UserInterface(object):
 ### mouseDrag ###
     def mouseDrag(self,x,y):
         pass
+
 ### mousePressed ###
 
     def mousePressedMainBar(self,x,y):
@@ -217,18 +222,18 @@ class UserInterface(object):
 
     def mouseReleasedDashboard(self,x,y):
         if self.today_reminder == None: return None
-        for index in range(len(self.today_reminder.button_list)):
-            button = self.today_reminder.button_list[index]
-            if button.WithinRange(x,y):
-                self.today_reminder.status_list[index] = not self.today_reminder.status_list[index]
-        Database.save_reminder(self.today_reminder)
+        self.today_reminder.mouseReleased(x,y)
         self.mouseMotionDashboard(x,y)
+        self.initDashboardReminder()
 
     def mouseReleasedEdit(self,x,y):
         self.Text_Editor.mouseReleased(x,y)
 
     def mouseReleasedDiary(self,x,y):
         self.Calendar.mouseReleased(x,y)
+        if self.reminder != None:
+            self.reminder.mouseReleased(x,y)
+        self.updateReminder(self.Calendar.getCurrentDate())
 
     def mouseReleasedHighlight(self,x,y):
         self.Timeline.mouseReleased(x,y)
@@ -285,18 +290,7 @@ class UserInterface(object):
 
     def mouseMotionDashboard(self,x,y):
         if self.today_reminder == None: return None
-        for index in range(len(self.today_reminder.button_list)):
-            button = self.today_reminder.button_list[index]
-            if button.WithinRange(x,y):
-                if self.today_reminder.status_list[index] == True:
-                    button.displayed_icon = button.extra_icon
-                else:
-                    button.displayed_icon = button.alter_icon
-            else:
-                if self.today_reminder.status_list[index] == True:
-                    button.displayed_icon = button.extra_icon
-                else:
-                    button.displayed_icon = button.icon
+        self.today_reminder.mouseMotion(x,y)
 
     def mouseMotionEdit(self,x,y):
         self.Text_Editor.mouseMotion(x,y)
@@ -329,6 +323,7 @@ class UserInterface(object):
 
     def timerFired(self,time):
         self.timer += 1
+        self.Voice_Assistant.timerFired()
         if self.VA_refresh_time == self.timer:
             self.Voice_Assistant.refresh()
             self.timer = 0
@@ -356,7 +351,14 @@ class UserInterface(object):
         self.drawMainBarButtons(screen)
         self.Voice_Assistant.redraw(screen)
 
+    def drawDashboardTitle(self,screen):
+
+        line = "To-do List"
+        screen.blit(self.myFont18Bold.render(line, 1, self.orange),
+                    (self.MainBarButtonWidth+60, 50))
+
     def redrawDashboard(self,screen):
+        self.drawDashboardTitle(screen)
         if self.today_reminder == None: return None
         self.today_reminder.Draw(screen)
 
@@ -390,12 +392,14 @@ class UserInterface(object):
 ### update ###
     def VoiceAssistantButtonUpdate(self):
         button = self.voiceAssistantButton
-        if button.status == True:
+        if self.Voice_Assistant.va_activated == True:
             button.color = self.white
             button.displayed_icon = button.extra_icon
 
     def TextEditorUpdate(self):
         self.Text_Editor.updateDiary(self.Voice_Assistant)
+        if self.Text_Editor.mode == "display":
+            self.Voice_Assistant.dl_activated = False
 
     def UpdateAll(self):
         self.VoiceAssistantButtonUpdate()

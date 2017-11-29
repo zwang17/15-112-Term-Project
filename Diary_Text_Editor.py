@@ -111,7 +111,7 @@ class TextEditor(object):
         if self.mode == "edit":
             button = self.diarySaveButton
             if button.WithinRange(x, y):
-                self.UI.Voice_Assistant.SaveDiary(self.Diary)
+                self.UI.Voice_Assistant.SaveDiary()
                 self.mode = "display"
 
                 # for testing purposes
@@ -146,8 +146,6 @@ class TextEditor(object):
             line = self.text_list[index]
             screen.blit(self.UI.myFont15.render(line, 1, (0,0,0)),
                         (canvas_x_left+y_gap, canvas_y_up + (index+1)*y_gap))
-        for tag_icon in self.tag_icon_list:
-            tag_icon.Draw(screen)
 
         if self.mode == "edit":
             self.diarySaveButton.Draw(screen)
