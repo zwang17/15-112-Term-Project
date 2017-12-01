@@ -2,920 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/ Meaning , Feces" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/ Zero-width joiner , Sign , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Dice , Typography , Unicode ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Nut , Screw , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Saint Barthélemy , Midas , RS Roasted Gram Mills , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Symbol , PicsArt Photo Studio , Sleep .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Telephone ,  , 98561 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Traffic light ,  , Intersection .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/, Traffic sign , Symbol ,  ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/2017 JordanCon , 2018 JordanCon , Costume , The Wheel of Time , Fan convention , Award .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/AEK Athens F.C. , Unicode , Sign , Universiade , Football .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Adobe Illustrator , Adobe Photoshop , Flat design , Software , Typeface , Sanibel Captiva Community Bank .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/African elephant , Indian elephant , Bactrian camel , Dromedary , Elephant .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Airplane , Aircraft , Light aircraft , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Airplane , Flight , Aircraft , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Airplane , Unicode , WhatsApp , Clip art .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Akita , Shiba Inu , Siberian Husky , Dog breed , Puppy .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Algeria , Flag , Flag of Algeria , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Alliance of Valiant Arms , Slot machine , Casino , Gambling .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Altare della Patria , Flag of Italy , Icon , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ambulance , Emergency medical , Paramedic , Emergency vehicle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/American Samoa , United States of America , Samoa , Flag of American Samoa , Flag of Samoa .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Amphora , Unicode , Trophy , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Anchor , Mavic , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Andorra , Flag of Andorra , Flag , National flag , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Angkor , Flag of Cambodia , Flag , Khmer language , Khmer Empire .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Angola , Flag of Angola , Flag , National flag , Flag of Zambia .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ant , Qing'er , Meaning , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Antenna , Image , Symbol , Unicode , Wi-Fi .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Antigua , Barbuda , Flag of Antigua and Barbuda , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Apple , Image , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Apple , Unicode , Apple , Google .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Argentina , Inca Empire , Sun of May , Inti , Solar deity , Flag of Argentina .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Aruba , Flag of Aruba , Flag , Flag of Antigua and Barbuda .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Astronaut , Human skin color ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Atom , Vector graphics , Symbol , Chemistry , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Australia , Flag of Australia , Flag , Flag of New Zealand , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Australia , Flag of Australia , Flag , Flag of New Zealand .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Australia , Flag of Australia , Flag , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Australia , Koala , Unicode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Auto racing , Car , Racing , Formula One .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Avocado , Tasty the Cookbook , Unicode , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/BTS , Chicken , Image" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Backpack , Unicode , Portable Network Graphics , Satchel .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bacon , Tasty the Cookbook , Unicode , EXO .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Badminton , Shuttlecock , Racket , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bahamas , Flag of the Bahamas , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bahrain , Flag of Bahrain , Flag , Flag of Azerbaijan , Flag of Austria .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bald eagle , Eagle , Unicode , Message .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ball , Football , Football , Ball , Clip art .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ball , Human skin color , Light skin , Bouncy ball .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Balloon , Balloon ,  , Clip art .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ballot , Ballot box , Election , Elections to the European Parliament , Aarhus C .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Banana , SMS , Food , Text messaging" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bank , Meaning , Sticker , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bar chart , Chart , Area chart , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Barbados , Flag of Barbados , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Baseball , Thumb signal , Information , Baseball .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Baseball cap , Unicode , Baseball , Android Oreo , Character encodings in HTML .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Basse-Terre , Flag of Guadeloupe , Flag , Overseas region , National flag , Flag of France .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bat , Front and back ends , npm , GitHub .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bathtub , Light skin , Shower , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Battery , Portable Network Graphics , Unicode , Battery indicator .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Beach , Umbrella , Unicode , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bear , Ni , To .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Beer , Beer glassware , Mug , Coffee cup .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Belarus , Flag of Belarus , Flag , Flag of Belize .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bell , Meaning , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bellhop , Unicode , Connection string , Data source name .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Benin , Flag of Benin , Flag , National flag , Benin–Burkina Faso border .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bhutan , Flag , Flag of Bhutan , National flag , Flag of Turkmenistan .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Billiard ball , Eight-ball , Ball , Cue sports , Blackball .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bird , SMS , Sticker , WhatsApp .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Birthday cake , Torta , Torte , Birthday , Chocolate cake , Cake .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bissau , Guinea , Flag of Guinea-Bissau , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Black , Human skin color , Dark skin , Light skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Blu-ray disc , Optical disc , Floppy disk , Compact disc .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Boat , Motorboat , PicsArt Photo Studio , Boating .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bolivia , Argentina , Chile , Flag of Bolivia .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bomb , Meaning , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bonaire , Flag of Bonaire , Flag , Flag of Cambodia , National flag , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Book , Meaning , Heart , Reading .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Book , Reading , Meaning , Unicode , Paper .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Book , The Bedlam Stacks , Reading , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Boot , Woman , Meaning , Unicode , Shoe .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bosnia and Herzegovina , Flag of Bosnia and Herzegovina , Flag , Flags of the World , Flag of Andorra .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Botafogo de Futebol e Regatas , Flag , Liberia , Idea .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Botswana , Flag of Botswana , National flag , Flag , Pin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bouvet Island , Iceland , Flag , Flag of Iceland , Clipperton Island .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bow and arrow , Arrow , Archery , Huawei P9 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bowling , Game , Bowling pin , Ball .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Box , Cardboard box , Unicode , Ballot box .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Boxing glove , Boxing , Floyd Mayweather Jr. vs. Conor McGregor , Glove .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Boy , Meaning , Child , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Brazil , Flag of Brazil , Flag , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bread , Toast , Food , Loaf .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Breakfast ,  , Food , Spaghetti , Morning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Breakfast , Cooking , Fried egg , Frying , Frying pan .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Breast , Breast prostheses , Silicone ,  , Bra .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Briefcase , Unicode , Health insurance ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/British Virgin Islands , Tristan da Cunha , Anguilla , Ascension Island , Flag of the British Virgin Islands , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Broccoli , Unicode , Food , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Broken heart , Heart , Love , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Brontosaurus , Sauropoda , Dinosaur , Diplodocus .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Brunei , Flag of Brunei , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Building , Unicode , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bulawayo , Flag of Zimbabwe , Flag , AfroBasket 2015 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bulgaria , Flag , Flag of Bulgaria , Meaning , Flag of Bangladesh .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Burrito , Wrap , Food , Mexican cuisine .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Burundi , Flag of Burundi , Flag , Streaming media , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bus , Bus stop , Trolleybus , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bus , Car ,  , Trolleybus .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Bus , Car , Colombia , Motor vehicle , Minibus .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Butterfly , Monarch butterfly , Unicode , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/CNH Global , Tractor , Unicode , Road .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cactus , Sticker , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Calavera , Typography , Unicode , Font , Halloween .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Calendar , Time , Information , English language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Calling You , PicsArt Photo Studio , Sign , Unicode , Suit .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Camera , Image , Photograph , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cameroon , iOS , WeChat , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Camping , Sticker , Unicode , Lyubo Gorod .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Canada , Flag of Canada , Flag , Icon , National flag , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Canada , Flag of Canada , Maple leaf , Flag of Quebec , Flag of Alberta , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Canary Islands , Flag of the Canary Islands , Flag ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Candle , Meaning , BTS , Object , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Candy , Caramel , Sign , Sugar candy .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Captain America , Shield , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Car ,  , Taranto , Car door .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Car , Articulated vehicle , Truck , Motor vehicle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Car , Police car , Police , Motor vehicle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Car , Truck , Motor vehicle , Delivery .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Carbon footprint , Footprint , Image" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Carp , Windsock , Children's Day , Koinobori .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Carrot , Fried egg , Food , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cat , Smile , Smirk , Face .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cat , Whiskers , Red fox , Dog .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Caterpillar Inc. , Vivaldi , Insect , Samsung Galaxy S4 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cattle , Unicode , SMS , Message .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cayman Islands , Flag of the Cayman Islands , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Central African Republic , Chad , Flag , Flag of the Central African Republic .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cerebrum , Thought , Unicode , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chain , Unicode , Metal , Object .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chair , Seat , Android Oreo , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Champagne , Prosecco , Sparkling wine , Wine , Bottle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cheese , Custard , Layer cake , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cherry ,  , Yu , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cherry blossom , Cerasus , Blossom , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chicken ,  ,  , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chicken , Poultry , Chicken meat , Eating , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chile , Logo , FIRST Lego League Jr. , Flag of Chile , Chile national football team .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/China , Flag of China , Flag , Flag of Singapore , Flag of Austria .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chipmunk , Squirrel , Cat , Tree squirrel .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chocolate bar , Chocolate , Hershey bar , Chocolate cake .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chocolate chip cookie , Cookie , Food , Rodízio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Chopsticks , Sign , Unicode , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Christmas Island , Cocos (Keeling) Islands , Clipperton Island , Flag , Flag of the Cocos (Keeling) Islands , Flag of the Cook Islands .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Christmas Island , Cocos (Keeling) Islands , Flag of Christmas Island , Flag , Flag of Norfolk Island .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Church , SMS , Sticker , Gmail .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cinqueterre , Drawing pin , Meaning , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Circus , Image , Art , Clown .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Clamp , Unicode , Screw , C-clamp .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Clapperboard , Film , Image , Object .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Clemson , Unicode , Android Oreo , Requests .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Climbing , Rock climbing , Meaning , Sports .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Clip art , Icon , Button , Openclipart , Vector graphics , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Clip art , Image , Openclipart , Summer , Vector graphics , Happy Sun 7 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cloud , Gmail , SMS , Message , Google Analytics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cloud , SMS , Email , Sticker , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cloud , Thunder , Lightning , Rain , Cumulonimbus .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Coat , Overcoat , Jacket , Sleeve .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cocktail , Cocktail garnish , Mai Tai , Harvey Wallbanger , Orange juice , Juice .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cocktail , Martini , Cocktail garnish , Daiquiri , Smoothie , Beer .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Coconut , Meaning , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Coffee , Doppio , Tea , Cappuccino , Hot chocolate .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Coffin , Unicode , Death , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Colombia , Flag of Colombia , Flag , Icon , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Common sunflower , Sunflower seed , Seed , Human .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Comoros , Flag of the Comoros , Regional Indicator Symbol , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Computer keyboard , Object , Information , Meaning , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Confetti , Ball , Paper , Party .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Congo , Democratic Republic of the Congo , Congo River , Flag of the Democratic Republic of the Congo , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Congo , Democratic Republic of the Congo , Congo River , Flag of the Republic of the Congo , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Construction , Building , Unicode , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Construction , Unicode , Architecture .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Construction worker , Light skin , Dark skin , Human skin color .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Controlled-access highway , Highway , Unicode , Android Oreo .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Convenience store , Convenience , Grocery store , Shop .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Corn on the cob , Maize , Ear , Sweet corn .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Costa Rica , Flag of Costa Rica , Flag , Flag of Belgium , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cow's milk , Yogurt , Constipation , Gut flora , Intestine , Mug .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Crab , Symbol , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Crayon , Unicode , Meaning , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Credit card , Visa Debit , Credit ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cricket , Unicode , Cricket bat , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Crocodile , Alligator , Samsung Galaxy S4 , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Croissant , Breakfast , Coffee , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Crystal ball , Crystal , Divination , Future .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Crème caramel , Custard , Flan , Caramel .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cuba , Flag of Cuba , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cucumber , Cucumber Salad , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Curaçao , Flag of Curaçao , Flag , Papiamento , Flag of Aruba .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Cyprus , Flag of Cyprus , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Czech Republic , Flag , Flag of the Czech Republic , Czech Language , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dance , Female , Woman , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dango , Oden , Mochi , Japanese curry , Onigiri , Japanese Cuisine .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Deer , Icon , Clip art .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Denmark , Flag of Denmark , Flag , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Desert , Unicode , Meaning , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Detective , Zero-width joiner , Human skin color , Android Nougat .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Diego Garcia , Flag , Regional Indicator Symbol , Flag of the British Indian Ocean Territory .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Distillation , Alembic , Alchemy , Acid .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dollar sign , Currency , United States Dollar , Money .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dolphin , Whale , PicsArt Photo Studio , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Domestic pig , Cat , Pig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Domestic rabbit , Easter Bunny , European rabbit , Rabbit , Pet .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Domestic rabbit , Easter Bunny , Rabbit , European rabbit .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dominica , Flag of Dominica , Flag , National flag , Flag of the Dominican Republic .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dominican Republic , Flag of the Dominican Republic , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Don Bradman Cricket 17 , Cricket , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Donburi , California roll , Cooked rice , Asian cuisine , Rice .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Doughnut , Chocolate-coated marshmallow treats , Unicode , Chocolate .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dragon , Face , Meaning , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dragon , Sticker , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Drawing , Hamster , Whiskers , PicsArt Photo Studio , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dromedary , Bactrian camel , Unicode" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Dubai , Flag of the United Arab Emirates , Flag , Clip art , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Duck , Bird , Chicken , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Duck , Mallard , Goose , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Durga Puja , Smiley , Sign , Smile .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ear , Human skin color , Skin , BTS ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ecuador , Flag of Ecuador , Flag , Movistar Ecuador ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Egypt , Flag of Egypt , Flag , Coat of arms of Egypt , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Eiffel Tower , Tokyo Tower , Tower , pandas .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Eilat , Hadera , Netanya , Kiryat Gat , Rishon LeZion , Weather .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/El Salvador , Flag of El Salvador , Flag , Flag of the Dominican Republic .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/El Salvador , Flag of El Salvador , Flag of Nicaragua , Flag , Flag of the Dominican Republic .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/England , Flag of England , Union Jack , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Eritrea , Flag , Flag of Eritrea , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Estonia , Flag of Estonia , Flag , Septor Oy , Flag of the United States .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ethiopia , Flag of Ethiopia , Flag , Derg , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Eye , Sign , Mobile app , Graphics , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/FIFA 18 , Mouth , Symbol , Face .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fabrik Cycles , Afghanistan , Bicycle , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Factory , Unicode , Meaning , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Falafel , Kebab , Doner kebab , Gyro , Pita , Dürüm .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Family , Smiley , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Farmer , Zero-width joiner , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Faroe Islands , Flag , Flag of the Faroe Islands , Faroese language , Gallery of sovereign state flags .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Father Christmas , Tru &amp; Nelle , Christmas Day , Christmas tree , Vector graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fax , Unicode , Sign , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fencing , Unicode , Universiade , 1979 Summer Universiade .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ferris wheel , Wheel , Amusement ride , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ferry , Boat , Unicode , Ship .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ferry , Passenger ship , Ship , Passenger .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Field hockey stick , Hockey , Hockey stick , Ball , Field hockey .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fiji , Flag of Fiji , Flag , Union Jack .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Filing cabinet , Cabinetry , Unicode , Office .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Film , Film frame , Image , Photograph .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Film , Movie theater , Movie camera , Image , Movie projector .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Finland , Flag of Finland , Flag , Nordic Cross flag , Finnish language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fire engine , Fire , Car , Firefighter .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Firefighter , Smiley" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fireworks , SMS , Sparkler" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fish as food , Steemit , Fish , Fried fish .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fishing rod , Fishing , Spin fishing , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag , BTS , Unicode , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag , Flag of El Salvador , National flag , Flag of Honduras , Flag of Sierra Leone .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag , Flag of Luxembourg , Flag of El Salvador , National flag , Flag of Honduras .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag , Flag of Vanuatu , Flag of Australia , National flag , Flag of Yemen .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag , International maritime signal flags , International Code of Signals , Meaning , Pennon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag , Regional Indicator Symbol ,  , Côte d’Ivoire .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag of Armenia , Flag , Sticker , Email , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag of Belize , Flag , Flag of Uruguay , Flag of Iceland .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag of Bermuda , Flag , Regional Indicator Symbol , Flag of the Turks and Caicos Islands .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag of Malaysia , Flag , Regional Indicator Symbol , Mazda6 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flag of Syria , Flag , Flag of El Salvador , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flashlight , Torch , Meaning , Light .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Floppy disk , Disk storage , Unicode , Computer file .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flower , Blossom , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flower bouquet , Flower , Mother's Day , Love .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flush toilet , Toilet , Public toilet , Bathroom .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Flying saucer , Unidentified flying object , Unicode , Saucer .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Food , Dish ,  , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fork , Knife , Plate , Spoon , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fork , Knife , Spoon , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fortune cookie , Cheesecake , Cookie , Cupcake .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fountain , Symbol , Sign , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Four-leaf clover , Clover , Leaf , Luck .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Framed , Image , PicsArt Photo Studio , Painting .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/France , Aarhus , PicsArt Photo Studio , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/France , Flag of France , Flag , Flags of the World , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/French Guiana , Flag of French Guiana , Flag , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/French Polynesia , Flag , Flag of French Polynesia , Flag of France , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/French Southern and Antarctic Lands , Flag of France , Flag , Flag of French Guiana .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/French fries , Frying , English language , Tasty .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fried prawn , Tempura , Shrimp , Frying , French fries .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Frog , Meaning , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fruit , Kiwifruit , Unicode , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Fuel pump , Fuel , Gasoline , Fuel tank .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Funafuti , Flag of Tuvalu , Flag , Vector graphics , Shutterstock .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Futuna , Flag of Wallis and Futuna , Regional Indicator Symbol , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gabon , Gabon national under-23 football team , FC Girondins de Bordeaux , France Ligue 1 , Cardiff City F.C. .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Game controller , Video game , PlayStation 4 , Gamepad .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gear , Machine , Gear shaping , Technology .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Genesys , Light , Gel doc , Chemiluminescence , Fluorescence , Trivet .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Georgia , Flag of Georgia , Flag , Flag of Georgia , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Germany , Spring , Unicode , Illustration .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ghana , Flag of Ghana , Flag , National flag , Flag of Portugal .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Giant panda , Bear .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gibraltar , Flag of Gibraltar , Flag , Icon , National flag , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gift , Gift wrapping , Telegram , English language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gisborne , Discogs , Discography , Nose Hospital .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Glasses , Text messaging , Smiley , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Globe , Earth , World , Map .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Glove , Clothing , Boxing glove , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Goat , Sheep , Meaning , Cattle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Goblin , Smiley , Tengu , Duende .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Golf , Zero-width joiner , Sign , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Google+ , Icon , Portable Network Graphics , YouTube , Facebook , Google .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gorilla , Ape , Sticker ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Grape , Fruit , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Gray wolf , WhatsApp , Image , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Greece , Flag of Greece , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Greenland , Flag of Greenland , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Guam , Flag of Guam , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Guatemala City , Flag of Guatemala , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Guernsey , Flag of Guernsey , Flag , Flags of the World , Flag of Lebanon , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Guitar , Electric guitar , Sticker , Classical guitar .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Guyana , Flag of Guyana , Flag , Portable Network Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/HIT , Bullseye , Darts , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Haiti , Flag , Flag of Haiti , Flag of Barbados , Flag of Indonesia .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hamburger , Cheeseburger , McDonald's Big Mac , French fries .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hamburger , Eggplant , Vegetable ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hamburger , Japanese curry , Rice and curry , Curry , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hamburger , Oden , Steak , Fishcake , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hamburger , Rice cracker , Cracker , Rice .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hammer , Unicode , Meaning , Gavel .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hammer and pick , Hammer , Pickaxe , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hand , Thumb , Human skin color , Light skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Handbag , Bag , Coin purse , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Handbag , Bag , Wallet , Money bag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Handbag , Coin purse , Bag , Fashion accessory .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Handball , Universiade , Ball , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Happy Hour , Album , Song , Music , Spotify , Deodato 2 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hat , Cowboy hat , Sombrero , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Headphones , Unicode , Webdings , Wingdings .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Heart , Beating Heart , Love , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Heart , Heart , Unicode , Image , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Heart , Icon , Orange , Orange , Heart , Irn-Bru .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Heart , Photograph , Heart , Suit , Lightning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Heart , Unicode , Love , English language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hearts and arrows , Arrow , Meaning , Heart .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hedgehog , Unicode , Meaning , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Helicopter , Helicopter rotor , Unicode , Mrs Rainbow .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Herb , Sognsvann , Unicode , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hibiscus , Unicode , Meaning , YouTube .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/High voltage , Sign , Unicode , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/High-heeled footwear , Clothing , Shoe , Summertime Sadness .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hollywood , Image , Icon , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Holstein Friesian cattle , Dairy cattle , Unicode , Calf .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Honduras , Flag of Honduras , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Honey , Honeypot ,  , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Honey bee , Bee , Unicode , Te .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hong Kong , Flag of Hong Kong , Flag , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hong Kong , TVB , Broadcasting , Television , Terrestrial television , Asia Television .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Horse , Carousel , Pony , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Horse , Donkey , Pony , Foal .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Horse , Icon , Meaning , Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Horse , Icon , Symbol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hospital , Trillian , Unicode , Health Care .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hot dog , South Korea , BTS , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hotel , Love hotel , Lodging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hotel Hvězda , Unicode ,  , Na , Ni .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/House , Home , Image" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/House , Unicode , Sign , Building .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human , Human skin color , Vampire , Light skin , Skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Dark skin , Light skin , Human , Human skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Human , Dark skin , Light skin , Skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Human , Light skin , Skin , Veil .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Human , Skin , Light skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Bed , Skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Dark skin , Black .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Dark skin , Skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Dark skin , Zero-width joiner .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Human , Skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Human skin , Human , Skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Man , Zero-width joiner .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Skin , Human .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Light skin , Skin , Human skin , Fitzpatrick scale .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Man , Light skin , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Human skin color , Weight training , Light skin , Dark skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Hungary , Flag , Flag of Hungary , Flag of Honduras .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ice cream , Doughnut , Cream , Ice cream cone , Frozen custard , Soft serve .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ice cream , Doughnut , Cream , Shaved ice , Sorbet .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ice cream , Shaved ice , Snow cone , Granita , Slush .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ice hockey , Ice hockey stick , Hockey stick , Hockey puck , Ice .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ice skating , Ice skate , Universiade , Ice .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Iceland , Flag of Iceland , Flag , National flag , Flag of France .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Blue , Portable Network Graphics , Clip art , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Deezer , Portable Network Graphics , Download , Computer font , Spotify .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Diamond , The Noun Project , Portable Network Graphics , Transparency , Scalable Vector Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , ICO , Icon design , Iconfinder , Thumbnail , Menu .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Portable Network Graphics , ICO , Vector graphics , Computer file .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Portable Network Graphics , Scalable Vector Graphics , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Portable Network Graphics , Scalable Vector Graphics , Vector graphics , Encapsulated PostScript , Psd .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Icon , Scalable Vector Graphics , Unicode , Vector graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Idea , Unicode , Rocket , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Illustration , Image , Vector graphics , Stock illustration , Baguette , Clip art .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Image , Illustration , Photography , Stock photography , Photograph .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Index card , Cardfile , Business card , Rolodex .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/India , Flag of India , Regional Indicator Symbol , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/India , iStock , Royalty-free , Stock photography , Vector graphics , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Iran , Flag of Iran , Flag , Iranian Revolution .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Iraq , Flag of Iraq , Flag , Flag of Honduras .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Island , Unicode , Desert island , Webdings .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Isle of Man , Flag of the Isle of Man , Flag , Flag of Gibraltar , Flag of Guernsey .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Jack-o'-lantern ,  , Halloween" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Jamaica , Flag of Jamaica , Flag , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Japan , Flag of Japan , Android , Virtual private network , Japanese occupation of Singapore .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Jeans , Product design , Blue , Leggings , Product , Font .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Jersey , Flag , Regional Indicator Symbol , Flag of Jersey .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Jiaozi , Varenyky , Empanada , Polish cuisine , Dumpling .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Joker , Joker , Playing card , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Jordan River , Jordan , Flag , Flag of Jordan , Palestine .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Joystick , Unicode , Text messaging , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kaaba , Great Mosque of Mecca , Meaning , Hajj .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kazakhstan , Leeds , Logo , Flag of Kazakhstan , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kenya , Flag of Kenya , Flag , Icon , Vector graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Key , Lock , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Khartoum , Flag of Sudan , Flag , South Sudan , Flag of South Sudan .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kimono , Yukata , Unicode , Clothing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kingstown , Grenadines Parish , Flag of Saint Vincent and the Grenadines , Grenadines , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kiss , Sticker , Smiley , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Knife , Dagger , Bowie knife , Unicode , Knife throwing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Knife , Utility knife , Kitchen knife , Throwing knife , Hunting knife .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Kumbhalgarh , Flag of India , Flag , Flag of Niger , Niger .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ladybird , Beetle , Unicode , Flashcard .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Laos , Typography , Flag of Laos , Flag , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Laptop , Personal computer , Unicode , Computer monitor .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Leaf , Autumn leaf color , Autumn , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Leaf , Unicode , Meaning ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lebanon , Flag of Lebanon , Flag , National flag , Illustration .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lebap Region , Flag of Turkmenistan , Flag , Flag of Yemen .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lemon , Meaning , Unicode , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Leopard , Lion , Cheetah , Tiger .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lesotho , Flag of Lesotho , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Libya , Flag of Libya , Meaning , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Liechtenstein , Flag of Liechtenstein , Flag , National flag ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light , Sunlight , Weather , Icon , Cloud , Iconfinder .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light skin , Dark skin , Human skin color , Shrug .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light skin , Human skin color , Dark skin , Human .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light skin , Lotus position , Human , Person , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light skin , Man , Zero-width joiner , Woman .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light skin , Zero-width joiner , Human skin color , Dark skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Light skin , Zero-width joiner , Human skin color .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lion , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lipstick ,  , Cosmetics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lisbon , Flag of Portugal , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lithuania , Flag of Lithuania , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lizard , Gecko , Reptile , Common Iguanas .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Logo , Brand , Product design , Triangle , Angle , Font .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Logo , Circle , Area , Point , Font , Blue .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Logo , Flag of Djibouti , Star , Starman - Original Single Mix .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lollipop , Stick candy , Sign , Candy .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/London , A-Safe - UK , Logo , A-Safe (UK) , Safety barrier , Company .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/London , Castle , Japanese castle , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Loudspeaker , Megaphone , Public address system , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Loudspeaker , Portable Network Graphics , Sound , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Love hotel , Hotel , Love .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Love letter , Love , Message , Image , Letter .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lunar eclipse , Moon , Lunar phase , Nose , New moon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Lusaka , Flag of Zambia , Flag , Clip art , Flag of Swaziland .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Luxembourg , Flag , Flag of Luxembourg , Flag of Kyrgyzstan , English language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Luxury yacht , Motorboat , Boat , Unicode , Yacht .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Macau , Flag , Flag of Macau , Gallery of sovereign state flags , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Madagascar , Flag of Madagascar , SCA Middle East &amp; East Africa HQ , Website .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Magnifying glass , Image , Unicode , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Malawi , Flag of Malawi , Flag , Circle , Laos .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Maldives , Flag of the Maldives , Sign , Font , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mali , Flag of Mali , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Map , World map , World , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Marshall Islands , Flag of the Marshall Islands , Northern Mariana Islands , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Martial arts , Elite Martial Arts Richmond , Karate , Judo , Keikogi .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Martinique , Flag of Martinique , Flag , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Massage , Human skin color , Skin , Face , Facial ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mastodon , Fediverse , Tag cloud , Android , Instance .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mauritius , Flag of Mauritius , Flag , National flag , Flag of Uruguay , Flag of Venezuela .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mayotte , Dependent territory , flag of Mayotte , Flag and coat of arms of Mayotte , Overseas region .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Drum , Sign , Mastodon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Idea , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Sign , Message , Typography .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Symbol , Sign" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Unicode , Information , Canoe .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Unicode , Message , English language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Unicode , Sign , Information , Text .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Unicode , Sign , Language , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Meaning , Wine glass , Sign , Toast , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Medal , Unicode ,  , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Megaphone , Loudspeaker , Sound , Unicode , Public address system .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mermaid , React , Merman , Zero-width joiner .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mexico , Flag of Mexico , Flag , Mexican cuisine .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Microphone , I Love You , Unicode , www.30secondstomars.com .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Microphone , Unicode , Studio , Radio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Milky Way , Sky , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Minesweeper , Microsoft Minesweeper , Endless Minesweeper , Endless Minesweeper Free , Oleksandr Filipenko , Disaster recovery .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mobile phone ,  , PicsArt Photo Studio , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Moldova , Flag of Moldova , Flag , Shutterstock , Vector graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mongolia , Flag of Mongolia , Flag , National flag , Clip art .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Monkey , Sign , Smile , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Monorail , Train , Rail transport , Tram .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Montenegro , Serbia and Montenegro , Flag of Montenegro , Coat of arms of Montenegro , Coat of arms .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Moon , Tsukimi , Lunar phase , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mosque , Islam , Unicode , Allah .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Motorcycle , Car , Unicode , Scooter .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mount Fuji , Antigua , Alps , Croatia .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Movie camera , Camera , Film , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mozambique , Flag of Mozambique , Flag , National flag , Flag of Myanmar .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mrs. Claus , Christmas Day , Illustration , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Munich , Augsburg , West Germany , Flag of Germany , Flag , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Mushroom , Meaning , Unicode , Alive .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Musical note , Barber , Barber's pole , Hair .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Musical note , Icon , Music , NoteEdit , Portable Network Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Musical note , Music , Eighth note , Idea .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Musical note , Sheet music , Music , Image , Staff .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Myanmar , Flag , Flag of Myanmar , National flag , Flag of Samoa , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Myanmar , Flag of Myanmar , Flag , National flag , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Médaille militaire , Military Medal , Unicode , Medal .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/NBA , Universiade , Basketball , Ball , Basketball .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/NFL , T-shirt , American football , NFL regular season .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Nail polish , Human skin color , Nail , Dark skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Najd , Flag of Saudi Arabia , Kingdom of Hejaz , Emirate of Nejd , Sultanate of Nejd .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Nakhal Fort , Flag of Oman , Flag , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/National park , Park , Unicode , River .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Necktie , Shirt , Unicode , Clothing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Nepal , Flag of Nepal , Flag , Flag of Nauru .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/New Caledonia , Flag of New Caledonia , Flag ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/New Zealand , Flag of New Zealand , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Newspaper , Meaning , News , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Newspaper , Unicode , Meaning , Object .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Nigeria , Flag of Nigeria , Flag , Republic of Ireland , Flag of Ireland .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Night , Bridge , Unicode , Evening .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Night , Sunset , Star , Night sky .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Niue , Flag , Flag of Niue , Icon , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Norfolk Island , Norfolk Island pine , Norfolk , Clip art , Pine , Flag of Norfolk Island .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/North Korea , South Korea , Flag of North Korea , Flag , Flag of South Korea .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Northern Mariana Islands , Mariana Islands , Flag of the Northern Mariana Islands , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Northern giraffe , Giraffe , Sign" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Norway , Flag of Norway , Flag , Flag of Iceland .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Norway , Flag of Norway , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Norway , Flag of Norway , Flag , Norwegian Language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Nose , Human skin color , Drawing , Light skin , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Notebook , Object , Unicode , Tagged , Approved Drug Products with Therapeutic Equivalence Evaluations .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Object , Microscope , Sticker , SMS .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Object , Text messaging , Unicode , Meaning , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Octopus , Illustration , Vector graphics , Royalty-free , Cartoon , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ogre , Oni , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Orlando City Stadium , Orlando City SC , MLS , Orlando City B , Orlando City SC , D.C. United .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ouagadougou , Flag of Burkina Faso , Military of Burkina Faso , Army , Military , Air force .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Outlast , Malta , Google Play , Android , Google .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Owl , Meaning , Unicode , Owl .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paella , Meaning , Food , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pagadian , Flag of the Philippines , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/PaintShop Pro , GitHub , Unicode , npm , Clip Studio Paint .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paintbrush , Unicode , Brush , Paintbrush .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Palau , Flag of Palau , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Palestinian territories , State of Palestine , Flag of Palestine , Palestinians , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Palette , Paint , Mural , Art , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Palm Springs Aerial Tramway , Helicopter rotor , Helicopter , Airplane .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Panama City , Flag of Panama , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pancake , Dish , Food , Dessert .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paper , Fountain pen , Pen , Ballpoint pen , Pencil .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paper , Icon , Portable Network Graphics , Scalable Vector Graphics , Encapsulated PostScript , Transparency .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paper clip , Meaning , Paper , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paper lantern , Paper , Lantern , Izakaya , Roof lantern .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paraguay , Flag of Paraguay , Flag , National flag , Flag of Peru .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Parque de Atracciones de Madrid , Paris , Roller coaster , Amusement park .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Party , Party popper , Smiley" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Paw , Dog , Printing , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Peace , Pigeons and doves , Doves as symbols , Unicode , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Peach , Fruit , Apple , Peach .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Peanut , Unicode , Meaning , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pear , Hamburger , Fruit , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pen , Ballpoint pen , Fountain pen , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pen , Fountain pen , Ballpoint pen , Padlock .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Penguin , Icon , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Performing arts , Art , Image , Performance .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Peru ,  , Flag of Peru , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Photograph , Unicode , Joystick , Father , Unicode Consortium .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Piano , Musical keyboard , Keyboard , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pico Basilé , Bata , Malabo , Guinea , Flag of Equatorial Guinea , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/PicsArt Photo Studio , WhatsApp , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pig , Trillian , PicsArt Photo Studio , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pine , Kadomatsu , Unicode , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pineapple , Hamburger , Unicode , Fruit .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pistol , BTS , Revolver , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pizza , Sticker , Restaurant , The Pizza Company .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Place of worship , Worship , Sign , Cult .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pokémon GO , Hourglass , Unicode , Snapchat .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Poland , Flag of Poland , Flag , Idea , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Poodle , Pomeranian , GIF , Portable Network Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Popcorn , Popcorn Time , Unicode ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Port Moresby , Australia , New Guinea , Flag of Papua New Guinea , O Arise, All You Sons , Country .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Portable Network Graphics , Bookmark , Mastodon , Computer file , Scalable Vector Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Portable Network Graphics , Hairstyle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Portable Network Graphics , Pencil , Icon , Drawing , Paper , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Post box , Mail , Email , Paper .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Post horn , French horn , Bugle , Horn .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Post office , Japanese postal mark , Mail , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Post office , Mail , Correos , Post Office Ltd .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pot, Ceramic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Potato , Food , Frittata , Mashed potato .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Praia , Flag of Cape Verde , Flag , Cuba , Diego Garcia .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Prayer beads , Prayer , Rosary .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pregnancy , Light skin , Unicode , Human skin color .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pretzel , Text messaging , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Printer , Inkjet printing , Paper , Printing , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pristina , Flag of Kosovo , Flag , Flag of Albania .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Product design , Brand , Red , Product , Angle , Font .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Product design , Finger , Brown , Font , Design , Product .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Product design , Red , Product , Clip art , Design .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Product design , White , Product , Shoe , Walking , Design .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Puerto Rico , Flag of Puerto Rico , Flag , Flag of Cuba .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Pumpkin pie , Apple pie , Tart , Pie , Cheesecake .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Puppy , Dog , Face , Dog breed .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Purple , Heart , Sign , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Qatar , Flag of Qatar , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Radio , Unicode ,  , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rail transport , Mountain railway , Mountain railways of India , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rail transport , Train , Track , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rail transport , Tram , Train , Car , Railroad car .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rail transport , Wuppertal Suspension Railway , Monorail , Train , Cable car , Suspension railway .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rain , Cloud , Sticker , SMS .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rainbow , Wo , Media controls , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ramen , Noodle , Ichiran ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rat , Computer mouse , Domestic rabbit , Mouse .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rat , Domestic rabbit , Computer mouse , Unicode , Whiskers .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rat , Mouse , Unicode , Miscellaneous Symbols and Pictographs .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Recycling symbol , Recycling , Vector graphics , Logo , Symbol , Stock photography .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Red , Product design , Circle , Font , Design , Product .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Red Wine , Wine , Wine glass , Champagne , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Red fox , Unicode , Silver fox , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Redbubble , Logo , Advertising , Product , Sticker , Merchandising .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Regional Indicator Symbol , Flag of Belgium ,  , Belgium .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Republic of Ireland , Flag of Ireland , Flag , Flag of Nigeria .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Republic of Ireland , Shamrock , Saint Patrick's Day , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Republic of Macedonia , Flag of the Republic of Macedonia , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ribbon , Awareness ribbon , Orange ribbon , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ribbon , Unicode , Awareness ribbon , Reminder .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rice , Wheat , Grasses , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Robot , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Romania , Flag of Romania , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Romania , Librairie Michel Fortin Inc , Mali , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rooster , Chicken ,  , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rooster , Chicken , Tapatalk , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Rowing , Rowing , Dark skin , Human skin color .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ruler , Portable Network Graphics , Sticker , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ruler , Unicode , Portable Network Graphics , Scalable Vector Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Réunion , Samsung Galaxy Note 7 , Flag of Réunion , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sail , Sailboat , Boat , Sailing ship , Yacht .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Saint Kitts , Nevis , Flag of Saint Kitts and Nevis , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Saint Lucia , Regional Indicator Symbol , Flag of Saint Lucia , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Saint Pierre and Miquelon , Flag , Flag of Saint Pierre and Miquelon , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Salad , Breakfast , Food , Meal .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Samsung Galaxy S8 , LG G5 , Fire , LG G3 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sandal , Woman , Clothing , Shoe .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Santa Claus , Father Christmas , Christmas Day , The Santa Clause .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Satellite , Unicode , Communications satellite , Product .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Satellite dish , Antenna , Satellite , Parabolic antenna , SMS .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Saxophone , Meaning , Text , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Scarf , Clothing , Necktie , Headscarf .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/School , Sticker , Education .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Scientist , Human skin color , Light skin , Zero-width joiner .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Scissors , The Scissors , PicsArt Photo Studio , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Scooter , Bicycle , Kick scooter , Wheel .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Scorpion , Scorpius , Astrological sign , Animals .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Scotland , Flag of Scotland , Flag , Stock photography .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Screw , Plastic , Self-tapping screw ,  , Screw thread , Spacers and standoffs .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Seashell , Spiral , T-shirt , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Seedling , Bean sprout , Sign , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Senegal , Flag , Flag of Senegal , Badge , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Serbia , Flag of Serbia , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Seychelles , Flag of Seychelles , Flag , Mastodon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shark , WhatsApp , Requiem shark , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sheep , Eid al-Fitr , Eid al-Adha , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sheep , Eid al-Fitr , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shinto shrine , Shinto , Shrine , Torii .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ship , Meaning , Passenger ship , Cruise ship .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shiva , Natya Shastra , Hinduism , Parvati , Deity .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shoe , Footwear , Sneakers , High-heeled footwear .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shopping cart , Customer , Wikimedia Commons , Shopping .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shortcake , Strawberry , Tart , Birthday cake , Torta .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Shower , Meaning , Word , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sign , Meaning , Text messaging , Information , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sign , Photograph , Photobombing , Writing system , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sign , Unicode , Baby bottle , Information , Human skin color .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Singapore , Flag of Singapore , Flag , National flag , Flag of Spain , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sketch , Image , Unicode , Sketchbook , Drawing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ski , Skiing , Ski boot , Universiade .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Skiing , Meaning , Wikimedia Commons , To read between the lines .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Skull and crossbones , Bone , Skull , Calavera .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sled ,  , Toboggan , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Slovakia , Flag of Slovakia , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Slovenia , Slovenia national under-21 football team , UEFA European Under-21 Championship , UEFA European Under-17 Championship , Slovenia national under-17 football team .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Clown , Smile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Explosion , Meaning , iOS 11 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Face , Mouth , Smile .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Meaning , Unicode ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Ring , Wedding ring , Love .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Sticker , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Telegram , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Smiley , Unicode , Facebook Messenger , Red Flavor .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Snakes , Meaning , PicsArt Photo Studio , Drawing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sneakers , Shoe , High-heeled footwear , Clothing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Snout , Pig , Portable Network Graphics , Pig , Nose .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Snowboarding , Snowboard , Skateboard , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Snowflake , Vector graphics , Icon , Snow , Euclidean vector , Winter .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Snowman , Snow , BTS , Spring Day - Japanese ver. .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sock ,  , Unicode , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Solar eclipse , Cloud , Rain , Sunlight , Light .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Solomon Islands , Flag , Flag of the Solomon Islands , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Souq Al Mubarakeya , Al Turath Mall , Flag of Kuwait , Flag , Kuwait City .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/South Africa , Flag of South Africa , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/South Korea , Flag of South Korea , Flag , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/South Sudan , Sudan , Flag of South Sudan , Flag , Flag of South Africa .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Spain , Flag of Spain , T-Mobile myTouch 3G Slide , Flag , Coat of arms of Spain .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Speech , Meaning , Image" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Spider , Spider web , Vector graphics , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Spider , Spider-Man , Unicode , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Spoon , Bowl , Food , Glass .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Spruce , Evergreen , Pine , Tree .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Square academic cap , Graduation ceremony , Unicode , Cap .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sri Lanka , Flag of Sri Lanka , Flag , Flag of Sudan , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/St. George's , Flag of Grenada , Flag , Area code 473 , NOW Grenada .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Stadium , Star , Building , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Star , Meaning , Symbol , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Star , Sign , Vector graphics , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Star of David , Clip art , Star , Judaism , Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Star of David , Yellow badge , Star , Vector graphics , Clip art , Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Statue of Liberty , Central Park , Liberty , Statue .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Steak , Primal cut , Meat chop , Meat .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sticker , Explosion , Web page" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sticker , Flower ," afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sticker , SMS , Cloud , Email .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sticker , SMS , Meaning , Object .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sticker , Symbol , Meaning , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Stopwatch , Clock , Chronometer watch , Timer .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Straw , Mug , Drinking straw , Drink ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Strawberry , Fruit , Tasty , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Summertime Sadness , Photograph , Dress , Bad Romance .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sunglasses , Glasses , Smiley , Clothing .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sunrise , Mountain , Sky , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Surfing , Human skin color , Zero-width joiner , Dark skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Suriname , Icon , Flag of Suriname , Flag , Clip art , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sushi , Bento , Ramen , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sushi , Hamburger ,  , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sushi , Onigiri , Meaning , Flag , Quality .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sushi Mizutani , Flag , Flag of Egypt , Flag of El Salvador , Flag of Austria .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Swaziland , Flag of Swaziland , Flag , National flag , Flag of Venezuela .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sweden , 10538 Overture , Symbol , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sweden , Flag of Sweden , English language , Flag , Swedish language .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Sword , Kirito , Meaning , Crusades .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Symbol , SMS , Text messaging , Sticker , WhatsApp .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Synagogue , Judaism , Sign , Temple .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Syringe , Hypodermic needle , Blood , Blood test .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/São Tomé and Príncipe , Flag of São Tomé and Príncipe , Unicode , Regional Indicator Symbol , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/T-Mobile myTouch 3G Slide , Germany , France , Snail .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/T-shirt , Muscle , Biceps , Human skin color .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/T-shirt , Shirt , Clothing , Sleeve , Collar .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tabasco pepper , Chili pepper , Cayenne pepper , Peppers .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Table tennis racket , Table tennis , Unicode , Paddle ball .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tablespoon , Spoon , Unicode , Food , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Taco , Burrito , Mexican cuisine , Portable Network Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Taiwan , China , Blue Sky with a White Sun , Made in Taiwan , Kuomintang chairmanship election, 2016 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Taiwan , Flag , Flag of the Republic of China , National flag , Flag of China .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tajikistan , Flag of Tajikistan , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Take-out , Text messaging , Message , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tanabata , Bamboo , Meaning , Tanabata .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tangerine , Clementine , Satsuma Mandarin , Orange .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tanzania , Flag of Tanzania , Flag , Tokelau .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tasman Lake , Flag , Flag of New Zealand , National flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Taxicab , Car , Unicode , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tea , Coffee cup , Teacup , Coffee , Handle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tea , Cup drink , Cup , Sake , Drink , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Teacher , Pomona-Pitzer Sagehens women's basketball , Zero-width joiner , Hero image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Telescope , Symbol , Unicode , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Television , Ponmile , Image , Terrestrial television .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tennis , Racket , Tennis ball , Ball , Wimbledon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tent , Camping , Clemson , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Text messaging , Smiley , Meaning , Thumb signal , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Thailand , Flag of Thailand , Flag , Thai language , Flag of Myanmar .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/The Evil Monkey , Monkey , Ape , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Thumb , Skin , Cheek , Human skin color , Breastfeeding , Mouth .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tiger , Cat , Lion , Leopard .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tiger , Lion , Whiskers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Timor-Leste , Tokelau , Flag , Flag of East Timor , Tobago .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Toast , Fast food , Sandwich , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tobago , Flag of Trinidad and Tobago , Flag , Trinidad and Tobago Film Festival .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Togo , Flag of Togo , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Toilet seat , Toilet , Unicode , Meaning , Name .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tokelau , Flag , Flag of Tokelau , National flag , Gallery of sovereign state flags .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tomato , Meaning , Food , Apple .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tonga , Flag of Tonga , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Top hat , Wikimedia Commons , Image , Unicode , Hat .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tork , Voyenpro, Internet-Magazin , Flag of Russia , Voyentorg , Tricolour , Coat of arms of Russia .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tornado , Sticker , Cloud , Tropical cyclone .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tote bag , Shopping , Shopping bag , Bag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Train , High-speed rail , Shinkansen , Light rail .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Train , Rail transport , Light rail , Tram .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Train , Vehicle , Car , Locomotive , Steam locomotive .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tram , Vienna , Vienna Ring Road , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tristan da Cunha , Ascension Island , British Virgin Islands , Anguilla , Flag of the British Virgin Islands .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tristan da Cunha , Ascension Island , British Virgin Islands , Anguilla , Turks and Caicos Islands , Flag of the British Virgin Islands .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tristan da Cunha , Saint Helena , Flag , Flag of the Cayman Islands .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Trophy , Vince Lombardi Trophy , Sign , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tropical fish , Fish , Tropics , Bird .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Trumpet , Musical instrument , Brass instrument , Flute .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Turkey , T-shirt , Thanksgiving , Portable Network Graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Turtle , Sticker ," afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Tyrannosaurus , Velociraptor , Triceratops , Dinosaur .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Uganda , Flag of Uganda , Flag , Flags of the World .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ukraine , Flag of Ukraine , Flag , National flag , Ukrainian State .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Umbrella ,  , Unicode , Rain .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Umbrella , Rain , Meaning , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Umbrella , Rain , Unicode , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Umbrella , Unicode , SMS , Sticker .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode ,  , Meaning , Association of Radio Industries and Businesses .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , BTS , Fog , WINNER , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Canning , Sign , Food , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Department store , Sign , Font .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Desktop computer , Typography , Information .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Garden roses , Google Analytics , PicsArt Photo Studio .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , GitHub , No , Dolphin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , House , Text messaging , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Image , Webdings , Wingdings .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Information , Sign , Heart .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Meaning , Petroleum , Object .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Meaning , SMS , WhatsApp , Snow .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Meaning , Sign , Information , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , MileyCyrus , Symbol , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , OK , Clip art , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Rhinoceros 3D , Whiskers , Character .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Sign , Meaning , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Smiley , Sign" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicode , Smiley , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Unicorn , Face , Clip art , Unicorn Face .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/United Kingdom , European Union , Flag of Europe , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/United Kingdom , Sign , Traffic sign , Regulatory sign , Image , Royalty-free .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/United States Dollar , United States one-dollar bill , United States one hundred-dollar bill , Dollar sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/United States Minor Outlying Islands , Flag of the United States , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/United States Virgin Islands , United States of America , Flag of the United States Virgin Islands , Icon , Vector graphics .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/United States of America , United Nations , Organization , United Nations Human Rights Council , United Nations Economic and Social Council .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Uruguay , Flag of Uruguay , Flag , Flag of the United States , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Uzbekistan , Manicure , Flag of Uzbekistan , Flag .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Valentine's Day , GIF , Love , Image , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Venezuela , Flag of Venezuela , Flag , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Video camera , Video , Image , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Violin , Image , Icon , Facebook .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Volcano , Unicode , Meaning , Lava .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Volleyball , Ball , Beach volleyball , Icon .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Vomiting , Meaning , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wales , Flag of Wales , Welsh Dragon , Flag , Dragon , Laws in Wales Acts 1535 and 1542 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Waste container , Waste ,  , Idea .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Watch , Meaning , Clock , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Water buffalo , Cattle , Ox , Dairy cattle .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Water polo , Human skin color , Light skin , Dark skin .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Watermelon , Food , Sign , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wave , Unicode , Text messaging , Image .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wedding , Heart , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Weighing scale , Information , Sign , Name .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Western Sahara , Flag , Flag of Western Sahara , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Whale , Dolphin , Humpback whale , Sperm whale .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wheelchair , Symbol , Sign , Accessibility .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Whisky , Tumbler , Table-glass , Tumblr .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wild boar , Whiskers , Dog , Meaning .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wind , Unicode , Meaning , Sign .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Wind chime , Chime , Bell , 7 for 7 .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Winter ,  , Snow , Snowman .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Woman , Clothing , Female , Fediverse .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Woman , Man , Kiss , Zero-width joiner .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/WordPress.com , Free web hosting service , WordPress , Blog , Website .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Yam , Sweet potato ,  , Food .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Ybor City , Tampa Real Estate , Illustration , Balloon , Stock illustration .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Yemen , Flag , Flag of Yemen , National flag , Illustration .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zebra , Horse , Sign ,  .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zebu , Ox , Dairy cattle , Bull , Calf .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zero-width joiner , Female , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zero-width joiner , Meaning , Sign , Text messaging .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zero-width joiner , Police officer , Hero image , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zero-width joiner , Sign , Guardsman , Smiley .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/Zero-width joiner , Unicode .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/iPhone 6 , Flag of Israel , Motza , Flag , Regional Indicator Symbol .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon/tags/tag/iPhone X , Human skin color , Light skin , Human .png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reminders/2017.11.25.pickle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_text.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.27.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.27.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.30.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.30.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.28.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.28.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon/tags/tag.pickle" afterPath="$PROJECT_DIR$/icon/tags/tag.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.26.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.26.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.28.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.28.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.29.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.29.pickle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentiment Analysis/Trainer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.30.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.30.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.py" afterPath="$PROJECT_DIR$/Database.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Calendar.py" afterPath="$PROJECT_DIR$/Diary_Calendar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight_Timeline.py" afterPath="$PROJECT_DIR$/Highlight_Timeline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mood_Tracker.py" afterPath="$PROJECT_DIR$/Mood_Tracker.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reminder.py" afterPath="$PROJECT_DIR$/Reminder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Speech_Recognition.py" afterPath="$PROJECT_DIR$/Speech_Recognition.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice_Assistant.py" afterPath="$PROJECT_DIR$/Voice_Assistant.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon/tags/Tags_Handling.py" afterPath="$PROJECT_DIR$/icon/tags/Tags_Handling.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -926,117 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User_Interface.py">
+      <file leaf-file-name="Trainer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sentiment Analysis/Trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="144" column="52" lean-forward="false" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reminder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reminder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mood_Tracker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mood_Tracker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3910">
-              <caret line="172" column="28" lean-forward="true" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diary_Calendar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="203" column="51" lean-forward="true" selection-start-line="203" selection-start-column="51" selection-end-line="203" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Speech_Recognition.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="try.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/try.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Highlight_Timeline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1155,10 +138,12 @@
         <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
         <option value="$PROJECT_DIR$/Reminder.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
+        <option value="$PROJECT_DIR$/../try.py" />
+        <option value="$PROJECT_DIR$/Sentiment Analysis/Trainer.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -1204,6 +189,11 @@
               <item name="15-112-Term-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="15-112-Term-Project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="15-112-Term-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15-112-Term-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Sentiment Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1234,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.try (1)">
     <configuration name="Tags_Handling (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1269,23 +259,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="User_Interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="15-112-Term-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User_Interface.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1299,6 +272,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="15-112-Term-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="try (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="15-112-Term-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../try.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1321,19 +311,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.User_Interface" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.try" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Tags_Handling" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Tags_Handling (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.try" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Tags_Handling" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Tags_Handling (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.try (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.try" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Tags_Handling (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Tags_Handling" />
-        <item index="4" class="java.lang.String" itemvalue="Python.User_Interface" />
+        <item index="0" class="java.lang.String" itemvalue="Python.try (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.try" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Tags_Handling (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Tags_Handling" />
       </list>
     </recent_temporary>
   </component>
@@ -1354,15 +344,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1387,16 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1608,17 +587,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Diary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,7 +636,7 @@
     <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1681,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/Mood_Tracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
-          <caret line="172" column="28" lean-forward="true" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+          <caret line="172" column="28" lean-forward="false" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1699,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -1709,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1719,7 +692,7 @@
     <entry file="file://$PROJECT_DIR$/Reminder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
-          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -1736,13 +709,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="203" column="51" lean-forward="true" selection-start-line="203" selection-start-column="51" selection-end-line="203" selection-end-column="51" />
+        <state relative-caret-position="234">
+          <caret line="202" column="27" lean-forward="false" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentiment Analysis/Trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
