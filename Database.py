@@ -3,6 +3,11 @@ from Diary import *
 import datetime
 import pickle
 
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+          'November','December']
+month_num_day = { 'January': 31, 'February': 29, 'March': 31, 'April': 30, 'May': 31, 'June': 30,
+                 'July': 31, 'August': 31, 'September': 30, 'October': 31, 'November': 30,'December': 31}
+
 def todayDate():
     now = datetime.datetime.now()
     return [now.year,now.month,now.day]
@@ -13,15 +18,12 @@ def retrieve_diary(date):
     :return: an Diary object
     """
     date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".pickle"
-    exist = False
-    for filename in os.listdir("diary"):
-        if filename == date_str:
-            exist = True
-    if not exist:
+    try:
+        with open("diary\\"+date_str,'rb') as f:
+            diary = pickle.load(f)
+        return diary
+    except:
         return None
-    with open("diary\\"+date_str,'rb') as f:
-        diary = pickle.load(f)
-    return diary
 
 def word_match_tag(word):
     """
@@ -53,10 +55,13 @@ def getSimilarity(word,tag_name):
     :param tag_name: tag name
     :return: similarity between the entity word and tag name based on frequency of the entity word in the tag name
     """
-    score = 0
+    frequency = 0
     while len(tag_name) > 1 and word in tag_name:
-        score += 1
+        frequency += 1
         tag_name = tag_name[tag_name.index(word)+len(word):]
+    tag_name_wo_space = tag_name.replace(" ","")
+    ratio = len(word)/len(tag_name_wo_space)
+    score = ratio * frequency
     return score
 
 def save_diary(diary):
@@ -75,19 +80,15 @@ def retrieve_reminder(date):
     :return: an Diary object
     """
     date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".pickle"
-    exist = False
-    for filename in os.listdir("reminders"):
-        if filename == date_str:
-            exist = True
-    if not exist:
+    try:
+        with open("reminders\\"+date_str,'rb') as f:
+            reminder = pickle.load(f)
+        return reminder
+    except:
         return None
-    with open("reminders\\"+date_str,'rb') as f:
-        reminder = pickle.load(f)
-    return reminder
 
 def save_reminder(reminder):
     date = reminder.date
-    print(reminder.content_list)
     filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
     with open("reminders\\" + filename, "wb") as f:
         pickle.dump(reminder, f, pickle.HIGHEST_PROTOCOL)
@@ -100,6 +101,16 @@ def next_date(date):
     if date[1] > 12:
         date[1] = 0
         date[0] += 1
+
+
+def previous_date(date):
+    date[2] -= 1
+    if date[2] < 1:
+        date[1] -= 1
+        if date[1] < 1:
+            date[1] = 12
+            date[0] -= 1
+        date[2] = month_num_day[months[date[1] - 1]]
 
 def retreieve_diary_between(startDate,endDate):
     ending_date = copy.deepcopy(endDate)
@@ -144,3 +155,20 @@ def getDiariesWithHighestSentiments(diary_list,num_diary):
 
 def getDeltaDays(date1,date2):
     return (datetime.date(date1[0],date1[1],date1[2])-datetime.date(date2[0],date2[1],date2[2])).days
+
+def updateAllDiaries():
+    # the purpose of this function is to update all diaries with new sentiment analysis potentially due to new
+    # tag name list or methodology of sentiment/entity analysis
+    for filename in os.listdir(os.path.join("diary")):
+        name = filename.split(".")
+        date = [int(name[0]),int(name[1]),int(name[2])]
+        diary = retrieve_diary(date)
+        save_diary(diary)
+
+def updateTagNameListPickleFile():
+    result = []
+    for filename in os.listdir(os.path.join("icon","tags","tag")):
+        result.append(filename)
+    with open('tag.pickle', 'wb') as f:
+        pickle.dump(result,f,pickle.HIGHEST_PROTOCOL)
+

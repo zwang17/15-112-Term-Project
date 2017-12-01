@@ -20,9 +20,11 @@ class Calendar(object):
         self.right_month_button = None
         self.left_year_button = None
         self.right_year_button = None
+        self.reminders_button = None
 
     def setUI(self,UI):
         self.UI = UI
+        self.initReminderButton()
 
     def getCurrentDate(self):
         return [self.current_year_num,self.current_month_num,self.current_day_num]
@@ -35,6 +37,15 @@ class Calendar(object):
     def timerFiredSideBar(self):
         if self.calendarSideBarWidth < self.UI.MainBarButtonWidth:
             self.calendarSideBarWidth += 5
+
+    def initReminderButton(self):
+        width = 80
+        height = 40
+        self.reminders_button = RectButton("Reminders", self.UI.grey, self.UI.width - (self.UI.MainBarButtonWidth- width) / 2-width,
+                                           self.UI.width - (self.UI.MainBarButtonWidth - width) / 2, 20, 20 + height, \
+                                       margin_width=0,
+                                       text="Reminders",
+                                       font=self.UI.myFont18Bold, textColor=self.UI.brightGrey)
 
     def createTitleButton(self):
         length = 100
@@ -107,7 +118,10 @@ class Calendar(object):
                                        text="Check Diary",
                                        font=self.UI.myFont15Bold, textColor=self.UI.orange)
 
-    def updateAllButtons(self):
+    def updateDateButtons(self):
+        self.createDateButtons()
+
+    def initAllButtons(self):
         self.createDateButtons()
         self.createWeekdayButtons()
         self.createTitleButton()
@@ -167,7 +181,7 @@ class Calendar(object):
                 self.day_highlighted[1] = self.current_month_num
                 self.mouseMotion(x, y)
                 self.UI.updateReminder(self.getCurrentDate())
-        self.updateAllButtons()
+        self.updateDateButtons()
         button = self.edit_diary_button
         if button.WithinRange(x, y):
             if Database.retrieve_diary(self.getCurrentDate()) != None:
@@ -182,6 +196,9 @@ class Calendar(object):
 
     def drawEditButton(self,screen):
         self.edit_diary_button.Draw(screen,text_anchor=1)
+        
+    def drawRemindersButton(self,screen):
+        self.reminders_button.Draw(screen,text_anchor=1)
 
     def redraw(self,screen):
         for dateButton in self.date_button_list:
@@ -194,6 +211,8 @@ class Calendar(object):
         self.left_month_button.Draw(screen)
         self.right_month_button.Draw(screen)
         self.drawRightBar(screen)
+        if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth:
+            self.drawRemindersButton(screen)
         if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth and Database.retrieve_diary(self.getCurrentDate()) != None:
             self.drawEditButton(screen)
 

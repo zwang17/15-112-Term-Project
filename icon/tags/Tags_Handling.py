@@ -17,7 +17,7 @@ def getHighestLabels(dict):
     result += ".png"
     return result
 
-def modifyName(filename):
+# def modifyName(filename):
     # if "," not in filename:
     #     string_list = filename.strip(" ")
     #     new_name = ""
@@ -26,31 +26,24 @@ def modifyName(filename):
     #     return new_name
     # else:
     #     return filename
-    tag_list = filename.split(",")
-    new_list = copy.deepcopy(tag_list)
-    for index in range(len(tag_list)):
-        tag = tag_list[index]
-        print(tag)
-        if "emoj" in tag:
-            new_list.pop(new_list.index(tag))
-    result = ""
-    for index in range(len(new_list)-1):
-        result = result + new_list[index] + ","
-    result = result + new_list[-1]
-    return result
-
-result = []
+#     filename = filename[:-5]
+#     tag_list = filename.split(",")
+#     new_list = copy.deepcopy(tag_list)
+#     for index in range(len(tag_list)):
+#         tag = tag_list[index]
+#         if " of " in tag or " to " in tag or " flag " in tag:
+#             new_list.pop(new_list.index(tag))
+#     result = ""
+#     for index in range(len(new_list)-1):
+#         result = result + new_list[index] + ","
+#     result = result + new_list[-1] + ".png"
+#     return result
+#
 # for filename in os.listdir(os.path.join("tag")):
-#     result.append(filename)
-    # old_file = os.path.join("tag - Copy", filename)
-    # # new_name = getHighestLabels(RecognizeImage(filename))
-    # new_name = modifyName(filename)
-    # new_file = os.path.join("tag - Copy", new_name)
-    # os.rename(old_file,new_file)
-    # print(filename + "got renamed to " + new_name)
+#     old_file = os.path.join("tag", filename)
+#     # new_name = getHighestLabels(RecognizeImage(filename))
+#     new_name = modifyName(filename)
+#     new_file = os.path.join("tag", new_name)
+#     os.rename(old_file,new_file)
+#     print(filename + " got renamed to " + new_name)
 
-### form tag name pickle file
-for filename in os.listdir(os.path.join("tag")):
-    result.append(filename)
-with open('tag.pickle', 'wb') as f:
-    pickle.dump(result,f,pickle.HIGHEST_PROTOCOL)

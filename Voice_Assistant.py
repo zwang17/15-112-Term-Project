@@ -7,8 +7,6 @@ import pygame
 class VoiceAssistant(object):
 
     def __init__(self):
-
-        self.exit_status = False
         self.has_new_input = False
         self.new_line = None
         self.va_activation_command = ["hey siri"]
@@ -46,6 +44,7 @@ class VoiceAssistant(object):
             if button.status == True:
                 button.color = self.UI.brightGrey
                 button.displayed_icon = button.extra_icon
+
     def mouseReleased(self,x,y):
         button = self.va_button
         if button.WithinRange(x, y):
@@ -114,31 +113,30 @@ class VoiceAssistant(object):
 
 # actions #
     def SaveDiary(self):
-        self.exit_status = True
         Database.save_diary(self.UI.Text_Editor.Diary)
         self.deactivateVoiceAssistant()
-        print("Diary saved")
+        print("Diary saved!")
 
     def EditDiary(self):
-        print("edit diary")
-        if Database.retrieve_diary(Database.todayDate()) == None:
+        print("edit diary...")
+        today_diary = Database.retrieve_diary(Database.todayDate())
+        if today_diary == None:
             self.UI.Text_Editor.createNewDiary()
+        else:
+            self.UI.Text_Editor.Diary = today_diary
         self.UI.mode = "Edit"
         self.UI.Text_Editor.mode = "edit"
         self.deactivateVoiceAssistant()
 
     def CreateReminder(self):
-        print("create reminder")
-        print(self.new_line)
+        print("create reminder...")
         temp = self.new_line
         self.deactivateVoiceAssistant()
         self.display_text = True
         self.text_displayed = "Remind you to?"
-        self.exit_status = False
         Thread(target=self.collectBackgroundText).start()
         while self.new_line.strip() == temp.strip():
             pass
-        self.exit_status = True
         content = self.new_line
         self.UI.today_reminder.addContent(content)
         self.UI.today_reminder.updateReminderButtons(self.UI.white, self.UI.MainBarButtonWidth + 50, 80, self.UI.myFont15Bold, self.UI.measureFont15, self.UI.brightGrey,600)
@@ -153,7 +151,7 @@ class VoiceAssistant(object):
         self.UI.mode = "Diary"
 
     def ShowHighlight(self):
-        print("show highlight")
+        print("show highlight...")
         self.UI.mode = "Highlight"
         self.deactivateVoiceAssistant()
 
@@ -163,7 +161,6 @@ class VoiceAssistant(object):
         self.deactivateVoiceAssistant()
 
 #####
-
     def performCommands(self):
         exit_command = copy.deepcopy(self.exit_command_heard)
         print("Command to be executed:"+str(exit_command))
@@ -172,6 +169,8 @@ class VoiceAssistant(object):
             if self.checkCommandsInList(command_list,exit_command) or self.checkCommandsInList(command_list,exit_command):
                 self.function_list[index]()
         self.deactivateVoiceAssistant()
+        self.va_button.displayed_icon = self.va_button.icon
+        self.va_button.color = self.UI.brightGrey
 
     def activateVoiceAssisant(self):
         self.va_activated = True
@@ -180,34 +179,34 @@ class VoiceAssistant(object):
         self.va_activated = False
 
     def collectBackgroundText(self):
-        getText(self)
+        while True:
+            try:
+                getText(self)
+            except:
+                print("Reinitiating background listening")
 
     def checkActivationCommand(self):
-        while not self.exit_status:
-            if self.new_line != None:
-                over = False
-                for command in self.va_activation_command:
-                    if command in self.new_line.lower():
-                        self.activateVoiceAssisant()
-                        print("Voice assistant activated")
-                        over = True
-                        break
-                if over: break
+        while not self.has_new_input:
+            pass
+        for command in self.va_activation_command:
+            if command in self.new_line.lower():
+                self.activateVoiceAssisant()
+                print("Voice assistant activated")
+                self.has_new_input = False
+                break
 
     def checkExitCommand(self):
-        while not self.exit_status:
-            if self.new_line != None:
-                over = False
-                for command in self.va_exit_command_list:
-                    if command in self.new_line.lower():
-                        self.exit_command_heard.append(command)
-                        over = True
-                if over: break
-        print("exit checkvaExitCommand")
-
-    def refresh(self):
-        self.exit_status = True
-        self.exit_status = False
+        print("checking exit command")
+        exit = False
+        while not exit:
+            if self.va_activated == False:
+                return None
+            for command in self.va_exit_command_list:
+                if command in self.new_line.lower():
+                    self.exit_command_heard.append(command)
+                    exit = True
+            self.has_new_input = False
+        print("exit checkExitCommand")
 
     def checkCommandsInList(self,commands,command_list):
         for commandToBeChecked in commands:
@@ -219,23 +218,19 @@ class VoiceAssistant(object):
         return True
 
     def runVoiceAssistant(self,Text_Editor):
-        while True:
-            self.exit_status = False
-            Thread(target=self.collectBackgroundText).start()
-            print("here again")
-            self.checkActivationCommand()
-            if self.va_activated:
-                if self.dl_activated:
-                    Text_Editor.mute = True
-                Thread(target=self.collectBackgroundText).start()
-                self.checkExitCommand()
-                self.performCommands()
-                if self.dl_activated:
-                    Text_Editor.skip_line = self.new_line
-                    Text_Editor.mute = False
-                self.exit_command_heard = []
+        self.has_new_input = False
+        self.checkActivationCommand()
+        if self.va_activated:
+            if self.dl_activated:
+                Text_Editor.mute = True
+            self.checkExitCommand()
+            self.performCommands()
+            if self.dl_activated:
+                Text_Editor.skip_line = self.new_line
+                Text_Editor.mute = False
+            self.exit_command_heard = []
+            self.has_new_input = False
 
     def runDiaryListener(self):
         print("run Diary Listener")
         self.dl_activated = True
-        self.collectBackgroundText()

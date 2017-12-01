@@ -47,7 +47,7 @@ class Reminder(object):
                 button.AddExtraIcon("Complete.png", 35, 35)
                 self.button_list.append(button)
             y_up += self.height/2
-            button = RectButton("Reminder", color, x_left+available_pixel_len , x_left+available_pixel_len+20, y_up-10, y_up+10, 0, "X",
+            button = RectButton("Reminder", color, x_left+available_pixel_len , x_left+available_pixel_len*1.2, y_up-10, y_up+10, 0, "X",
                                 font, textColor)
             self.delete_button_list.append(button)
             y_up += self.height/2
@@ -76,11 +76,20 @@ class Reminder(object):
             button = self.button_list[index]
             if button.WithinRange(x, y):
                 self.status_list[index] = not self.status_list[index]
-        for index in range(len(self.button_list)):
+        for index in range(len(self.delete_button_list)):
             button = self.delete_button_list[index]
             if button.WithinRange(x, y):
+                for k in range(len(self.helper_button_list)):
+                    helper_button = self.helper_button_list[k]
+                    if helper_button.y_up == self.button_list[index].y_up + self.height * 2 /3:
+                        self.helper_button_list.pop(index)
+                        break
+                self.button_list.pop(index)
+                self.delete_button_list.pop(index)
                 self.content_list.pop(index)
+                self.status_list.pop(index)
                 break
+        self.mouseMotion(x,y)
         Database.save_reminder(self)
 
     def Draw(self,screen,text_width_coef=1/4):

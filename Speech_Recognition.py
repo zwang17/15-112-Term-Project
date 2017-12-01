@@ -104,13 +104,11 @@ def listen_loop(VoiceAssistant,responses):
             sys.stdout.write(transcript + overwrite_chars + '\r')
             sys.stdout.flush()
             num_chars_printed = len(transcript)
-
         else:
             VoiceAssistant.new_line = transcript+"."
             VoiceAssistant.has_new_input = True
-            if VoiceAssistant.exit_status:
-                break
             num_chars_printed = 0
+            break
 
 
 def getText(VoiceAssistant):
