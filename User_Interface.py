@@ -58,7 +58,7 @@ class UserInterface(object):
         self.red = self.hex_to_rgb("#df1a06")
         self.darkRed = self.hex_to_rgb("#941a06")
 
-        self.green = (0,255,128)
+        self.green = (102,204,128)
         self.darkGreen = (0,204,0)
 
         self.blueGray = self.hex_to_rgb("#4b637d")
@@ -67,8 +67,8 @@ class UserInterface(object):
 
         self.bgColor = self.white
 
-        self.themeColorMain = self.blue
-        self.themeColorDark = self.darkBlue
+        self.themeColorMain = self.orange
+        self.themeColorDark = self.darkOrange
 
     def initFont(self):
         font = "zekton rg.ttf"
@@ -98,20 +98,31 @@ class UserInterface(object):
 
         self.orangeThemeButton = RectButton("Orange Theme",self.orange,self.width-right_offset,self.width-right_offset+width,self.height-bottom_offset,self.height-bottom_offset+height,0,"",self.myFont14,self.white)
         self.orangeThemeButton.extraColor = self.darkOrange
+        marginButton = RectButton("Orange Theme Margin",self.black,self.width-right_offset,self.width-right_offset+width,self.height-bottom_offset,self.height-bottom_offset+height,3,"",self.myFont14,self.white)
+        self.orangeThemeButton.marginButton = marginButton
         self.themeButtonList.append(self.orangeThemeButton)
 
         self.blueThemeButton = RectButton("Blue Theme", self.blue, self.width - right_offset+gap, self.width - right_offset + width+gap,
                                             self.height - bottom_offset, self.height - bottom_offset + height,0,"",self.myFont14,self.white)
         self.blueThemeButton.extraColor = self.darkBlue
-        self.themeButtonList.append((self.blueThemeButton))
+        marginButton = RectButton("Blue Theme Margin", self.blue, self.width - right_offset+gap, self.width - right_offset + width+gap,
+                                            self.height - bottom_offset, self.height - bottom_offset + height,3,"",self.myFont14,self.white)
+        self.blueThemeButton.marginButton = marginButton
+        self.themeButtonList.append(self.blueThemeButton)
 
         self.greenThemeButton = RectButton("Green Theme", self.green, self.width - right_offset+2*gap, self.width - right_offset + width+2*gap,
                                             self.height - bottom_offset, self.height - bottom_offset + height,0,"",self.myFont14,self.white)
+        marginButton = RectButton("Green Theme Margin", self.green, self.width - right_offset+2*gap, self.width - right_offset + width+2*gap,
+                                            self.height - bottom_offset, self.height - bottom_offset + height,3,"",self.myFont14,self.white)
+        self.greenThemeButton.marginButton = marginButton
         self.greenThemeButton.extraColor = self.darkGreen
         self.themeButtonList.append(self.greenThemeButton)
 
         self.redThemeButton = RectButton("Red Theme", self.red, self.width - right_offset+3*gap, self.width - right_offset + width+3*gap,
                                             self.height - bottom_offset, self.height - bottom_offset + height,0,"",self.myFont14,self.white)
+        marginButton = RectButton("Red Theme Margin", self.red, self.width - right_offset+3*gap, self.width - right_offset + width+3*gap,
+                                            self.height - bottom_offset, self.height - bottom_offset + height,3,"",self.myFont14,self.white)
+        self.redThemeButton.marginButton = marginButton
         self.redThemeButton.extraColor = self.darkRed
         self.themeButtonList.append(self.redThemeButton)
 
@@ -241,8 +252,13 @@ class UserInterface(object):
                 button.textColor = self.white
         self.Voice_Assistant.mousePressed(x,y)
 
+    def mousePressedDiary(self,x,y):
+        self.Calendar.mousePressed(x,y)
+
     def mousePressed(self,x,y):
         self.mousePressedMainBar(x,y)
+        if self.mode == "Diary":
+            self.mousePressedDiary(x,y)
 
 ### mouseReleased ###
     def mouseReleasedNewDiaryButton(self):
@@ -274,6 +290,15 @@ class UserInterface(object):
         print(self.mode)
 
     def mouseReleasedDashboard(self,x,y):
+        for button in self.themeButtonList:
+            if button.WithinRange(x,y):
+                self.themeColorMain = button.color
+                self.themeColorDark = button.extraColor
+                self.MoodTracker.update_data_list()
+                self.MoodTracker.initModeButtons()
+                self.Calendar.createEditDiaryButton()
+        self.mouseMotionDashboard(x,y)
+
         if self.today_reminder == None: return None
         self.today_reminder.mouseReleased(x,y)
         self.mouseMotionDashboard(x,y)
@@ -346,6 +371,14 @@ class UserInterface(object):
         self.Voice_Assistant.mouseMotion(x,y)
 
     def mouseMotionDashboard(self,x,y):
+        for button in self.themeButtonList:
+            if button.color == self.themeColorMain:
+                button.marginButton.color = self.black
+            elif button.WithinRange(x,y):
+                button.marginButton.color = self.brightGrey
+            else:
+                button.marginButton.color = button.color
+
         if self.today_reminder == None: return None
         self.today_reminder.mouseMotion(x,y)
 
@@ -424,6 +457,7 @@ class UserInterface(object):
         self.drawDashboardTitles(screen)
         for button in self.themeButtonList:
             button.Draw(screen)
+            button.marginButton.Draw(screen)
         for tag in self.today_tag_list:
             tag.Draw(screen)
         if self.today_reminder == None: return None

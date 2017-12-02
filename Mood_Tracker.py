@@ -99,7 +99,7 @@ class MoodTracker(object):
         for datapoint in self.datapoint_button_list:
             if datapoint.WithinRange(x,y):
                 datapoint.radius = 9
-                datapoint.color = (255, 219, 153)
+                datapoint.color = self.UI.themeColorMain
                 self.infoButtonX.x_left = datapoint.center_x
                 self.infoButtonX.x_right = datapoint.center_x
                 self.infoButtonY.y_up = datapoint.center_y
@@ -158,7 +158,6 @@ class MoodTracker(object):
             i += 1
 
     def drawVisualAid(self,screen):
-
         if self.drawInfo == True:
             self.infoButtonX.Draw(screen,text_anchor=1)
             self.infoButtonY.Draw(screen,text_anchor=1)
