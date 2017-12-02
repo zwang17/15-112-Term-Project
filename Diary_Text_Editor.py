@@ -88,8 +88,8 @@ class TextEditor(object):
         if self.mode == "edit":
             button = self.diarySaveButton
             if button.WithinRange(x, y):
-                button.color = self.UI.orange
-                button.textColor = self.UI.orange
+                button.color = self.UI.themeColorMain
+                button.textColor = self.UI.themeColorMain
                 button.displayed_icon = button.alter_icon
             else:
                 button.color = self.UI.brightGrey
@@ -98,8 +98,8 @@ class TextEditor(object):
         if self.mode == "display":
             button = self.diaryEditButton
             if button.WithinRange(x, y):
-                button.color = self.UI.orange
-                button.textColor = self.UI.orange
+                button.color = self.UI.themeColorMain
+                button.textColor = self.UI.themeColorMain
                 button.displayed_icon = button.alter_icon
             else:
                 button.color = self.UI.brightGrey

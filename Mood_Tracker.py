@@ -26,7 +26,7 @@ class MoodTracker(object):
         self.month_button = RectButton("one month", self.UI.white, self.UI.width - margin - 2*width,
                                     self.UI.width - margin-width, self.UI.height - margin - height,
                                     self.UI.height - margin, text="Past Month", font=self.UI.myFont12,
-                                    textColor=self.UI.brightGrey)
+                                    textColor=self.UI.themeColorMain)
         self.month_button.status = True
         self.six_month_button = RectButton("six month", self.UI.white, self.UI.width - margin - 3 * width,
                                              self.UI.width - margin - 2 * width, self.UI.height - margin - height,
@@ -46,7 +46,7 @@ class MoodTracker(object):
             diary_span = Database.getDeltaDays(diary.date,self.startDate)
             x_coor = self.X_x_left + self.X_length * diary_span / total_span
             y_coor = self.Y_y_down - (self.Y_length/2 + diary.sentiment_report[0]*self.Y_length/2)
-            newDataButton = CircButton("dot",self.UI.orange,x_coor,y_coor,9)
+            newDataButton = CircButton("dot",self.UI.themeColorMain,x_coor,y_coor,9)
             newDataButton.setDataObject(diary)
             self.datapoint_button_list.append(newDataButton)
 
@@ -112,11 +112,11 @@ class MoodTracker(object):
                 break
             else:
                 datapoint.radius = 5
-                datapoint.color = self.UI.orange
+                datapoint.color = self.UI.themeColorMain
                 self.drawInfo = False
         for button in self.mode_button_list:
             if button.WithinRange(x,y) or button.status == True:
-                button.textColor = self.UI.orange
+                button.textColor = self.UI.themeColorMain
             else:
                 button.textColor = self.UI.brightGrey
 
@@ -138,15 +138,15 @@ class MoodTracker(object):
         for index in range(len(self.datapoint_button_list)-1):
             datapoint1 = self.datapoint_button_list[index]
             datapoint2 = self.datapoint_button_list[index+1]
-            pygame.draw.lines(screen,self.UI.orange,False,[(datapoint1.center_x,datapoint1.center_y),(datapoint2.center_x,datapoint2.center_y)],1)
+            pygame.draw.lines(screen,self.UI.themeColorMain,False,[(datapoint1.center_x,datapoint1.center_y),(datapoint2.center_x,datapoint2.center_y)],1)
 
     def drawBaseline(self,screen):
         if self.Y_init_y > self.Y_y_up:
             self.Y_init_y -= self.animation_speed
         if self.X_init_x < self.X_x_right:
             self.X_init_x += self.animation_speed
-        pygame.draw.lines(screen,self.UI.orange,False,[(self.X_x_left,self.X_y),(self.X_init_x,self.X_y)],2)
-        pygame.draw.lines(screen, self.UI.orange, False, [(self.Y_x, self.Y_y_down), (self.Y_x, self.Y_init_y)], 2)
+        pygame.draw.lines(screen,self.UI.themeColorMain,False,[(self.X_x_left,self.X_y),(self.X_init_x,self.X_y)],2)
+        pygame.draw.lines(screen, self.UI.themeColorMain, False, [(self.Y_x, self.Y_y_down), (self.Y_x, self.Y_init_y)], 2)
 
     def drawDatapoints(self,screen):
         i = 0

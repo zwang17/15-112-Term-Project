@@ -3,15 +3,15 @@ from Button import *
 import Database
 
 class Calendar(object):
-    months = ['December','January','February','March','April','May','June','July','August','September','October','November']
-    month_num_day = {'December':31,'January':31,'February':29,'March':31,'April':30,'May':31,'June':30,'July':31,'August':31,'September':30,'October':31,'November':30}
+    months = ['January','February','March','April','May','June','July','August','September','October','November','December']
+    month_num_day = {'January':31,'February':29,'March':31,'April':30,'May':31,'June':30,'July':31,'August':31,'September':30,'October':31,'November':30,'December':31}
     week_day = ['SUN', 'MON', 'TUE', 'WED', 'THUR', 'FRI', 'SAT']
     def __init__(self):
         self.day_highlighted = [datetime.datetime.now().year,datetime.datetime.now().month,datetime.datetime.now().day]
         self.current_year_num = datetime.datetime.now().year
         self.current_month_num = datetime.datetime.now().month
         self.current_day_num = datetime.datetime.now().day
-        self.current_month = self.months[self.current_month_num]
+        self.current_month = self.months[self.current_month_num-1]
         self.date_button_list = []
         self.weekday_button_list = []
         self.calendarSideBarWidth = 0
@@ -71,21 +71,21 @@ class Calendar(object):
         left_offset = (600/7-50)/2
         self.left_year_button = RectButton("LeftYearButton", self.UI.white, 50+self.UI.MainBarButtonWidth +left_offset, 50+self.UI.MainBarButtonWidth +left_offset+button_width, 30, 30+button_height,
                                         text=str(self.current_year_num-1), margin_width=0, font=self.UI.myFont15,
-                                        textColor=self.UI.orange)
+                                        textColor=self.UI.themeColorMain)
         self.right_year_button = RectButton("RightYearButton", self.UI.white, 1000-(50+self.UI.MainBarButtonWidth)-right_offset, 1000-(right_offset+self.UI.MainBarButtonWidth)+button_width-68, 30, 30+button_height,
                                         text=str(self.current_year_num+1), margin_width=0, font=self.UI.myFont15,
-                                        textColor=self.UI.orange)
+                                        textColor=self.UI.themeColorMain)
 
     def createSideMonthButtons(self):
         button_width = 50
         button_height = 50
         self.left_month_button = RectButton("LeftMonthButton", self.UI.white, self.UI.MainBarButtonWidth , self.UI.MainBarButtonWidth +button_width, 250, 250+button_height,
                                         text="", margin_width=0, font=self.UI.myFont15,
-                                        textColor=self.UI.orange)
+                                        textColor=self.UI.themeColorMain)
         self.left_month_button.AddIcon('LeftArrow.png',35,35)
         self.right_month_button = RectButton("RightMonthButton", self.UI.white, 1000-self.UI.MainBarButtonWidth-button_width, 1000-self.UI.MainBarButtonWidth, 250, 250+button_height,
                                         text="", margin_width=0, font=self.UI.myFont15,
-                                        textColor=self.UI.orange)
+                                        textColor=self.UI.themeColorMain)
         self.right_month_button.AddIcon('RightArrow.png',35,35)
 
     def createDateButtons(self):
@@ -103,7 +103,7 @@ class Calendar(object):
             new_date_button = RectButton(str(day+1),self.UI.white,x_left,x_right,y_up,y_down,text=str(day+1),margin_width=0,font=self.UI.myFont15,textColor=self.UI.brightGrey)
             self.date_button_list.append(new_date_button)
         if (self.current_year_num, self.current_month_num) == (datetime.datetime.now().year, datetime.datetime.now().month):
-            self.date_button_list[datetime.datetime.now().day-1].color = self.UI.orange
+            self.date_button_list[datetime.datetime.now().day-1].color = self.UI.themeColorMain
             self.date_button_list[datetime.datetime.now().day - 1].textColor = self.UI.white
 
     def createEditDiaryButton(self):
@@ -112,11 +112,11 @@ class Calendar(object):
         x_right = x_left + width
         y_up = 500
         y_down = 540
-        self.edit_diary_button = RectButton("edit", self.UI.orange, x_left,
+        self.edit_diary_button = RectButton("edit", self.UI.themeColorMain, x_left,
                                        x_right, y_up,y_down, \
                                        margin_width=1,
                                        text="Check Diary",
-                                       font=self.UI.myFont15Bold, textColor=self.UI.orange)
+                                       font=self.UI.myFont15Bold, textColor=self.UI.themeColorMain)
 
     def updateDateButtons(self):
         self.createDateButtons()
@@ -134,10 +134,10 @@ class Calendar(object):
         dateButtonList = self.date_button_list
         for index in range(len(dateButtonList)):
             if ((self.current_year_num,self.current_month_num) == (self.day_highlighted[0],self.day_highlighted[1]) and index + 1 == self.current_day_num):
-                dateButtonList[index].color = self.UI.orange
+                dateButtonList[index].color = self.UI.themeColorMain
                 dateButtonList[index].textColor = self.UI.white
             elif dateButtonList[index].WithinRange(x,y):
-                dateButtonList[index].color = self.UI.orange
+                dateButtonList[index].color = self.UI.themeColorMain
                 dateButtonList[index].textColor = self.UI.white
             else:
                 dateButtonList[index].color = self.UI.white
@@ -145,11 +145,11 @@ class Calendar(object):
         if self.left_year_button.WithinRange(x,y):
             self.left_year_button.textColor = self.UI.brightGrey
         else:
-            self.left_year_button.textColor = self.UI.orange
+            self.left_year_button.textColor = self.UI.themeColorMain
         if self.right_year_button.WithinRange(x,y):
             self.right_year_button.textColor = self.UI.brightGrey
         else:
-            self.right_year_button.textColor = self.UI.orange
+            self.right_year_button.textColor = self.UI.themeColorMain
         if self.left_month_button.WithinRange(x,y):
             self.left_month_button.color = self.UI.brightGrey
         else:
@@ -161,7 +161,7 @@ class Calendar(object):
         if self.edit_diary_button.WithinRange(x,y):
             self.edit_diary_button.textColor = self.UI.white
         else:
-            self.edit_diary_button.textColor = self.UI.orange
+            self.edit_diary_button.textColor = self.UI.themeColorMain
 
 # mouseReleased #
     def mouseReleased(self,x,y):

@@ -30,7 +30,7 @@ class TimeLine(object):
         self.month_button = RectButton("one month", self.UI.white, self.UI.width - margin - 2*width,
                                     self.UI.width - margin-width, self.UI.height - margin - height,
                                     self.UI.height - margin, text="Past Month", font=self.UI.myFont12,
-                                    textColor=self.UI.brightGrey)
+                                    textColor=self.UI.themeColorMain)
         self.month_button.status = True
         self.six_month_button = RectButton("six month", self.UI.white, self.UI.width - margin - 3 * width,
                                              self.UI.width - margin - 2 * width, self.UI.height - margin - height,
@@ -68,7 +68,7 @@ class TimeLine(object):
             branch.mouseMotion(x,y)
         for button in self.mode_button_list:
             if button.WithinRange(x,y) or button.status == True:
-                button.textColor = self.UI.orange
+                button.textColor = self.UI.themeColorMain
             else:
                 button.textColor = self.UI.brightGrey
 
@@ -81,17 +81,17 @@ class TimeLine(object):
             total_span = Database.getDeltaDays(now,init)
             diary_span = Database.getDeltaDays(diary.date,init)
             x = self.timelineXLeft + self.timelineLength * diary_span / total_span
-            height = random.randint(-250,250)
+            height = random.randint(-200,200)
             if height > 0:
                 height += 30
             else:
                 height -= 30
             if index > 0:
                 while (height>0 and self.branch[index-1].height > 0) or (height<0 and self.branch[index-1].height < 0) :
-                    height = random.randint(-160,160)
-                    if height > 0: height += 10
+                    height = random.randint(-200,200)
+                    if height > 0: height += 30
                     else:
-                        height -= 10
+                        height -= 30
             branch = TimelineBranch(x,diary,height,self.UI)
             self.branch.append(branch)
 
@@ -122,9 +122,9 @@ class TimeLine(object):
         line_y = self.UI.height/2
         if self.timelineInitX < self.timelineXRight:
             self.timelineInitX += self.animation_speed
-        self.drawCircle(screen,self.UI.orange,self.timelineXLeft,line_y,circle_radius,0)
-        pygame.draw.lines(screen,self.UI.orange,False,[(self.timelineXLeft,line_y),(self.timelineInitX,line_y)],2)
-        self.drawCircle(screen,self.UI.orange,self.timelineInitX,line_y,circle_radius,0)
+        self.drawCircle(screen,self.UI.themeColorMain,self.timelineXLeft,line_y,circle_radius,0)
+        pygame.draw.lines(screen,self.UI.themeColorMain,False,[(self.timelineXLeft,line_y),(self.timelineInitX,line_y)],2)
+        self.drawCircle(screen,self.UI.themeColorMain,self.timelineInitX,line_y,circle_radius,0)
 
     def redraw(self,screen):
         self.drawBaseLine(screen)
@@ -144,7 +144,7 @@ class TimelineBranch(TimeLine):
         self.UI = UI
         self.tag_icon_list = []
         self.loadTags(self.UI)
-        self.lineColor = self.UI.orange
+        self.lineColor = self.UI.themeColorMain
         self.display_date = False
         self.createDateButton()
 
@@ -167,7 +167,7 @@ class TimelineBranch(TimeLine):
                 self.display_date = True
                 break
             else:
-                self.lineColor = self.UI.orange
+                self.lineColor = self.UI.themeColorMain
                 self.display_date = False
 
 # mouseReleased #

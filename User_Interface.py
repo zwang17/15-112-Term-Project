@@ -48,22 +48,27 @@ class UserInterface(object):
         self.black = (0,0,0)
         self.white = (255,255,255)
         self.whiteSmoke = self.hex_to_rgb('#f5f7f7')
-        self.lightBlue = self.hex_to_rgb("#d7f7fd")
+
         self.blue = (69,160,217)
-        self.deepBlue= (68,118,192)
         self.darkBlue  = (51,87,117)
-        self.red = self.hex_to_rgb("#df1a06")
-        self.darkRed = self.hex_to_rgb("#941a06")
-        self.blueGray = self.hex_to_rgb("#4b637d")
-        self.deepBlueGray = self.hex_to_rgb("#2e3242")
-        self.darkBlueGray = self.hex_to_rgb("#1b2331")
-        self.grey = self.hex_to_rgb("#2d3235")
-        self.brightGrey = self.hex_to_rgb('#777c76')
+
         self.orange = self.hex_to_rgb("#ff8700")
         self.darkOrange = self.hex_to_rgb("#dd6f0b")
-        self.deepOrange = self.hex_to_rgb("#c16112")
+
+        self.red = self.hex_to_rgb("#df1a06")
+        self.darkRed = self.hex_to_rgb("#941a06")
+
+        self.green = (0,255,128)
+        self.darkGreen = (0,204,0)
+
+        self.blueGray = self.hex_to_rgb("#4b637d")
+        self.grey = self.hex_to_rgb("#2d3235")
+        self.brightGrey = self.hex_to_rgb('#777c76')
 
         self.bgColor = self.white
+
+        self.themeColorMain = self.blue
+        self.themeColorDark = self.darkBlue
 
     def initFont(self):
         font = "zekton rg.ttf"
@@ -83,6 +88,32 @@ class UserInterface(object):
         self.myFont18Bold.set_bold(True)
         self.myFont25 = pygame.font.Font(os.path.join("font", font), 25)
         self.myFont20 = pygame.font.Font(os.path.join("font", font), 20)
+
+    def initThemeButton(self):
+        width = height = 40
+        gap = 50
+        right_offset = 250
+        bottom_offset = 80
+        self.themeButtonList = []
+
+        self.orangeThemeButton = RectButton("Orange Theme",self.orange,self.width-right_offset,self.width-right_offset+width,self.height-bottom_offset,self.height-bottom_offset+height,0,"",self.myFont14,self.white)
+        self.orangeThemeButton.extraColor = self.darkOrange
+        self.themeButtonList.append(self.orangeThemeButton)
+
+        self.blueThemeButton = RectButton("Blue Theme", self.blue, self.width - right_offset+gap, self.width - right_offset + width+gap,
+                                            self.height - bottom_offset, self.height - bottom_offset + height,0,"",self.myFont14,self.white)
+        self.blueThemeButton.extraColor = self.darkBlue
+        self.themeButtonList.append((self.blueThemeButton))
+
+        self.greenThemeButton = RectButton("Green Theme", self.green, self.width - right_offset+2*gap, self.width - right_offset + width+2*gap,
+                                            self.height - bottom_offset, self.height - bottom_offset + height,0,"",self.myFont14,self.white)
+        self.greenThemeButton.extraColor = self.darkGreen
+        self.themeButtonList.append(self.greenThemeButton)
+
+        self.redThemeButton = RectButton("Red Theme", self.red, self.width - right_offset+3*gap, self.width - right_offset + width+3*gap,
+                                            self.height - bottom_offset, self.height - bottom_offset + height,0,"",self.myFont14,self.white)
+        self.redThemeButton.extraColor = self.darkRed
+        self.themeButtonList.append(self.redThemeButton)
 
     def initNewDiaryButton(self):
         buttonWidth = self.MainBarButtonWidth * 3 / 4
@@ -127,7 +158,7 @@ class UserInterface(object):
         self.today_reminder = Database.retrieve_reminder(date)
         if self.today_reminder == None:
             self.today_reminder = Reminder(Database.todayDate())
-        self.today_reminder.updateReminderButtons(self.white, self.MainBarButtonWidth + 50, 80, self.myFont14Bold, self.measureFont14, self.brightGrey,300)
+        self.today_reminder.updateReminderButtons(self.white, self.MainBarButtonWidth + 50, 80, self.myFont14Bold, self.measureFont14, self.brightGrey,130)
 
     def initReminder(self):
         date = Database.todayDate()
@@ -169,6 +200,7 @@ class UserInterface(object):
         self.initDashboardReminder()
         self.initReminder()
         self.initTodayTags()
+        self.initThemeButton()
     
 ### Helper functions ###
     def click_within(self,x_left,x_right,y_up,y_down,x,y):
@@ -205,7 +237,7 @@ class UserInterface(object):
         for buttonName in self.MainBarButtonDict:
             button = self.MainBarButtonDict[buttonName]
             if button.WithinRange(x,y):
-                button.color = self.darkOrange
+                button.color = self.themeColorDark
                 button.textColor = self.white
         self.Voice_Assistant.mousePressed(x,y)
 
@@ -226,7 +258,7 @@ class UserInterface(object):
         for buttonName in self.MainBarButtonDict:
             button = self.MainBarButtonDict[buttonName]
             if button.WithinRange(x, y):
-                button.color = self.orange
+                button.color = self.themeColorMain
                 button.textColor = self.white
                 self.mode = buttonName
                 if self.mode == "Diary":
@@ -281,7 +313,7 @@ class UserInterface(object):
         for buttonName in self.MainBarButtonDict:
             button = self.MainBarButtonDict[buttonName]
             if button.WithinRange(x,y):
-                button.color = self.orange
+                button.color = self.themeColorMain
                 button.textColor = self.white
                 button.displayed_icon = button.alter_icon
             else:
@@ -292,7 +324,7 @@ class UserInterface(object):
         # mouseMotion of new diary button
         button = self.newDiaryButton
         if button.WithinRange(x,y):
-            button.color = self.orange
+            button.color = self.themeColorMain
             button.textColor= self.white
             button.displayed_icon = button.alter_icon
         else:
@@ -302,7 +334,7 @@ class UserInterface(object):
 
         button = self.editDiaryButton
         if button.WithinRange(x, y):
-            button.color = self.orange
+            button.color = self.themeColorMain
             button.textColor = self.white
             button.displayed_icon = button.alter_icon
         else:
@@ -382,14 +414,16 @@ class UserInterface(object):
 
     def drawDashboardTitles(self,screen):
         line = "To-do List"
-        screen.blit(self.myFont18Bold.render(line, 1, self.orange),
+        screen.blit(self.myFont18Bold.render(line, 1, self.themeColorMain),
                     (self.MainBarButtonWidth+60, 50))
         line = "Today's Diary"
-        screen.blit(self.myFont18Bold.render(line, 1, self.orange),
+        screen.blit(self.myFont18Bold.render(line, 1, self.themeColorMain),
                     (self.width - 260, 50))
 
     def redrawDashboard(self,screen):
         self.drawDashboardTitles(screen)
+        for button in self.themeButtonList:
+            button.Draw(screen)
         for tag in self.today_tag_list:
             tag.Draw(screen)
         if self.today_reminder == None: return None

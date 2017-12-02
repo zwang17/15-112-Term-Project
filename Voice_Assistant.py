@@ -113,6 +113,8 @@ class VoiceAssistant(object):
 
 # actions #
     def SaveDiary(self):
+        self.display_text = True
+        self.text_displayed = "Saving Diary..."
         Database.save_diary(self.UI.Text_Editor.Diary)
         self.deactivateVoiceAssistant()
         print("Diary saved!")
@@ -148,15 +150,19 @@ class VoiceAssistant(object):
         self.deactivateVoiceAssistant()
 
     def ShowDiaryCalendar(self):
+        self.display_text = True
+        self.text_displayed = "Showing Calendar..."
         self.UI.mode = "Diary"
 
     def ShowHighlight(self):
-        print("show highlight...")
+        self.display_text = True
+        self.text_displayed = "Showing Highlight..."
         self.UI.mode = "Highlight"
         self.deactivateVoiceAssistant()
 
     def ShowMoodTracker(self):
-        print("show mood tracker")
+        self.display_text = True
+        self.text_displayed = "Showing Mood Tracker..."
         self.UI.mode = "Mood Tracker"
         self.deactivateVoiceAssistant()
 
