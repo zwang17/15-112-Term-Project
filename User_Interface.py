@@ -41,7 +41,9 @@ class UserInterface(object):
         while True:
             try:
                 self.Voice_Assistant.runVoiceAssistant(self.Text_Editor)
-            except:
+            except Exception as e:
+                print("!!!",end="")
+                print(e)
                 print("Reinitiating voice assistnat")
 
     def initColor(self):

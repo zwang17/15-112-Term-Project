@@ -187,6 +187,13 @@ class Calendar(object):
 
 # mouseReleased #
     def mouseReleased(self,x,y):
+        if self.todayButton.WithinRange(x,y):
+            now_date = Database.todayDate()
+            self.current_year_num,self.current_month_num,self.current_day_num = now_date[0],now_date[1],now_date[2]
+            print(self.current_year_num,self.current_month_num,self.current_day_num )
+            self.day_highlighted[0] = self.current_year_num
+            self.day_highlighted[1] = self.current_month_num
+            self.updateButtons()
         dateButtonList = self.date_button_list
         if self.left_month_button.WithinRange(x, y):
             self.incrementMonth(-1)
@@ -211,11 +218,6 @@ class Calendar(object):
                 self.UI.mode = "Edit"
                 self.UI.Text_Editor.mode = "display"
         self.mouseMotion(x, y)
-        if self.todayButton.WithinRange(x,y):
-            now_date = Database.todayDate()
-            self.current_year_num,self.current_month_num,self.current_day_num = now_date[0],now_date[1],now_date[2]
-            print(self.current_year_num,self.current_month_num,self.current_day_num )
-            self.updateButtons()
 
     # redraw #
     def drawRightBar(self,screen):

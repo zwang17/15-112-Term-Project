@@ -9,7 +9,7 @@ class VoiceAssistant(object):
     def __init__(self):
         self.has_new_input = False
         self.new_line = None
-        self.va_activation_command = ["hey siri"]
+        self.va_activation_command = ["hey "]
         self.va_exit_command_list = ["nevermind","bye","nothing","diary","reminder","highlight","help","edit","save","create","show","highlight","mood","tracker","calendar"]
         self.exit_command_heard = []
         self.va_activated = False
@@ -18,6 +18,8 @@ class VoiceAssistant(object):
         self.timer = 0
         self.display_text = False
         self.text_displayed = None
+        self.initiated = False
+        self.UI = None
 
     def setUI(self,UI):
         self.UI = UI
@@ -44,6 +46,7 @@ class VoiceAssistant(object):
             if button.status == True:
                 button.color = self.UI.brightGrey
                 button.displayed_icon = button.extra_icon
+            button.status = not button.status
 
     def mouseReleased(self,x,y):
         button = self.va_button
@@ -112,6 +115,22 @@ class VoiceAssistant(object):
             self.drawText(screen)
 
 # actions #
+    def Initiate(self):
+        print("initiating...")
+        temp = self.new_line
+        self.deactivateVoiceAssistant()
+        self.display_text = True
+        self.text_displayed = "What's my name?"
+        while not self.has_new_input or self.new_line == None or self.new_line == temp:
+            pass
+        content = self.new_line
+        name = content.lower()[:-1]
+        self.va_activation_command[0] = self.va_activation_command[0]+name
+        self.deactivateVoiceAssistant()
+        self.initiated = True
+        self.display_text = True
+        self.text_displayed = "My name is {}".format(name)
+
     def SaveDiary(self):
         self.display_text = True
         self.text_displayed = "Saving Diary..."
@@ -136,7 +155,6 @@ class VoiceAssistant(object):
         self.deactivateVoiceAssistant()
         self.display_text = True
         self.text_displayed = "Remind you to?"
-        Thread(target=self.collectBackgroundText).start()
         while self.new_line.strip() == temp.strip():
             pass
         content = self.new_line
@@ -175,14 +193,14 @@ class VoiceAssistant(object):
             if self.checkCommandsInList(command_list,exit_command) or self.checkCommandsInList(command_list,exit_command):
                 self.function_list[index]()
         self.deactivateVoiceAssistant()
-        self.va_button.displayed_icon = self.va_button.icon
-        self.va_button.color = self.UI.brightGrey
 
     def activateVoiceAssisant(self):
         self.va_activated = True
 
     def deactivateVoiceAssistant(self):
         self.va_activated = False
+        self.va_button.displayed_icon = self.va_button.icon
+        self.va_button.color = self.UI.brightGrey
 
     def collectBackgroundText(self):
         while True:
@@ -224,6 +242,13 @@ class VoiceAssistant(object):
         return True
 
     def runVoiceAssistant(self,Text_Editor):
+        if self.initiated == False:
+            if self.UI == None:
+                return None
+            elif self.va_button.status == True:
+                self.Initiate()
+            else:
+                return None
         self.has_new_input = False
         self.checkActivationCommand()
         if self.va_activated:

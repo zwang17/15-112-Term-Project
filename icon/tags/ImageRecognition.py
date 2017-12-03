@@ -1,12 +1,12 @@
 import io
 import os
 
-
 from google.cloud import vision
 from google.cloud.vision import types
 
 def RecognizeImage(path):
     """Detects labels in the file.
+    This function was written partially following the google cloud vision api official tutorial\documentation
     """
     client = vision.ImageAnnotatorClient()
 
@@ -27,7 +27,3 @@ def RecognizeImage(path):
         result[label.score] = label.description
 
     return result
-
-
-if __name__ == '__main__':
-    pass
