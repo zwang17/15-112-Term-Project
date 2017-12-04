@@ -10,10 +10,11 @@ class Calendar(object):
         self.day_highlighted = [datetime.datetime.now().year,datetime.datetime.now().month,datetime.datetime.now().day]
         self.current_year_num = datetime.datetime.now().year
         self.current_month_num = datetime.datetime.now().month
-        self.current_day_num = datetime.datetime.now().day
-        self.current_month = self.months[self.current_month_num-1]
+        self.current_month_str = self.months[self.current_month_num-1]
+
         self.date_button_list = []
         self.weekday_button_list = []
+        self.tag_icon_list = []
         self.calendarSideBarWidth = 0
         self.title_button = None
         self.left_month_button = None
@@ -27,7 +28,7 @@ class Calendar(object):
         self.initReminderButton()
 
     def getCurrentDate(self):
-        return [self.current_year_num,self.current_month_num,self.current_day_num]
+        return self.day_highlighted
 
     def incrementMonth(self,num):
         self.current_month_num += num
@@ -37,17 +38,15 @@ class Calendar(object):
         if self.current_month_num == 0:
             self.current_month_num = 12
             self.current_year_num -= 1
-        self.current_month = self.months[self.current_month_num-1]
-
-    def timerFiredSideBar(self):
-        if self.calendarSideBarWidth < self.UI.MainBarButtonWidth:
-            self.calendarSideBarWidth += 5
+        self.current_month_str = self.months[self.current_month_num-1]
+        self.day_highlighted[0] = self.current_year_num
+        self.day_highlighted[1] = self.current_month_num
 
     def initReminderButton(self):
         width = 80
         height = 40
         self.reminders_button = RectButton("Reminders", self.UI.grey, self.UI.width - (self.UI.MainBarButtonWidth- width) / 2-width,
-                                           self.UI.width - (self.UI.MainBarButtonWidth - width) / 2, 20, 20 + height, \
+                                           self.UI.width - (self.UI.MainBarButtonWidth - width) / 2, 20, 20 + height, 
                                        margin_width=0,
                                        text="Reminders",
                                        font=self.UI.myFont18Bold, textColor=self.UI.brightGrey)
@@ -55,9 +54,9 @@ class Calendar(object):
     def updateTitleButton(self):
         length = 100
         height = 80
-        self.current_month = self.months[self.current_month_num-1]
-        self.title_button = RectButton("Title",self.UI.white,(self.UI.width-length)/2,(self.UI.width+length)/2,30,30+height,\
-                                       margin_width=0,text=self.current_month.upper()+", "+str(self.current_year_num),font=self.UI.myFont18Bold,textColor=self.UI.brightGrey)
+        self.current_month_str = self.months[self.current_month_num-1]
+        self.title_button = RectButton("Title",self.UI.white,(self.UI.width-length)/2,(self.UI.width+length)/2,30,30+height,
+                                       margin_width=0,text=self.current_month_str.upper()+", "+str(self.current_year_num),font=self.UI.myFont18Bold,textColor=self.UI.brightGrey)
 
     def createTodayButton(self):
         self.todayButton = RectButton("Today",self.UI.white,600,670,550,580,0,"TODAY",self.UI.myFont15Bold,self.UI.brightGrey)
@@ -100,7 +99,7 @@ class Calendar(object):
     def updateDateButtons(self):
         First_day_weekday = (datetime.datetime(self.current_year_num, self.current_month_num, 1).weekday() + 1) % 7
         self.date_button_list = []
-        for day in range(self.month_num_day[self.current_month]):
+        for day in range(self.month_num_day[self.current_month_str]):
             button_width = 50
             button_height = 50
             x_gap = 600/7
@@ -111,9 +110,9 @@ class Calendar(object):
             y_down = y_up + button_height
             new_date_button = RectButton(str(day+1),self.UI.white,x_left,x_right,y_up,y_down,text=str(day+1),margin_width=0,font=self.UI.myFont15,textColor=self.UI.brightGrey)
             self.date_button_list.append(new_date_button)
-        if (self.current_year_num, self.current_month_num) == (datetime.datetime.now().year, datetime.datetime.now().month):
-            self.date_button_list[datetime.datetime.now().day-1].color = self.UI.themeColorMain
-            self.date_button_list[datetime.datetime.now().day - 1].textColor = self.UI.white
+        # if (self.current_year_num, self.current_month_num) == (datetime.datetime.now().year, datetime.datetime.now().month):
+        #     self.date_button_list[datetime.datetime.now().day-1].color = self.UI.themeColorMain
+        #     self.date_button_list[datetime.datetime.now().day - 1].textColor = self.UI.white
 
     def createEditDiaryButton(self):
         width = 110
@@ -122,15 +121,34 @@ class Calendar(object):
         y_up = 500
         y_down = 540
         self.edit_diary_button = RectButton("edit", self.UI.themeColorMain, x_left,
-                                       x_right, y_up,y_down, \
+                                       x_right, y_up,y_down,
                                        margin_width=1,
                                        text="Check Diary",
                                        font=self.UI.myFont15Bold, textColor=self.UI.themeColorMain)
+
+    def loadTags(self):
+        self.tag_icon_list = []
+        diary = Database.retrieve_diary(self.day_highlighted)
+        if diary == None: return None
+        tags = diary.tags
+        tag_size = 35
+        init_pos = len(tags)/2
+
+        for index in range(len(tags)):
+            x_left = self.UI.width - self.UI.MainBarButtonWidth/2+(-init_pos+index)*tag_size
+            x_right = x_left + tag_size
+            y_up = self.UI.height*3/4
+            y_down = y_up + tag_size
+            self.newTagButton = RectButton("tag{}".format(index), self.UI.grey, x_left, x_right, y_up, y_down,
+                                           0, "", self.UI.myFont15, self.UI.brightGrey)
+            self.newTagButton.AddIcon("tags\\tag\\" + tags[index], 30, 30, 1 / 2, 1 / 2)
+            self.tag_icon_list.append(self.newTagButton)
 
     def updateButtons(self):
         self.updateTitleButton()
         self.updateDateButtons()
         self.updateSideYearButtons()
+        self.loadTags()
 
     def initAllButtons(self):
         self.updateDateButtons()
@@ -145,7 +163,7 @@ class Calendar(object):
     def mouseMotion(self,x,y):
         dateButtonList = self.date_button_list
         for index in range(len(dateButtonList)):
-            if ((self.current_year_num,self.current_month_num) == (self.day_highlighted[0],self.day_highlighted[1]) and index + 1 == self.current_day_num):
+            if ((self.current_year_num,self.current_month_num) == (self.day_highlighted[0],self.day_highlighted[1]) and index + 1 == self.day_highlighted[2]):
                 dateButtonList[index].color = self.UI.themeColorMain
                 dateButtonList[index].textColor = self.UI.white
             elif dateButtonList[index].WithinRange(x,y):
@@ -189,10 +207,12 @@ class Calendar(object):
     def mouseReleased(self,x,y):
         if self.todayButton.WithinRange(x,y):
             now_date = Database.todayDate()
-            self.current_year_num,self.current_month_num,self.current_day_num = now_date[0],now_date[1],now_date[2]
-            print(self.current_year_num,self.current_month_num,self.current_day_num )
+            self.current_year_num,self.current_month_num = now_date[0],now_date[1]
             self.day_highlighted[0] = self.current_year_num
             self.day_highlighted[1] = self.current_month_num
+            self.day_highlighted[2] = now_date[2]
+            print(self.day_highlighted)
+            self.UI.updateReminder(self.day_highlighted)
             self.updateButtons()
         dateButtonList = self.date_button_list
         if self.left_month_button.WithinRange(x, y):
@@ -201,29 +221,71 @@ class Calendar(object):
             self.incrementMonth(1)
         if self.left_year_button.WithinRange(x, y):
             self.current_year_num -= 1
+            self.day_highlighted[0] = self.current_year_num
         if self.right_year_button.WithinRange(x, y):
             self.current_year_num += 1
+            self.day_highlighted[0] = self.current_year_num
         for index in range(len(dateButtonList)):
             if dateButtonList[index].WithinRange(x, y):
-                self.current_day_num = index + 1
+                self.day_highlighted[2] = index + 1
                 self.day_highlighted[0] = self.current_year_num
                 self.day_highlighted[1] = self.current_month_num
                 self.mouseMotion(x, y)
-                self.UI.updateReminder(self.getCurrentDate())
+                self.UI.updateReminder(self.day_highlighted)
         self.updateButtons()
+
         button = self.edit_diary_button
         if button.WithinRange(x, y):
-            if Database.retrieve_diary(self.getCurrentDate()) != None:
-                self.UI.Text_Editor.getDiary(self.getCurrentDate())
+            if Database.retrieve_diary(self.day_highlighted) != None:
+                self.UI.Text_Editor.getDiary(self.day_highlighted)
                 self.UI.mode = "Edit"
                 self.UI.Text_Editor.mode = "display"
         self.mouseMotion(x, y)
+
+    # keyPressed #
+    def keyPressed(self,key,mod):
+        if key == pygame.K_RIGHT:
+            self.day_highlighted[2] += 1
+            if self.day_highlighted[2] > self.month_num_day[self.current_month_str]:
+                self.day_highlighted[2] = 1
+                self.current_month_num += 1
+                if self.current_month_num > 12:
+                    self.current_month_num = 1
+                    self.current_year_num += 1
+            self.current_month_str = self.months[self.current_month_num - 1]
+        if key == pygame.K_LEFT:
+            self.day_highlighted[2] -= 1
+            if self.day_highlighted[2] < 1:
+                self.current_month_num -= 1
+                if self.current_month_num < 1:
+                    self.current_month_num = 12
+                    self.current_year_num -= 1
+                self.current_month_str = self.months[self.current_month_num - 1]
+                self.day_highlighted[2] = self.month_num_day[self.current_month_str]
+        if key == pygame.K_DOWN:
+            destination = self.day_highlighted[2] + 7
+            self.day_highlighted[2] = min(destination,self.month_num_day[self.current_month_str])
+        if key == pygame.K_UP:
+            destination = self.day_highlighted[2] - 7
+            self.day_highlighted[2] = max(destination,1)
+        self.day_highlighted[0] = self.current_year_num
+        self.day_highlighted[1] = self.current_month_num
+        self.UI.updateReminder(self.day_highlighted)
+        self.updateButtons()
+        self.mouseMotion(0,0)
+
+    # timerFired #
+    def timerFiredSideBar(self):
+        if self.calendarSideBarWidth < self.UI.MainBarButtonWidth:
+            self.calendarSideBarWidth += 5
 
     # redraw #
     def drawRightBar(self,screen):
         pygame.draw.rect(screen, self.UI.grey, (self.UI.width-self.calendarSideBarWidth, 0, self.UI.width-self.calendarSideBarWidth, self.UI.height), 0)
 
-    def drawEditButton(self,screen):
+    def drawDiary(self,screen):
+        for tag in self.tag_icon_list:
+            tag.Draw(screen)
         self.edit_diary_button.Draw(screen,text_anchor=1)
         
     def drawRemindersButton(self,screen):
@@ -242,8 +304,9 @@ class Calendar(object):
         self.drawRightBar(screen)
         if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth:
             self.drawRemindersButton(screen)
-        if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth and Database.retrieve_diary(self.getCurrentDate()) != None:
-            self.drawEditButton(screen)
-        self.todayButton.Draw(screen,text_anchor=1)
+        if self.calendarSideBarWidth >= self.UI.MainBarButtonWidth and Database.retrieve_diary(self.day_highlighted) != None:
+            self.drawDiary(screen)
+        if self.day_highlighted != Database.todayDate():
+            self.todayButton.Draw(screen,text_anchor=1)
 
 

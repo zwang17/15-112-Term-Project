@@ -232,9 +232,11 @@ class UserInterface(object):
 #########################
 
 ### keyPressed ###
-    def keyPressed(self,x,y):
-        pass
-
+    def keyPressed(self,key,mod):
+        if self.mode == "Diary":
+            self.Calendar.keyPressed(key,mod)
+        if self.mode == "Edit":
+            self.Text_Editor.keyPressed(key,mod)
 ### keyReleased ###
     def keyReleased(self,x,y):
         pass
@@ -502,6 +504,7 @@ class UserInterface(object):
     def TextEditorUpdate(self):
         if self.mode == "Edit":
             if self.Text_Editor.mode == "edit":
+                self.Voice_Assistant.dl_activated = True
                 self.Text_Editor.updateDiary(self.Voice_Assistant)
         if self.mode != "Edit":
             self.Text_Editor.mode = "display"

@@ -51,12 +51,17 @@ class TextEditor(object):
         self.Diary = Diary(today_date)
 
     def updateDiary(self,VoiceAssistant):
+        if self.mode == "display":
+            return None
         if VoiceAssistant.new_line == self.skip_line:
             return None
-        if self.mute: return None
-        if VoiceAssistant.new_line == None: return None
+        if self.mute:
+            return None
+        if VoiceAssistant.new_line == None:
+            return None
         if VoiceAssistant.has_new_input and VoiceAssistant.dl_activated:
             new_line = Sentence(VoiceAssistant.new_line)
+            print(new_line)
             if len(self.Diary.text) == 0 or new_line != self.Diary.text[-1]:
                 self.Diary.addSentence(new_line)
             VoiceAssistant.has_new_input = False
@@ -114,13 +119,19 @@ class TextEditor(object):
                 self.UI.Voice_Assistant.SaveDiary()
                 self.mode = "display"
 
-                # for testing purposes
-                self.loadTags()
-
         if self.mode == "display":
             button = self.diaryEditButton
             if button.WithinRange(x, y):
                 self.mode = "edit"
+                self.UI.Voice_Assistant.has_new_input = False
+
+# keyPressed #
+    def keyPressed(self, key, mod):
+        if key == pygame.K_BACKSPACE:
+            if self.mode == "edit":
+                if len(self.Diary.text) == 0:
+                    return None
+                self.Diary.text.pop()
 
 # redraw #
     def redraw(self,screen):

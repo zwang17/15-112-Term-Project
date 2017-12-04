@@ -4,23 +4,28 @@ from google.cloud.language import types
 import six
 import sys
 
-def sentiment_analyze(text):
-    """
-    This function is cited from cloud.google.com/natural-language/docs/sentiment-tutorial#analyzing_document_sentiment
-    :return a len-3 tuple in the form of (overall sentiment score, overall sentiment magnitude, a list of sentiment values of each sentence in sequential order)
-    """
-    client = language.LanguageServiceClient()
-    document = types.Document(content=text, type=enums.Document.Type.PLAIN_TEXT)
-    annotations = client.analyze_sentiment(document=document)
-    score = annotations.document_sentiment.score
-    magnitude = annotations.document_sentiment.magnitude
-
-    sentence_sentiment_list = []
-    for index, sentence in enumerate(annotations.sentences):
-        sentence_sentiment_list.append(sentence.sentiment.score)
-
-
-    return (score,magnitude,sentence_sentiment_list)
+"""
+sentiment_analyze functino is no longer in use. Instead, 
+a self-implemented method of sentiment analysis is employed in this project for obtaining sentiment values for 
+diaries under the directory Sentiment_Analysis.
+"""
+# def sentiment_analyze(text):
+#     """
+#     This function is cited from cloud.google.com/natural-language/docs/sentiment-tutorial#analyzing_document_sentiment
+#     :return a len-3 tuple in the form of (overall sentiment score, overall sentiment magnitude, a list of sentiment values of each sentence in sequential order)
+#     """
+#     client = language.LanguageServiceClient()
+#     document = types.Document(content=text, type=enums.Document.Type.PLAIN_TEXT)
+#     annotations = client.analyze_sentiment(document=document)
+#     score = annotations.document_sentiment.score
+#     magnitude = annotations.document_sentiment.magnitude
+#
+#     sentence_sentiment_list = []
+#     for index, sentence in enumerate(annotations.sentences):
+#         sentence_sentiment_list.append(sentence.sentiment.score)
+#
+#
+#     return (score,magnitude,sentence_sentiment_list)
 
 def entity_sentiment_analysis(text):
     """
@@ -64,7 +69,3 @@ def entity_sentiment_analysis(text):
         # print(u'Salience: {}'.format(entity.salience)) # Salience is how outstanding this word is in the sentence
         # print(u'Sentiment: {}\n'.format(entity.sentiment))
     return report
-
-if __name__ == '__main__':
-    sentiment_analyze('I took my 15112 midterm today and it was horrible. I had no idea how to do half of the problems and I am most certainly going to fail this exam.')
-    entity_sentiment_analysis('I took my 15112 midterm today and it was horrible. I had no idea how to do half of the problems and I am most certainly going to fail this exam.')

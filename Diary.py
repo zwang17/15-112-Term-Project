@@ -68,7 +68,8 @@ class Diary(object):
 
     def updateSentimentAnalysis(self):
         print("Updating Sentiment Analysis...")
-        self.sentiment_report = sentiment_analyze(str(self))
+        self.sentiment_report = db.getSentiment(str(self))
+        print(self.sentiment_report)
         print("Updating Entity Sentiment Analysis...")
         self.entity_sentiment_report = entity_sentiment_analysis(str(self))
         print("Sentiment Analysis Updated!")

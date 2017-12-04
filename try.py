@@ -7,6 +7,9 @@ from Diary import *
 from Diary_Calendar import *
 from Reminder import *
 from Highlight_Timeline import *
+import nltk
+
+
 
 # for manually modifying a diary entry object
 
@@ -28,3 +31,8 @@ from Highlight_Timeline import *
 #     pickle.dump(tag_name_list,f,pickle.HIGHEST_PROTOCOL)
 
 Database.updateAllDiaries()
+
+
+
+# Es = Estimator.SentiEstimator(data,classifier)
+# print(Es.estimate("I was very happy today. I woke up early and went to eat a great breakfast."))

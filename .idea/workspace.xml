@@ -2,15 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.13.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.13.pickle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentiment_Analysis/Estimator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentiment_Analysis/Trainer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sentiment_Analysis/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sentiment Analysis/Trainer.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.13.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.13.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.27.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.27.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.10.30.pickle" afterPath="$PROJECT_DIR$/diary/2017.10.30.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.10.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.10.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.15.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.15.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.21.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.21.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.28.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.28.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.30.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.30.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.8.28.pickle" afterPath="$PROJECT_DIR$/diary/2017.8.28.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.9.4.pickle" afterPath="$PROJECT_DIR$/diary/2017.9.4.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.28.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.28.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.29.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.29.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.30.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.30.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.1.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.1.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.2.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.2.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.3.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.3.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.py" afterPath="$PROJECT_DIR$/Database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary.py" afterPath="$PROJECT_DIR$/Diary.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Calendar.py" afterPath="$PROJECT_DIR$/Diary_Calendar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Text_Editor.py" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight_Timeline.py" afterPath="$PROJECT_DIR$/Highlight_Timeline.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Language_Analysis.py" afterPath="$PROJECT_DIR$/Language_Analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice_Assistant.py" afterPath="$PROJECT_DIR$/Voice_Assistant.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icon/tags/ImageRecognition.py" afterPath="$PROJECT_DIR$/icon/tags/ImageRecognition.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,57 +42,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User_Interface.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tags_Handling.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/icon/tags/Tags_Handling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="230">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Button.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Button.py">
+      <file leaf-file-name="Trainer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sentiment_Analysis/Trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mood_Tracker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mood_Tracker.py">
+      <file leaf-file-name="Estimator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sentiment_Analysis/Estimator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="667">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reminder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reminder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,32 +77,8 @@
       <file leaf-file-name="Highlight_Timeline.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2001">
-              <caret line="111" column="61" lean-forward="false" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="133" column="24" lean-forward="true" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Speech_Recognition.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="209" column="19" lean-forward="false" selection-start-line="209" selection-start-column="19" selection-end-line="209" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -114,9 +87,21 @@
       <file leaf-file-name="Diary_Calendar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2783">
-              <caret line="123" column="83" lean-forward="true" selection-start-line="123" selection-start-column="83" selection-end-line="123" selection-end-column="83" />
+            <state relative-caret-position="417">
+              <caret line="144" column="43" lean-forward="false" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="130" column="29" lean-forward="true" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,10 +109,20 @@
       <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+            <state relative-caret-position="376">
+              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User_Interface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,42 +139,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>marginBu</find>
-      <find>mousemotionDash</find>
-      <find>themeColorM</find>
-      <find>mousemotiondash</find>
-      <find>extraC</find>
-      <find>self.green</find>
-      <find>print</find>
-      <find>datapoint</find>
-      <find>datapoint.co</find>
-      <find>check</find>
-      <find>createSideYearButtons</find>
-      <find>incrementMonth</find>
-      <find>createTitleButton</find>
-      <find>updateDateButtons</find>
-      <find>updatetit</find>
-      <find>updateSideMon</find>
-      <find>increment</find>
-      <find>init</find>
-      <find>mouse</find>
-      <find>mousePressed</find>
-      <find>updateButtons</find>
-      <find>updateTitleButton</find>
-      <find>update</find>
-      <find>todayButton</find>
-      <find>day_highlighted</find>
+      <find>updating se</find>
+      <find>u</find>
+      <find>sentiment_report</find>
+      <find>getSentiment</find>
+      <find>getDiariesWithHighestSentiments</find>
+      <find>updating sen</find>
+      <find>sentiment_analyze</find>
+      <find>past 6</find>
+      <find>display_date</find>
+      <find>hanging_button</find>
+      <find>createDateButton</find>
+      <find>update_display_list</find>
+      <find>tag</find>
+      <find>loadTa</find>
+      <find>drawEditButton</find>
+      <find>self.tag_</find>
+      <find>self.current_month</find>
+      <find>self.current_month_str_num</find>
+      <find>initToday</find>
+      <find>getCurrentDate</find>
+      <find>getCu</find>
+      <find>self.getCurrentDate()</find>
+      <find>current_day_num</find>
+      <find>self.current_day_num</find>
+      <find>self.current_yea</find>
+      <find>initi</find>
+      <find>deactivateVoiceAssistant</find>
       <find>Initiate</find>
-      <find>va_button.status</find>
-      <find>status</find>
-      <find>activation</find>
-      <find>strip</find>
+      <find>while</find>
+      <find>tracker&quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>va_exit_status</replace>
-      <replace>self.va_activated</replace>
-      <replace>'Calendar'</replace>
-      <replace>new_line_list</replace>
       <replace>db</replace>
       <replace>initDiarySaveButton</replace>
       <replace>initEditDiaryButton</replace>
@@ -206,6 +197,10 @@
       <replace>self.themeColorDark</replace>
       <replace>right_offset</replace>
       <replace>bottom</replace>
+      <replace>self.current_month_num</replace>
+      <replace>createToday</replace>
+      <replace>self.day_highlighted</replace>
+      <replace>self.day_highlighted[2]</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\zheye1218\Desktop\15-112-Term-Project</dir>
@@ -234,24 +229,28 @@
         <option value="$PROJECT_DIR$/tags/ImageRecognition.py" />
         <option value="$PROJECT_DIR$/tags/Tags_Handling.py" />
         <option value="D:/Machine-Learning/Deep Learning/MNIST/Try(MNIST).py" />
-        <option value="$PROJECT_DIR$/Language_Analysis.py" />
-        <option value="$PROJECT_DIR$/Diary.py" />
         <option value="$PROJECT_DIR$/Button.py" />
         <option value="$PROJECT_DIR$/icon/tags/Tags_Handling.py" />
-        <option value="$PROJECT_DIR$/try.py" />
-        <option value="$PROJECT_DIR$/Database.py" />
         <option value="$PROJECT_DIR$/Speech_Recognition.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Reminder.py" />
-        <option value="$PROJECT_DIR$/Sentiment Analysis/Trainer.py" />
         <option value="$PROJECT_DIR$/../try.py" />
-        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
-        <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
         <option value="$PROJECT_DIR$/../Finance/Bitcoin/Account_Manager/price.py" />
         <option value="$PROJECT_DIR$/Mood_Tracker.py" />
         <option value="$PROJECT_DIR$/icon/tags/ImageRecognition.py" />
-        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
         <option value="$PROJECT_DIR$/User_Interface.py" />
+        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
+        <option value="$PROJECT_DIR$/Sentiment Analysis/Classifier.py" />
+        <option value="$PROJECT_DIR$/Sentiment Analysis/Estimator.py" />
+        <option value="$PROJECT_DIR$/Sentiment Analysis/Trainer.py" />
+        <option value="$PROJECT_DIR$/Sentiment Analysis/__init__.py" />
+        <option value="$PROJECT_DIR$/Diary.py" />
+        <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/Sentiment_Analysis/Estimator.py" />
+        <option value="$PROJECT_DIR$/Database.py" />
+        <option value="$PROJECT_DIR$/Language_Analysis.py" />
+        <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
+        <option value="$PROJECT_DIR$/Diary_Calendar.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
       </list>
     </option>
@@ -295,6 +294,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,12 +303,15 @@
               <item name="15-112-Term-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="15-112-Term-Project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="15-112-Term-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15-112-Term-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,6 +320,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zheye1218\Desktop\15-112-Term-Project\Sentiment_Analysis" />
       <recent name="C:\Users\zheye1218\Desktop\15-112-Term-Project\Data Processing" />
       <recent name="C:\Users\zheye1218\Desktop\15-112-Term-Project" />
     </key>
@@ -333,6 +338,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="Classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sentiment Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="15-112-Term-Project" />
+      <option name="SCRIPT_NAME" value="C:\Users\zheye1218\Desktop\15-112-Term-Project\Sentiment_Analysis\Estimator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="Trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,7 +367,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="15-112-Term-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sentiment Analysis/Trainer.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\zheye1218\Desktop\15-112-Term-Project\Sentiment_Analysis\Trainer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,23 +406,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="try (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="15-112-Term-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../try.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,17 +426,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.try" />
-      <item index="2" class="java.lang.String" itemvalue="Python.try (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Trainer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.price" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Trainer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.price" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Classifier" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.price" />
-        <item index="2" class="java.lang.String" itemvalue="Python.try (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.try" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Classifier" />
         <item index="3" class="java.lang.String" itemvalue="Python.Trainer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.try" />
+        <item index="4" class="java.lang.String" itemvalue="Python.price" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +460,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -485,41 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User_Interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4646">
-          <caret line="205" column="12" lean-forward="false" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Speech_Recognition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2530">
@@ -673,56 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="160" column="54" lean-forward="false" selection-start-line="160" selection-start-column="54" selection-end-line="160" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1401">
-          <caret line="112" column="22" lean-forward="false" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../try.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentiment Analysis/Trainer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,17 +655,7 @@
         <state relative-caret-position="483">
           <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="17" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -758,35 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2001">
-          <caret line="111" column="61" lean-forward="false" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mood_Tracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icon/tags/Tags_Handling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,17 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2783">
-          <caret line="123" column="83" lean-forward="true" selection-start-line="123" selection-start-column="83" selection-end-line="123" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,20 +690,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/nltk/tokenize/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentiment Analysis/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/icon/tags/Tags_Handling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mood_Tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="106" column="42" lean-forward="true" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentiment_Analysis/Trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sentiment_Analysis/Estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="209" column="19" lean-forward="false" selection-start-line="209" selection-start-column="19" selection-end-line="209" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="144" column="43" lean-forward="false" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/User_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="414">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="133" column="24" lean-forward="true" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+        <state relative-caret-position="391">
+          <caret line="130" column="29" lean-forward="true" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

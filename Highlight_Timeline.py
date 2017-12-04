@@ -20,6 +20,7 @@ class TimeLine(object):
         self.update_display_list(10)
         self.updateBranches()
         self.initModeButtons()
+        self.initLeftEndDateButton()
 
     def initModeButtons(self):
         width = 100
@@ -34,11 +35,20 @@ class TimeLine(object):
         self.month_button.status = True
         self.six_month_button = RectButton("six month", self.UI.white, self.UI.width - margin - 3 * width,
                                              self.UI.width - margin - 2 * width, self.UI.height - margin - height,
-                                             self.UI.height - margin , text="Past 6 Month",
+                                             self.UI.height - margin , text="Past 6 Months",
                                              font=self.UI.myFont12,
                                              textColor=self.UI.brightGrey)
         self.mode_button_list = [self.two_weeks_button,self.month_button,self.six_month_button]
 
+    def initLeftEndDateButton(self):
+        date = self.startDate
+        date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])
+        self.left_end_data_button = RectButton("left_end_data",self.UI.white,self.timelineXLeft,self.timelineXLeft,self.UI.height/2-20,self.UI.height/2-20,0,date_str,self.UI.myFont12,self.UI.themeColorDark)
+
+    def updateLeftEndDateButton(self):
+        date = self.startDate
+        date_str = str(date[0]) + "." + str(date[1]) + "." + str(date[2])
+        self.left_end_data_button.text = date_str
 
     def update_display_list(self,num_to_display):
         allDiaries = Database.retreieve_diary_between(self.startDate,Database.todayDate())
@@ -61,6 +71,7 @@ class TimeLine(object):
 
         self.update_display_list(10)
         self.updateBranches()
+        self.updateLeftEndDateButton()
 
 # mouseMotion #
     def mouseMotion(self,x,y):
@@ -125,6 +136,7 @@ class TimeLine(object):
         self.drawCircle(screen,self.UI.themeColorMain,self.timelineXLeft,line_y,circle_radius,0)
         pygame.draw.lines(screen,self.UI.themeColorMain,False,[(self.timelineXLeft,line_y),(self.timelineInitX,line_y)],2)
         self.drawCircle(screen,self.UI.themeColorMain,self.timelineInitX,line_y,circle_radius,0)
+        self.left_end_data_button.Draw(screen,text_anchor=1)
 
     def redraw(self,screen):
         self.drawBaseLine(screen)

@@ -2,11 +2,23 @@ import os
 from Diary import *
 import datetime
 import pickle
+from Sentiment_Analysis import Estimator
 
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
           'November','December']
 month_num_day = { 'January': 31, 'February': 29, 'March': 31, 'April': 30, 'May': 31, 'June': 30,
                  'July': 31, 'August': 31, 'September': 30, 'October': 31, 'November': 30,'December': 31}
+
+with open("Sentiment_Analysis/model/feature_data/feature.pickle", "rb") as f:
+    feature_data = pickle.load(f)
+
+estimator_list = []
+for filename in os.listdir(os.path.join("Sentiment_Analysis","model")):
+    name_list = filename.split(".")
+    if name_list[-1] == "pickle":
+        with open("Sentiment_Analysis/model/"+filename,'rb') as f:
+            estimator = pickle.load(f)
+            estimator_list.append(estimator)
 
 def todayDate():
     now = datetime.datetime.now()
@@ -44,9 +56,9 @@ def word_match_tag(word):
                 winner = tagName
     return winner
 
-def getSentiment(Analyst,text):
-    result = Analyst.sentiment_analyze(text)
-    return result
+def getSentiment(text):
+    estimator = Estimator.SentiEstimator(feature_data,*estimator_list)
+    return estimator.getSentimentReport(text)
 
 def getSimilarity(word,tag_name):
     """
