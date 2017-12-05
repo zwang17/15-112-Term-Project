@@ -7,7 +7,6 @@ class SentiEstimator(object):
         self.estimators = estimators
         self.feature_data = data
 
-
     def match_features(self,text):
         """
         This function is cited from https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/?completed=/new-data-set-training-nltk-tutorial/

@@ -1,15 +1,17 @@
 """
 !! This trainer is written following a YouTube tutorial named "NLTK with Python 3 for Natural Language Processing"
 at https://www.youtube.com/watch?v=FLZvOKSCkxY&index=1&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+The training data was obtained from the same source.
 """
 import nltk
 import random
 from nltk.classify.scikitlearn import SklearnClassifier
 import pickle
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB
-from sklearn.linear_model import LogisticRegression, SGDClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
-from nltk.classify import ClassifierI
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neural_network import MLPClassifier
 
 positive_text = open("sample_text/positive.txt","r",encoding="utf-8")
 negative_text = open("sample_text/negative.txt","r",encoding="utf-8")
@@ -67,36 +69,28 @@ for sample in formatted_sample:
 random.shuffle(dataset)
 train_set, test_set = dataset[:10000],dataset[10000:]
 
-classifier = nltk.NaiveBayesClassifier.train(train_set)
-with open('model/naivebayes.pickle','wb') as f:
-    pickle.dump(classifier,f,pickle.HIGHEST_PROTOCOL)
+# print("Trainning begin...")
+# MNB_classifier = SklearnClassifier(MultinomialNB())
+# MNB_classifier.train(train_set)
+#
+# with open("model/MNB_classifier.pickle","wb") as f:
+#     pickle.dump(MNB_classifier, f,pickle.HIGHEST_PROTOCOL)
+#
+# BernoulliNB_classifier = SklearnClassifier(BernoulliNB())
+# BernoulliNB_classifier.train(train_set)
+#
+# with open("model/BernoulliNB_classifier.pickle","wb") as f:
+#     pickle.dump(BernoulliNB_classifier, f,pickle.HIGHEST_PROTOCOL)
+#
+# LogisticRegression_classifier = SklearnClassifier(LogisticRegression())
+# LogisticRegression_classifier.train(train_set)
+#
+# with open("model/LogisticRegression_classifier.pickle","wb") as f:
+#     pickle.dump(LogisticRegression_classifier, f,pickle.HIGHEST_PROTOCOL)
 
-MNB_classifier = SklearnClassifier(MultinomialNB())
-MNB_classifier.train(train_set)
-
-with open("model/MNB_classifier.pickle","wb") as f:
-    pickle.dump(MNB_classifier, f,pickle.HIGHEST_PROTOCOL)
-
-BernoulliNB_classifier = SklearnClassifier(BernoulliNB())
-BernoulliNB_classifier.train(train_set)
-
-with open("model/BernoulliNB_classifier.pickle","wb") as f:
-    pickle.dump(BernoulliNB_classifier, f,pickle.HIGHEST_PROTOCOL)
-
-LogisticRegression_classifier = SklearnClassifier(LogisticRegression())
-LogisticRegression_classifier.train(train_set)
-
-with open("model/LogisticRegression_classifier.pickle","wb") as f:
-    pickle.dump(LogisticRegression_classifier, f,pickle.HIGHEST_PROTOCOL)
-
-LinearSVC_classifier = SklearnClassifier(LinearSVC())
-LinearSVC_classifier.train(train_set)
-
-with open("model/LinearSVC_classifier.pickle","wb") as f:
-    pickle.dump(LinearSVC_classifier,f,pickle.HIGHEST_PROTOCOL)
-
-SGDC_classifier = SklearnClassifier(SGDClassifier())
-SGDC_classifier.train(train_set)
-
-with open("model/SGDC_classifier.pickle","wb") as f:
-    pickle.dump(SGDC_classifier, f,pickle.HIGHEST_PROTOCOL)
+# MLP_classifier = SklearnClassifier(MLPClassifier())
+# MLP_classifier.train(train_set)
+# print("MLP_classifier accuracy percent:", (nltk.classify.accuracy(MLP_classifier, test_set))*100)
+#
+# with open("model/MLP_classifier.pickle","wb") as f:
+#     pickle.dump(MLP_classifier,f,pickle.HIGHEST_PROTOCOL)

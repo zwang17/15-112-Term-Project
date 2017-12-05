@@ -33,6 +33,5 @@ import nltk
 Database.updateAllDiaries()
 
 
-
 # Es = Estimator.SentiEstimator(data,classifier)
 # print(Es.estimate("I was very happy today. I woke up early and went to eat a great breakfast."))
