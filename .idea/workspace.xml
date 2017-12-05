@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.27.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.27.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.11.28.pickle" afterPath="$PROJECT_DIR$/reminders/2017.11.28.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.3.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.3.pickle" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/anke.regular.ttf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.5.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.5.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Text_Editor.py" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight_Timeline.py" afterPath="$PROJECT_DIR$/Highlight_Timeline.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +31,32 @@
       <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/User_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="392" column="13" lean-forward="true" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
+            <state relative-caret-position="1849">
+              <caret line="329" column="31" lean-forward="true" selection-start-line="329" selection-start-column="31" selection-end-line="329" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Highlight_Timeline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -52,16 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>deactivateVoiceAssistant</find>
-      <find>Initiate</find>
-      <find>while</find>
-      <find>tracker&quot;</find>
-      <find>whitesmo</find>
-      <find>say y</find>
-      <find>text_displayed</find>
-      <find>drawText</find>
-      <find>helper_button_list</find>
-      <find>updateReminderButtons</find>
       <find>button_list</find>
       <find>self.width</find>
       <find>del</find>
@@ -81,7 +92,17 @@
       <find>LogoB</find>
       <find>15Bo</find>
       <find>mousemotion</find>
+      <find>change_color</find>
+      <find>change</find>
       <find>Logo</find>
+      <find>LogoIndex</find>
+      <find>LogoColo</find>
+      <find>self.LOgo</find>
+      <find>18Bold</find>
+      <find>update</find>
+      <find>date</find>
+      <find>color</find>
+      <find>theme</find>
     </findStrings>
     <replaceStrings>
       <replace>db</replace>
@@ -157,7 +178,6 @@
         <option value="$PROJECT_DIR$/Diary.py" />
         <option value="$PROJECT_DIR$/Database.py" />
         <option value="$PROJECT_DIR$/Language_Analysis.py" />
-        <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
         <option value="$PROJECT_DIR$/Sentiment_Analysis/Estimator.py" />
         <option value="$PROJECT_DIR$/Sentiment_Analysis/Trainer.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
@@ -166,6 +186,7 @@
         <option value="$PROJECT_DIR$/try.py" />
         <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
         <option value="$PROJECT_DIR$/User_Interface.py" />
+        <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
       </list>
     </option>
   </component>
@@ -655,16 +676,8 @@
         <state relative-caret-position="230">
           <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sentiment_Analysis/Trainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -740,11 +743,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/User_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="392" column="13" lean-forward="true" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="1849">
+          <caret line="329" column="31" lean-forward="true" selection-start-line="329" selection-start-column="31" selection-end-line="329" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

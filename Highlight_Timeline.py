@@ -43,7 +43,7 @@ class TimeLine(object):
     def initLeftEndDateButton(self):
         date = self.startDate
         date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])
-        self.left_end_data_button = RectButton("left_end_data",self.UI.white,self.timelineXLeft,self.timelineXLeft,self.UI.height/2-20,self.UI.height/2-20,0,date_str,self.UI.myFont12,self.UI.themeColorDark)
+        self.left_end_data_button = RectButton("left_end_date",self.UI.white,self.timelineXLeft,self.timelineXLeft,self.UI.height/2-20,self.UI.height/2-20,0,date_str,self.UI.myFont12,self.UI.themeColorDark)
 
     def updateLeftEndDateButton(self):
         date = self.startDate

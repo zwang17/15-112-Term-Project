@@ -5,6 +5,7 @@ from threading import Thread
 import Database
 from PIL import ImageFont
 from Reminder import *
+import random
 
 class UserInterface(object):
 
@@ -72,8 +73,8 @@ class UserInterface(object):
         self.themeColorMain = self.orange
         self.themeColorDark = self.darkOrange
 
-        self.availableThemeColor = [self.orange,self.blue,self.green,self.red]
-        self.LogoIndex = 0
+        self.change_color = list(self.grey)
+        self.LogoColorDirection = 1
 
     def initFont(self):
         font = "zekton rg.ttf"
@@ -93,6 +94,8 @@ class UserInterface(object):
         self.myFont18Bold.set_bold(True)
         self.myFont25 = pygame.font.Font(os.path.join("font", font), 25)
         self.myFont20 = pygame.font.Font(os.path.join("font", font), 20)
+        self.LogoFont = pygame.font.Font(os.path.join("font", font), 20)
+        self.LogoFont.set_bold(True)
 
     def initThemeButton(self):
         width = height = 40
@@ -137,7 +140,7 @@ class UserInterface(object):
         x_left = self.MainBarButtonWidth / 2 - buttonWidth / 2
         y_up = self.MainBarFirstButtonY * 1 / 5
         self.LogoButton = RectButton("LINGO", self.grey, x_left, x_left + buttonWidth, y_up, y_up + buttonHeight,
-                                         0, "LINGO", self.myFont18Bold, self.whiteSmoke)
+                                         0, "LINGO", self.LogoFont, self.change_color)
 
     def initNewDiaryButton(self):
         buttonWidth = self.MainBarButtonWidth * 3 / 4
@@ -384,15 +387,6 @@ class UserInterface(object):
             button.textColor = self.brightGrey
             button.displayed_icon = button.icon
 
-        button = self.LogoButton
-        if button.WithinRange(x,y):
-            button.textColor = self.availableThemeColor[self.LogoIndex]
-            self.LogoIndex += 1
-            if self.LogoIndex == 3:
-                self.LogoIndex = 0
-        else:
-            button.textColor = self.whiteSmoke
-
         # mouseMotion of voice assistant button
         self.Voice_Assistant.mouseMotion(x,y)
 
@@ -439,6 +433,12 @@ class UserInterface(object):
 
     def timerFired(self,time):
         self.Voice_Assistant.timerFired()
+        index = random.randint(0, 2)
+        if self.change_color[index] > 250:
+            self.LogoColorDirection = -1
+        if self.change_color[index] < 5:
+            self.LogoColorDirection = 1
+        self.change_color[index] += self.LogoColorDirection * 3
         if self.mode == 'Diary':
             self.Calendar.timerFiredSideBar()
         # if self.mode == "Mood Tracker":
@@ -521,7 +521,7 @@ class UserInterface(object):
     def VoiceAssistantButtonUpdate(self):
         button = self.voiceAssistantButton
         if self.Voice_Assistant.va_activated == True:
-            button.color = self.white
+            button.color = self.change_color
             button.displayed_icon = button.extra_icon
 
     def TextEditorUpdate(self):
