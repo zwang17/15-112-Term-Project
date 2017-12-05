@@ -10,7 +10,7 @@ class VoiceAssistant(object):
         self.has_new_input = False
         self.new_line = None
         self.va_activation_command = ["hey "]
-        self.va_exit_command_list = ["nevermind","bye","nothing","reminder","highlight","help","edit","save","create","show","highlight","tracker","calendar"]
+        self.va_exit_command_list = ["nevermind","bye","nothing","reminder","highlight","help","edit","save","create","show","highlight","tracker","calendar","dashboard"]
         self.exit_command_heard = []
         self.va_activated = False
         self.dl_activated = False
@@ -33,9 +33,10 @@ class VoiceAssistant(object):
         self.showDiaryCalendar_command_list = ['calendar','show']
         self.showHighlight_command_list = ['show','highlight']
         self.showMoodTracker_command_list = ['show','tracker']
-        self.command_list_list = [self.saveDiary_command_list,self.editDiary_command_list,self.createReminder_command_list,\
-                                  self.showDiaryCalendar_command_list,self.showHighlight_command_list,self.showMoodTracker_command_list,self.help_command_list]
-        self.function_list = [self.SaveDiary,self.EditDiary,self.CreateReminder,self.ShowDiaryCalendar,self.ShowHighlight,self.ShowMoodTracker,self.Help]
+        self.showDashBoard_command_list = ['dashboard']
+        self.command_list_list = [self.saveDiary_command_list,self.editDiary_command_list,self.createReminder_command_list,
+                                  self.showDashBoard_command_list,self.showDiaryCalendar_command_list,self.showHighlight_command_list,self.showMoodTracker_command_list,self.help_command_list]
+        self.function_list = [self.SaveDiary,self.EditDiary,self.CreateReminder,self.ShowDashboard,self.ShowDiaryCalendar,self.ShowHighlight,self.ShowMoodTracker,self.Help]
 
     def mousePressed(self,x,y):
         button = self.va_button
@@ -71,8 +72,7 @@ class VoiceAssistant(object):
     def timerFired(self):
         if self.display_text == True:
             self.timer += 1
-            print(self.timer)
-            if self.timer == 100:
+            if self.timer == 200:
                 self.display_text = False
                 self.timer = 0
 ###
@@ -81,7 +81,7 @@ class VoiceAssistant(object):
 
     def separatedText(self,measureFont):
         text = self.text_displayed
-        line_pix_len = self.UI.MainBarButtonWidth - 2 * 10
+        line_pix_len = self.UI.MainBarButtonWidth - 2 * 15
         result = []
         default_string_len = 1
         while self.getPixelLength(measureFont,text)[0] > line_pix_len:
@@ -101,12 +101,11 @@ class VoiceAssistant(object):
         if self.display_text == True:
             margin = 15
             y_gap = 20
-            canvas_x_left = margin
             canvas_y_up = self.UI.height / 3 * 2
-            self.text_list = self.separatedText(self.UI.measureFont15)
+            self.text_list = self.separatedText(self.UI.measureFont14)
             for index in range(len(self.text_list)):
                 line = self.text_list[index]
-                textSurface = self.UI.myFont15.render(line, 1, self.UI.brightGrey)
+                textSurface = self.UI.myFont14.render(line, 1, self.UI.change_color)
                 textRect = textSurface.get_rect()
                 textRect.midleft = (margin,canvas_y_up + (index+1)*y_gap)
                 screen.blit(textSurface,textRect)
@@ -119,7 +118,6 @@ class VoiceAssistant(object):
 
 # actions #
     def Initiate(self):
-        print("initiating...")
         self.display_text = True
         self.text_displayed = "Say \"your name is ___\""
         while self.new_line == None or ("your" not in self.new_line) or ("name" not in self.new_line) or ("is" not in self.new_line):
@@ -138,7 +136,7 @@ class VoiceAssistant(object):
         self.display_text = True
         self.text_displayed = "Saving Diary..."
         self.UI.Text_Editor.mode = "display"
-        Database.save_diary(self.UI.Text_Editor.Diary)
+        Database.save_diary(self.UI.Text_Editor.Diary,self)
         self.deactivateVoiceAssistant()
         self.UI.Text_Editor.mouseMotion(0,0)
         print("Diary saved!")
@@ -177,10 +175,16 @@ class VoiceAssistant(object):
         self.text_displayed = "Say \"hey "+ self.name +"\""
         self.deactivateVoiceAssistant()
 
+    def ShowDashboard(self):
+        self.display_text = True
+        self.text_displayed = "Showing Dashboard..."
+        self.UI.mode = "Dashboard"
+
     def ShowDiaryCalendar(self):
         self.display_text = True
         self.text_displayed = "Showing Calendar..."
         self.UI.mode = "Diary"
+        self.UI.Calendar.mouseMotion(0,0)
 
     def ShowHighlight(self):
         self.display_text = True
@@ -258,7 +262,6 @@ class VoiceAssistant(object):
                 return None
             elif self.va_button.status == True:
                 self.Initiate()
-                print("Here")
         if self.initiated == False:
             return None
         self.checkActivationCommand()

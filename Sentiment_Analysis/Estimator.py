@@ -23,8 +23,6 @@ class SentiEstimator(object):
         num_estimator = len(self.estimators)
         final_score = 0
         for estimator in self.estimators:
-            print(estimator.__class__)
-            print(estimator.prob_classify_many(self.match_features(text)))
             score = estimator.prob_classify_many(self.match_features(text))[0].prob("pos")
             print(score)
             final_score += score

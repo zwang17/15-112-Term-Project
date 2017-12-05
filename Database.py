@@ -76,11 +76,14 @@ def getSimilarity(word,tag_name):
     score = ratio * frequency
     return score
 
-def save_diary(diary):
+def save_diary(diary,VA=None):
     date = diary.date
     # offline mode
+    if VA != None:
+        VA.text_displayed = "Analyzing diary sentiment..."
     diary.updateSentimentAnalysis()
-
+    if VA != None:
+        VA.text_displayed = "Analyzing diary entities..."
     diary.updateTags()
     filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
     with open("diary\\"+filename,"wb") as f:

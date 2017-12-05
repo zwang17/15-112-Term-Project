@@ -57,7 +57,6 @@ class TextEditor(object):
             return None
         if VoiceAssistant.has_new_input and VoiceAssistant.dl_activated:
             new_line = Sentence(VoiceAssistant.new_line)
-            print(new_line)
             if len(self.Diary.text) == 0 or new_line != self.Diary.text[-1]:
                 self.Diary.addSentence(new_line)
             VoiceAssistant.has_new_input = False
@@ -109,17 +108,18 @@ class TextEditor(object):
 
 # mouseReleased #
     def mouseReleased(self,x,y):
-        if self.mode == "edit":
-            button = self.diarySaveButton
-            if button.WithinRange(x, y):
-                self.UI.Voice_Assistant.SaveDiary()
-                self.mode = "display"
-
         if self.mode == "display":
             button = self.diaryEditButton
             if button.WithinRange(x, y):
                 self.mode = "edit"
                 self.UI.Voice_Assistant.has_new_input = False
+                return None
+
+        if self.mode == "edit":
+            button = self.diarySaveButton
+            if button.WithinRange(x, y):
+                db.save_diary(self.UI.Text_Editor.Diary, self)
+                self.mode = "display"
 
 # keyPressed #
     def keyPressed(self, key, mod):
@@ -156,7 +156,9 @@ class TextEditor(object):
 
         if self.mode == "edit":
             self.diarySaveButton.Draw(screen)
-
+            line = "* use backspace to delete a sentence"
+            screen.blit(self.UI.myFont15.render(line, 1, self.UI.grey),
+                        (self.UI.MainBarButtonWidth + 60, self.UI.height - 30))
         if self.mode == "display":
             self.diaryEditButton.Draw(screen)
 

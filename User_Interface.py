@@ -75,6 +75,7 @@ class UserInterface(object):
 
         self.change_color = list(self.grey)
         self.LogoColorDirection = 1
+        self.LogoColorSpeed = 3
 
     def initFont(self):
         font = "zekton rg.ttf"
@@ -434,11 +435,15 @@ class UserInterface(object):
     def timerFired(self,time):
         self.Voice_Assistant.timerFired()
         index = random.randint(0, 2)
-        if self.change_color[index] > 250:
+        if self.change_color[index] > 254:
             self.LogoColorDirection = -1
-        if self.change_color[index] < 5:
+        if self.change_color[index] < 1:
             self.LogoColorDirection = 1
-        self.change_color[index] += self.LogoColorDirection * 3
+        self.change_color[index] += self.LogoColorDirection * self.LogoColorSpeed
+        if self.change_color[index] > 255:
+            self.change_color[index] = 255
+        if self.change_color[index] < 0:
+            self.change_color[index] = 0
         if self.mode == 'Diary':
             self.Calendar.timerFiredSideBar()
         # if self.mode == "Mood Tracker":
@@ -521,7 +526,7 @@ class UserInterface(object):
     def VoiceAssistantButtonUpdate(self):
         button = self.voiceAssistantButton
         if self.Voice_Assistant.va_activated == True:
-            button.color = self.change_color
+            button.color = self.white
             button.displayed_icon = button.extra_icon
 
     def TextEditorUpdate(self):
