@@ -230,8 +230,8 @@ class Calendar(object):
                 self.day_highlighted[2] = index + 1
                 self.day_highlighted[0] = self.current_year_num
                 self.day_highlighted[1] = self.current_month_num
-                self.mouseMotion(x, y)
-                self.UI.updateReminder(self.day_highlighted)
+        self.mouseMotion(x, y)
+        self.UI.updateReminder(self.day_highlighted)
         self.updateButtons()
 
         button = self.edit_diary_button

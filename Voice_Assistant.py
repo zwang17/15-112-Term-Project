@@ -77,11 +77,11 @@ class VoiceAssistant(object):
                 self.timer = 0
 ###
     def getPixelLength(self,measureFont,text):
-        return measureFont.getsize(text)  # this function call originally comes from Pillow documentation
+        return measureFont.getsize(text)
 
     def separatedText(self,measureFont):
         text = self.text_displayed
-        line_pix_len = 105
+        line_pix_len = self.UI.MainBarButtonWidth - 2 * 10
         result = []
         default_string_len = 1
         while self.getPixelLength(measureFont,text)[0] > line_pix_len:
@@ -91,7 +91,7 @@ class VoiceAssistant(object):
                 length += 1
                 new_line = text[:length]
             text = text[length:]
-            if len(text) != 0 and text[0] != " ":
+            if len(text) != 0 and new_line[-1] != " " and text[0] != " ":
                 new_line += "-"
             result.append(new_line)
         result.append(text)
@@ -99,15 +99,17 @@ class VoiceAssistant(object):
 
     def drawText(self,screen):
         if self.display_text == True:
-            margin = 10
+            margin = 15
             y_gap = 20
             canvas_x_left = margin
             canvas_y_up = self.UI.height / 3 * 2
             self.text_list = self.separatedText(self.UI.measureFont15)
             for index in range(len(self.text_list)):
                 line = self.text_list[index]
-                screen.blit(self.UI.myFont15.render(line, 1, self.UI.brightGrey),
-                            (canvas_x_left, canvas_y_up + (index + 1) * y_gap))
+                textSurface = self.UI.myFont15.render(line, 1, self.UI.brightGrey)
+                textRect = textSurface.get_rect()
+                textRect.midleft = (margin,canvas_y_up + (index+1)*y_gap)
+                screen.blit(textSurface,textRect)
 ###
 
     def redraw(self,screen):
@@ -118,9 +120,8 @@ class VoiceAssistant(object):
 # actions #
     def Initiate(self):
         print("initiating...")
-        temp = self.new_line
         self.display_text = True
-        self.text_displayed = "Say your name is ___"
+        self.text_displayed = "Say \"your name is ___\""
         while self.new_line == None or ("your" not in self.new_line) or ("name" not in self.new_line) or ("is" not in self.new_line):
             if not self.va_activated:
                 return None
@@ -257,8 +258,9 @@ class VoiceAssistant(object):
                 return None
             elif self.va_button.status == True:
                 self.Initiate()
-            else:
-                return None
+                print("Here")
+        if self.initiated == False:
+            return None
         self.checkActivationCommand()
         if self.va_activated:
             if self.dl_activated:

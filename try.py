@@ -10,6 +10,22 @@ from Highlight_Timeline import *
 import nltk
 
 
+reminder = Reminder([2017,11,28])
+reminder.addContent("Work on TP")
+Database.save_reminder(reminder)
+
+reminder = Reminder([2017,11,27])
+reminder.addContent("Finish Essay")
+Database.save_reminder(reminder)
+
+reminder = Reminder([2017,12,5])
+reminder.addContent("Finish TP and submit through autolab")
+Database.save_reminder(reminder)
+
+reminder = Reminder([2017,12,3])
+reminder.addContent("Get package from UC")
+Database.save_reminder(reminder)
+
 
 # for manually modifying a diary entry object
 
@@ -30,7 +46,7 @@ import nltk
 # with open('icon\\tags\\tag.pickle', 'wb') as f:
 #     pickle.dump(tag_name_list,f,pickle.HIGHEST_PROTOCOL)
 
-Database.updateAllDiaries()
+# Database.updateAllDiaries()
 
 
 # Es = Estimator.SentiEstimator(data,classifier)

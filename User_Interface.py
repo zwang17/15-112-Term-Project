@@ -63,7 +63,6 @@ class UserInterface(object):
         self.green = (102,204,128)
         self.darkGreen = (0,204,0)
 
-        self.blueGray = self.hex_to_rgb("#4b637d")
         self.grey = self.hex_to_rgb("#2d3235")
         self.brightGrey = self.hex_to_rgb('#777c76')
 
@@ -171,22 +170,22 @@ class UserInterface(object):
         self.today_reminder = Database.retrieve_reminder(date)
         if self.today_reminder == None:
             self.today_reminder = Reminder(Database.todayDate())
-        self.today_reminder.updateReminderButtons(self.white, self.MainBarButtonWidth + 50, 80, self.myFont14Bold, self.measureFont14, self.brightGrey,130)
+        self.today_reminder.updateReminderButtons(self.white, self.MainBarButtonWidth + 50, 80, self.myFont14Bold, self.measureFont14, self.brightGrey,180)
 
     def initReminder(self):
         date = Database.todayDate()
         self.reminder = Database.retrieve_reminder(date)
         if self.reminder != None:
-            self.reminder.updateReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 50,
-                                    self.myFont12, self.measureFont12, self.brightGrey, 100)
+            self.reminder.updateReminderButtons(self.grey, self.width - self.MainBarButtonWidth + 5, 50,
+                                    self.myFont12, self.measureFont12, self.brightGrey, 90)
         else:
             self.reminder = Reminder(date)
 
     def updateReminder(self,date):
         self.reminder = Database.retrieve_reminder(date)
         if self.reminder != None:
-            self.reminder.updateReminderButtons(self.grey, self.width - self.MainBarButtonWidth, 60,
-                                            self.myFont12, self.measureFont12, self.brightGrey, 100)
+            self.reminder.updateReminderButtons(self.grey, self.width - self.MainBarButtonWidth + 5, 50,
+                                            self.myFont12, self.measureFont12, self.brightGrey, 90)
 
     def initTodayTags(self):
         self.today_diary = Database.retrieve_diary(Database.todayDate())
@@ -476,7 +475,7 @@ class UserInterface(object):
     def redrawDiary(self,screen):
         self.Calendar.redraw(screen)
         if self.Calendar.calendarSideBarWidth >= self.MainBarButtonWidth and self.reminder != None:
-            self.reminder.Draw(screen,1/6)
+            self.reminder.Draw(screen,1/5)
 
     def redrawMoodTracker(self,screen):
         self.MoodTracker.redraw(screen)
