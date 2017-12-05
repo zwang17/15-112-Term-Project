@@ -5,10 +5,11 @@ from threading import Thread
 import Database
 from PIL import ImageFont
 from Reminder import *
+
 class UserInterface(object):
 
 ### Init functions ###
-    def __init__(self, Voice_Assistant, Text_Editor, Calendar, Timeline, MoodTracker, width=1000, height=600, fps=50,title=""):
+    def __init__(self, Voice_Assistant, Text_Editor, Calendar, Timeline, MoodTracker, width=1000, height=600, fps=50,title="Lingo"):
         self.modeList = ['Dashboard','Diary','Highlight','Mood Tracker','Edit']
         self.mode = 'Dashboard'
 
@@ -71,6 +72,9 @@ class UserInterface(object):
         self.themeColorMain = self.orange
         self.themeColorDark = self.darkOrange
 
+        self.availableThemeColor = [self.orange,self.blue,self.green,self.red]
+        self.LogoIndex = 0
+
     def initFont(self):
         font = "zekton rg.ttf"
         self.myFont12 = pygame.font.Font(os.path.join("font", font), 12)
@@ -127,6 +131,14 @@ class UserInterface(object):
         self.redThemeButton.extraColor = self.darkRed
         self.themeButtonList.append(self.redThemeButton)
 
+    def initLogoButton(self):
+        buttonWidth = self.MainBarButtonWidth * 3 / 4
+        buttonHeight = self.MainBarButtonHeight * 4 / 5
+        x_left = self.MainBarButtonWidth / 2 - buttonWidth / 2
+        y_up = self.MainBarFirstButtonY * 1 / 5
+        self.LogoButton = RectButton("LINGO", self.grey, x_left, x_left + buttonWidth, y_up, y_up + buttonHeight,
+                                         0, "LINGO", self.myFont18Bold, self.whiteSmoke)
+
     def initNewDiaryButton(self):
         buttonWidth = self.MainBarButtonWidth * 3 / 4
         buttonHeight = self.MainBarButtonHeight * 4 / 5
@@ -161,9 +173,11 @@ class UserInterface(object):
             self.MainBarButtonDict[mode[index]] = RectButton(mode[index],self.grey,x_left,x_right,y_up,y_down,0,mode[index],self.myFont14,self.white)
             self.MainBarButtonDict[mode[index]].AddIcon(mode[index]+".png",35,35,1/6.5,1/2,alter_icon_path=mode[index]+"_white.png")
 
+        self.initLogoButton()
         self.initNewDiaryButton()
         self.initEditDiaryButton()
         self.initVoiceAssistantButton()
+
 
     def initDashboardReminder(self):
         date = Database.todayDate()
@@ -370,6 +384,15 @@ class UserInterface(object):
             button.textColor = self.brightGrey
             button.displayed_icon = button.icon
 
+        button = self.LogoButton
+        if button.WithinRange(x,y):
+            button.textColor = self.availableThemeColor[self.LogoIndex]
+            self.LogoIndex += 1
+            if self.LogoIndex == 3:
+                self.LogoIndex = 0
+        else:
+            button.textColor = self.whiteSmoke
+
         # mouseMotion of voice assistant button
         self.Voice_Assistant.mouseMotion(x,y)
 
@@ -438,6 +461,7 @@ class UserInterface(object):
         else:
             # continuing editing today's diary
             self.editDiaryButton.Draw(screen,1,1/1.7)
+        self.LogoButton.Draw(screen,text_anchor=1)
 
     def redrawMainBar(self,screen):
         self.drawMainBar(screen)

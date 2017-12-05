@@ -20,6 +20,7 @@ Database.save_reminder(reminder)
 
 reminder = Reminder([2017,12,5])
 reminder.addContent("Finish TP and submit through autolab")
+reminder.addContent("Finished 242 Homework")
 Database.save_reminder(reminder)
 
 reminder = Reminder([2017,12,3])

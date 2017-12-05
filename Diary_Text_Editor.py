@@ -1,8 +1,4 @@
 import pygame
-import pygame.font
-import pygame.event
-import pygame.draw
-from pygame.locals import *
 from Diary import *
 from threading import Thread
 import Database as db
