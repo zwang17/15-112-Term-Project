@@ -173,9 +173,10 @@ class TimelineBranch(TimeLine):
                                          self.x + self.date_width / 2, self.date_y, self.date_y + self.date_height, text=date_str,font=self.UI.myFont12,textColor=self.UI.black)
 # mouseMotion #
     def mouseMotion(self,x,y):
+        self.lineColor = self.UI.themeColorMain
         for tag in self.tag_icon_list:
             if tag.WithinRange(x,y):
-                self.lineColor = (255, 219, 153)
+                self.lineColor = self.UI.themeColorDark
                 self.display_date = True
                 break
             else:

@@ -156,9 +156,7 @@ class VoiceAssistant(object):
         self.deactivateVoiceAssistant()
 
     def CreateReminder(self):
-        print("create reminder...")
         temp = self.new_line
-        self.deactivateVoiceAssistant()
         self.display_text = True
         self.text_displayed = "Remind you to?"
         while self.new_line.strip() == temp.strip():
@@ -168,6 +166,7 @@ class VoiceAssistant(object):
         self.UI.today_reminder.updateReminderButtons(self.UI.white, self.UI.MainBarButtonWidth + 50, 80, self.UI.myFont15Bold, self.UI.measureFont15, self.UI.brightGrey,600)
         Database.save_reminder(self.UI.today_reminder)
         self.deactivateVoiceAssistant()
+        self.UI.mode = "Dashboard"
 
     def Help(self):
         print("help")

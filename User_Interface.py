@@ -65,7 +65,7 @@ class UserInterface(object):
         self.green = (102,204,128)
         self.darkGreen = (0,204,0)
 
-        self.grey = self.hex_to_rgb("#2d3235")
+        self.grey = (45, 50, 53)
         self.brightGrey = self.hex_to_rgb('#777c76')
 
         self.bgColor = self.white
@@ -318,6 +318,7 @@ class UserInterface(object):
                 self.MoodTracker.update_data_list()
                 self.MoodTracker.initModeButtons()
                 self.Calendar.createEditDiaryButton()
+                self.Timeline.initLeftEndDateButton()
         self.mouseMotionDashboard(x,y)
 
         if self.today_reminder == None: return None
