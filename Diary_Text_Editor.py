@@ -77,7 +77,7 @@ class TextEditor(object):
                 length += 1
                 new_line = text[:length]
             text = text[length:]
-            if text[0] != " ":
+            if len(text)>0 and text[0] != " ":
                 new_line += "-"
             result.append(new_line)
         result.append(text)
@@ -119,6 +119,7 @@ class TextEditor(object):
             button = self.diarySaveButton
             if button.WithinRange(x, y):
                 db.save_diary(self.UI.Text_Editor.Diary, self)
+                self.UI.initTodayTags()
                 self.mode = "display"
 
 # keyPressed #

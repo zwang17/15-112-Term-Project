@@ -10,7 +10,7 @@ class VoiceAssistant(object):
         self.has_new_input = False
         self.new_line = None
         self.va_activation_command = ["hey "]
-        self.va_exit_command_list = ["nevermind","bye","nothing","reminder","highlight","help","edit","save","create","show","highlight","tracker","calendar","dashboard"]
+        self.va_exit_command_list = ["nevermind","bye","nothing","reminder","new","highlight","help","edit","save","create","show","highlight","tracker","calendar","dashboard"]
         self.exit_command_heard = []
         self.va_activated = False
         self.dl_activated = False
@@ -28,15 +28,16 @@ class VoiceAssistant(object):
     def init(self):
         self.saveDiary_command_list = ['save']
         self.editDiary_command_list = ['edit']
+        self.newDiary_command_list = ['new']
         self.createReminder_command_list = ['reminder']
         self.help_command_list = ['help']
         self.showDiaryCalendar_command_list = ['calendar','show']
         self.showHighlight_command_list = ['show','highlight']
         self.showMoodTracker_command_list = ['show','tracker']
         self.showDashBoard_command_list = ['dashboard']
-        self.command_list_list = [self.saveDiary_command_list,self.editDiary_command_list,self.createReminder_command_list,
+        self.command_list_list = [self.saveDiary_command_list,self.newDiary_command_list,self.editDiary_command_list,self.createReminder_command_list,
                                   self.showDashBoard_command_list,self.showDiaryCalendar_command_list,self.showHighlight_command_list,self.showMoodTracker_command_list,self.help_command_list]
-        self.function_list = [self.SaveDiary,self.EditDiary,self.CreateReminder,self.ShowDashboard,self.ShowDiaryCalendar,self.ShowHighlight,self.ShowMoodTracker,self.Help]
+        self.function_list = [self.SaveDiary,self.EditDiary,self.EditDiary,self.CreateReminder,self.ShowDashboard,self.ShowDiaryCalendar,self.ShowHighlight,self.ShowMoodTracker,self.Help]
 
     def mousePressed(self,x,y):
         button = self.va_button
@@ -137,6 +138,7 @@ class VoiceAssistant(object):
         self.text_displayed = "Saving Diary..."
         self.UI.Text_Editor.mode = "display"
         Database.save_diary(self.UI.Text_Editor.Diary,self)
+        self.UI.initTodayTags()
         self.deactivateVoiceAssistant()
         self.UI.Text_Editor.mouseMotion(0,0)
         print("Diary saved!")
@@ -234,7 +236,6 @@ class VoiceAssistant(object):
                     break
 
     def checkExitCommand(self):
-        print("checking exit command")
         exit = False
         while not exit:
             if self.va_activated == False:
@@ -244,7 +245,6 @@ class VoiceAssistant(object):
                     self.exit_command_heard.append(command)
                     exit = True
             self.has_new_input = False
-        print("exit checkExitCommand")
 
     def checkCommandsInList(self,commands,command_list):
         for commandToBeChecked in commands:

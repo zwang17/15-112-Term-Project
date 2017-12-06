@@ -184,6 +184,7 @@ class UserInterface(object):
 
 
     def initDashboardReminder(self):
+        print("here")
         date = Database.todayDate()
         self.today_reminder = Database.retrieve_reminder(date)
         if self.today_reminder == None:

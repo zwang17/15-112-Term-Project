@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa14a8b-0d9c-43fd-a0ea-1539efcc70cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.12.5.pickle" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Highlight_Timeline.py" afterPath="$PROJECT_DIR$/Highlight_Timeline.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.10.30.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.11.15.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diary/2017.12.4.pickle" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.11.30.pickle" afterPath="$PROJECT_DIR$/diary/2017.11.30.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/2017.12.6.pickle" afterPath="$PROJECT_DIR$/diary/2017.12.6.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.5.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.5.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminders/2017.12.6.pickle" afterPath="$PROJECT_DIR$/reminders/2017.12.6.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diary_Text_Editor.py" afterPath="$PROJECT_DIR$/Diary_Text_Editor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User_Interface.py" afterPath="$PROJECT_DIR$/User_Interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice_Assistant.py" afterPath="$PROJECT_DIR$/Voice_Assistant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.py" afterPath="$PROJECT_DIR$/try.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +39,8 @@
       <file leaf-file-name="User_Interface.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/User_Interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="210" column="32" lean-forward="true" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -54,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Voice_Assistant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="193">
+              <caret line="138" column="44" lean-forward="true" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -67,8 +73,8 @@
       <file leaf-file-name="Diary_Text_Editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-378">
-              <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="8" />
+            <state relative-caret-position="308">
+              <caret line="121" column="37" lean-forward="false" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -86,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="try.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="try.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="345">
+              <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -131,10 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LogoColorSpeed</find>
-      <find>LogoColor</find>
-      <find>mouseReleased</find>
-      <find>mouseReleasedMain</find>
       <find>relea</find>
       <find>timer</find>
       <find>VoiceAssistan</find>
@@ -143,7 +145,6 @@
       <find>Initiate</find>
       <find>showdash</find>
       <find>SaveD</find>
-      <find>savedi</find>
       <find>Save_D</find>
       <find>color</find>
       <find>display</find>
@@ -156,11 +157,16 @@
       <find>init</find>
       <find>theme</find>
       <find>initLeftEndDateButton</find>
-      <find>save</find>
       <find>grey</find>
-      <find>draw</find>
-      <find>try</find>
       <find>collect</find>
+      <find>perform</find>
+      <find>try</find>
+      <find>draw</find>
+      <find>update</find>
+      <find>drawDas</find>
+      <find>self.today_ta</find>
+      <find>save</find>
+      <find>savedi</find>
     </findStrings>
     <replaceStrings>
       <replace>initDiarySaveButton</replace>
@@ -240,18 +246,18 @@
         <option value="$PROJECT_DIR$/Reminder.py" />
         <option value="$PROJECT_DIR$/Database.py" />
         <option value="$PROJECT_DIR$/Sentiment_Analysis/Estimator.py" />
-        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/try.py" />
         <option value="$PROJECT_DIR$/Highlight_Timeline.py" />
         <option value="$PROJECT_DIR$/User_Interface.py" />
+        <option value="$PROJECT_DIR$/Diary_Text_Editor.py" />
         <option value="$PROJECT_DIR$/Voice_Assistant.py" />
+        <option value="$PROJECT_DIR$/try.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
-    <option name="width" value="976" />
+    <option name="width" value="1509" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -446,7 +452,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-8" y="0" width="1509" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,10 +460,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31346577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17706238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -773,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Highlight_Timeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -793,29 +789,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/User_Interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="210" column="32" lean-forward="true" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Diary_Text_Editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="121" column="37" lean-forward="false" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Voice_Assistant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="193">
+          <caret line="138" column="44" lean-forward="true" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

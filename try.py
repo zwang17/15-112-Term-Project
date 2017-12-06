@@ -10,30 +10,30 @@ from Highlight_Timeline import *
 import nltk
 
 
-reminder = Reminder([2017,11,28])
-reminder.addContent("Work on TP")
-Database.save_reminder(reminder)
-
-reminder = Reminder([2017,11,27])
-reminder.addContent("Finish Essay")
-Database.save_reminder(reminder)
-
-reminder = Reminder([2017,12,5])
-reminder.addContent("Finish TP and submit through autolab")
-reminder.addContent("Finished 242 Homework")
-Database.save_reminder(reminder)
-
-reminder = Reminder([2017,12,3])
-reminder.addContent("Get package from UC")
-Database.save_reminder(reminder)
+# reminder = Reminder([2017,11,28])
+# reminder.addContent("Work on TP")
+# Database.save_reminder(reminder)
+#
+# reminder = Reminder([2017,11,27])
+# reminder.addContent("Finish Essay")
+# Database.save_reminder(reminder)
+#
+# reminder = Reminder([2017,12,5])
+# reminder.addContent("Finish TP and submit through autolab")
+# reminder.addContent("Finished 242 Homework")
+# Database.save_reminder(reminder)
+#
+# reminder = Reminder([2017,12,3])
+# reminder.addContent("Get package from UC")
+# Database.save_reminder(reminder)
 
 
 # for manually modifying a diary entry object
 
-# diary = Diary([2017,11,30])
-# text = "It was a sunny day today. Everything went well! I woke up at 8:30 and went to only two classes today. First one was a recitation and the second one was 112 lecture, which was a lot of fun. The professors talked about really interesting math problems that are related to computer science. I ate ramen for lunch at the university center as usual and studies in the library for the entire afternoon. I also had some fruit that came with the block. I went to swim in the evening as usual."
-# diary.addStrings(text)
-# Database.save_diary(diary)
+diary = Diary([2017,11,30])
+text = "I love swimming. Swim is my favorite sport. It keeps my energetic and fit at the same time. I will be going to Canada by train tomorrow."
+diary.addStrings(text)
+Database.save_diary(diary)
 
 ### update sentiment analysis of all diaries
 
