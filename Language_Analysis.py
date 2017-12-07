@@ -5,7 +5,7 @@ import six
 import sys
 
 """
-sentiment_analyze functino is no longer in use. Instead, 
+sentiment_analyze function is no longer in use. Instead, 
 a self-implemented method of sentiment analysis is employed in this project for obtaining sentiment values for 
 diaries under the directory Sentiment_Analysis.
 """

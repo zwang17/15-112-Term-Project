@@ -27,3 +27,4 @@ Once complete, your service account key is downloaded to your browser's default 
 Then in command prompt, <br />
 _"export GOOGLE_APPLICATION_CREDENTIALS=PATH_TO_KEY_FILE" <br />_
 Replace PATH_TO_KEY_FILE with the path to your JSON service account file. GOOGLE_APPLICATION_CREDENTIALS should be written out as-is (it's not a placeholder in the example above). <br />
+**Demo Video:** https://youtu.be/6kF_BPnEo9U
