@@ -9,7 +9,7 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 month_num_day = { 'January': 31, 'February': 29, 'March': 31, 'April': 30, 'May': 31, 'June': 30,
                  'July': 31, 'August': 31, 'September': 30, 'October': 31, 'November': 30,'December': 31}
 
-with open("Sentiment_Analysis/model/feature_data/feature.pickle", "rb") as f:
+with open(os.path.join("Sentiment_Analysis","model","feature_data","feature.pickle"), "rb") as f:
     feature_data = pickle.load(f)
 
 estimator_list = []
@@ -31,7 +31,7 @@ def retrieve_diary(date):
     """
     date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".pickle"
     try:
-        with open("diary\\"+date_str,'rb') as f:
+        with open(os.path.join("diary",date_str),'rb') as f:
             diary = pickle.load(f)
         return diary
     except:
@@ -43,7 +43,7 @@ def word_match_tag(word):
     :param tag_name_list: the list of all available tags saved locally
     :return: the name of the file of the matched tag
     """
-    with open('icon\\tags\\tag.pickle', 'rb') as f:
+    with open(os.path.join("icon","tags","tag.pickle"), 'rb') as f:
         tag_name_list = pickle.load(f)
     winner = None
     max_score = 0
@@ -86,7 +86,7 @@ def save_diary(diary,VA=None):
         VA.text_displayed = "Analyzing diary entities..."
     diary.updateTags()
     filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
-    with open("diary\\"+filename,"wb") as f:
+    with open(os.path.join("diary",filename),"wb") as f:
         pickle.dump(diary,f,pickle.HIGHEST_PROTOCOL)
 
 def retrieve_reminder(date):
@@ -96,7 +96,7 @@ def retrieve_reminder(date):
     """
     date_str = str(date[0])+"."+str(date[1])+"."+str(date[2])+".pickle"
     try:
-        with open("reminders\\"+date_str,'rb') as f:
+        with open(os.path.join("reminders",date_str),'rb') as f:
             reminder = pickle.load(f)
         return reminder
     except:
@@ -105,7 +105,7 @@ def retrieve_reminder(date):
 def save_reminder(reminder):
     date = reminder.date
     filename = str(date[0]) + "." + str(date[1]) + "." + str(date[2]) + ".pickle"
-    with open("reminders\\" + filename, "wb") as f:
+    with open(os.path.join("reminders",filename), "wb") as f:
         pickle.dump(reminder, f, pickle.HIGHEST_PROTOCOL)
 
 def next_date(date):
@@ -184,6 +184,6 @@ def updateTagNameListPickleFile():
     result = []
     for filename in os.listdir(os.path.join("icon","tags","tag")):
         result.append(filename)
-    with open('tag.pickle', 'wb') as f:
+    with open(os.path.join("icon","tags","tag.pickle"), 'wb') as f:
         pickle.dump(result,f,pickle.HIGHEST_PROTOCOL)
 

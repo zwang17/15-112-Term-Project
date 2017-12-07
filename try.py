@@ -30,8 +30,8 @@ import nltk
 
 # for manually modifying a diary entry object
 
-diary = Diary([2017,11,30])
-text = "I love swimming. Swim is my favorite sport. It keeps my energetic and fit at the same time. I will be going to Canada by train tomorrow."
+diary = Diary([2017,12,1])
+text = "I went to the zoo today with mom, dad. We had so much fun! I saw a tiger, a monkey and some other things that I do not even know their names. I also went to the water part where I saw dolphin and different fish. It was so much fun and I want to go back some time."
 diary.addStrings(text)
 Database.save_diary(diary)
 

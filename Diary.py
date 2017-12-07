@@ -6,7 +6,7 @@ import string
 
 class Word(object):
     """
-    an instance of Word contains the text of Word and the status, which could be bold, itallic, even colorful
+    an instance of Word contains the text of Word and the status
     """
     def __init__(self,text,status=None):
         self.text = text

@@ -10,7 +10,7 @@ class VoiceAssistant(object):
         self.has_new_input = False
         self.new_line = None
         self.va_activation_command = ["hey "]
-        self.va_exit_command_list = ["nevermind","bye","nothing","reminder","new","highlight","help","edit","save","create","show","highlight","tracker","calendar","dashboard"]
+        self.va_exit_command_list = ["nevermind","bye","nothing","reminder","new","highlight","help","edit","save","create","highlight","tracker","calendar","dashboard"]
         self.exit_command_heard = []
         self.va_activated = False
         self.dl_activated = False
@@ -31,9 +31,9 @@ class VoiceAssistant(object):
         self.newDiary_command_list = ['new']
         self.createReminder_command_list = ['reminder']
         self.help_command_list = ['help']
-        self.showDiaryCalendar_command_list = ['calendar','show']
-        self.showHighlight_command_list = ['show','highlight']
-        self.showMoodTracker_command_list = ['show','tracker']
+        self.showDiaryCalendar_command_list = ['calendar']
+        self.showHighlight_command_list = ['highlight']
+        self.showMoodTracker_command_list = ['tracker']
         self.showDashBoard_command_list = ['dashboard']
         self.command_list_list = [self.saveDiary_command_list,self.newDiary_command_list,self.editDiary_command_list,self.createReminder_command_list,
                                   self.showDashBoard_command_list,self.showDiaryCalendar_command_list,self.showHighlight_command_list,self.showMoodTracker_command_list,self.help_command_list]
@@ -165,7 +165,8 @@ class VoiceAssistant(object):
             pass
         content = self.new_line
         self.UI.today_reminder.addContent(content)
-        self.UI.today_reminder.updateReminderButtons(self.UI.white, self.UI.MainBarButtonWidth + 50, 80, self.UI.myFont15Bold, self.UI.measureFont15, self.UI.brightGrey,600)
+        self.UI.today_reminder.updateReminderButtons(self.UI.white, self.UI.MainBarButtonWidth + 50, 80, self.UI.myFont14Bold,
+                                                  self.UI.measureFont14, self.UI.brightGrey, 180)
         Database.save_reminder(self.UI.today_reminder)
         self.deactivateVoiceAssistant()
         self.UI.mode = "Dashboard"
